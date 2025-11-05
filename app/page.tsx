@@ -7,15 +7,15 @@ import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers } from 'r
 
 // SEO Metadata
 export const metadata = {
-    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod Inc',
+    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
     description: 'Professional sod installation in Jacksonville, FL since 1988. 37+ years experience installing residential & commercial lawns. Free quotes. Licensed & insured. Call (904) 901-1457.',
     keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
     openGraph: {
-          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod Inc',
+          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
           description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Why Choose Jax Sod Inc?</h2>
+            <h2 className="heading-lg mb-4">Why Choose Jax Sod?</h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               Three decades of expertise delivering beautiful, healthy lawns across Jacksonville
             </p>

@@ -1,6 +1,6 @@
-# Jax Sod Inc - Next.js Website
+# Jax Sod - Next.js Website
 
-Professional, production-ready website for Jax Sod Inc - Jacksonville's premier sod installation specialists with 37+ years of experience.
+Professional, production-ready website for Jax Sod - Jacksonville's premier sod installation specialists with 37+ years of experience.
 
 ## Features
 
@@ -243,7 +243,7 @@ For questions about the code or deployment:
 
 ## License
 
-This website is proprietary and owned by Jax Sod Inc.
+This website is proprietary and owned by Jax Sod.
 
 ## Version
 

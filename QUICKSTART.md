@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get your Jax Sod Inc website running in 5 minutes.
+Get your Jax Sod website running in 5 minutes.
 
 ## Step 1: Install Dependencies (2 min)
 

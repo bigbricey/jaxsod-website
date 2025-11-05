@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     description: 'Expert sod installation services in Jacksonville. Residential & commercial projects, soil preparation, quality sod varieties. Fast installation, transparent pricing. Get free estimate today!',
     keywords: 'sod installation services Jacksonville, residential sod installation, commercial sod installation, sod installation company, professional sod installers, Jacksonville lawn services',
     openGraph: {
-          title: 'Professional Sod Installation Services in Jacksonville | Jax Sod Inc',
+          title: 'Professional Sod Installation Services in Jacksonville | Jax Sod',
           description: 'Residential and commercial sod installation services throughout Jacksonville and Northeast Florida.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 export default function ServicesPage() {

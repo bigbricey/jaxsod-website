@@ -1,4 +1,4 @@
-# Deployment Guide - Jax Sod Inc Website
+# Deployment Guide - Jax Sod Website
 
 Complete step-by-step guide to deploy your Next.js website to production.
 
@@ -71,7 +71,7 @@ git init
 git add .
 
 # Create first commit
-git commit -m "Initial commit: Jax Sod Inc Next.js website"
+git commit -m "Initial commit: Jax Sod Next.js website"
 
 # Create main branch
 git branch -M main

@@ -49,17 +49,17 @@
                           ## SEO IMPROVEMENTS MADE
 
                           **Homepage:**
-                          - Title: "Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod Inc"
+                          - Title: "Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod"
                           - - Meta description with CTA and phone number
                            
                             - **Services:**
                             - - Title: "Sod Installation Services Jacksonville | Residential & Commercial"
                              
                               - **About:**
-                              - - Title: "About Jax Sod Inc | Jacksonville's Sod Installation Experts Since 1988"
+                              - - Title: "About Jax Sod | Jacksonville's Sod Installation Experts Since 1988"
                                
                                 - **Articles:**
-                                - - Title: "Sod Installation Articles & Tips | Jax Sod Inc Jacksonville"
+                                - - Title: "Sod Installation Articles & Tips | Jax Sod Jacksonville"
                                  
                                   - **Contact:**
                                   - - Title: "Contact Us | Get Free Quote | (904) 901-1457"
