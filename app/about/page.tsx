@@ -4,15 +4,15 @@ import Link from 'next/link'
 import { FiAward, FiCheckCircle, FiMapPin, FiUsers } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-    title: 'About Jax Sod Inc | Jacksonville\'s Sod Installation Experts Since 1988',
-    description: 'Learn about Jacksonville\'s trusted sod installation specialists since 1988. 37+ years experience, family-owned, licensed & insured. We focus exclusively on sod installation.',
+    title: 'About Jax Sod | Jacksonville\'s Sod Installation Experts Since 2001',
+    description: 'Learn about Jacksonville\'s trusted sod installation specialists since 2001. 37+ years experience, family-owned, licensed & insured. We focus exclusively on sod installation.',
     keywords: 'about Jax Sod, Jacksonville sod company, sod installation specialists, family-owned sod company, licensed sod installer Jacksonville, 37 years experience',
     openGraph: {
-          title: 'About Jax Sod Inc | 37+ Years of Sod Installation Excellence',
-          description: 'Family-owned and operated since 1988. Jacksonville\'s premier sod installation specialists.',
+          title: 'About Jax Sod | 37+ Years of Sod Installation Excellence',
+          description: 'Family-owned and operated since 2001. Jacksonville\'s premier sod installation specialists.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 export default function AboutPage() {
@@ -20,8 +20,8 @@ export default function AboutPage() {
     <>
       <Hero
         title="37+ Years of Sod Installation Excellence"
-        subtitle="About Jax Sod Inc"
-        description="Since 1988, we've been Jacksonville's premier sod installation specialists, dedicated to creating beautiful, healthy lawns throughout Northeast Florida."
+        subtitle="About Jax Sod"
+        description="Since 2001, we've been Jacksonville's premier sod installation specialists, dedicated to creating beautiful, healthy lawns throughout Northeast Florida."
         ctaText="Get Free Quote"
         ctaLink="/contact"
         backgroundImage="https://images.unsplash.com/photo-1592595896551-12b371d546d5?q=80&w=2000"
@@ -36,7 +36,7 @@ export default function AboutPage() {
               <h2 className="heading-lg mb-6">Our Story</h2>
               <div className="space-y-4 text-secondary-700 leading-relaxed">
                 <p>
-                  Founded in 1988, Jax Sod Inc has been serving Jacksonville and surrounding areas
+                  Founded in 2001, Jax Sod has been serving Jacksonville and surrounding areas
                   for over three decades. What started as a small, family-focused operation has
                   grown into one of Northeast Florida's most trusted names in professional sod
                   installation.
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Today, thousands of homes and businesses across Jacksonville feature lawns
-                  installed by Jax Sod Inc. Our reputation is built on honesty, quality work,
+                  installed by Jax Sod. Our reputation is built on honesty, quality work,
                   and the success of our customers' lawns.
                 </p>
               </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">37+ Years of Experience</h3>
                     <p className="text-secondary-700">
-                      Since 1988, we've installed sod on thousands of properties throughout
+                      Since 2001, we've installed sod on thousands of properties throughout
                       Jacksonville and Northeast Florida.
                     </p>
                   </div>
@@ -108,7 +108,7 @@ export default function AboutPage() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Why Choose Jax Sod Inc?</h2>
+            <h2 className="heading-lg mb-4">Why Choose Jax Sod?</h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               What sets us apart from other sod installation companies
             </p>
@@ -250,7 +250,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-lg mb-6">Experience the Jax Sod Difference</h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of satisfied customers who trust Jax Sod Inc for their lawn installation needs.
+              Join thousands of satisfied customers who trust Jax Sod for their lawn installation needs.
               Get your free quote today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
