@@ -36,7 +36,7 @@ export default function AboutPage() {
               <h2 className="heading-lg mb-6">Our Story</h2>
               <div className="space-y-4 text-secondary-700 leading-relaxed">
                 <p>
-                  Founded in 2001, Jax Sod has been serving Jacksonville and surrounding areas
+                  Jax Sod has been serving Jacksonville and surrounding areas for over 20 years
                   for over three decades. What started as a small, family-focused operation has
                   grown into one of Northeast Florida's most trusted names in professional sod
                   installation.
