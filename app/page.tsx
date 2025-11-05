@@ -5,6 +5,21 @@ import Calculator from '@/components/Calculator'
 import Link from 'next/link'
 import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers } from 'react-icons/fi'
 
+// SEO Metadata
+export const metadata = {
+    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod Inc',
+    description: 'Professional sod installation in Jacksonville, FL since 1988. 37+ years experience installing residential & commercial lawns. Free quotes. Licensed & insured. Call (904) 901-1457.',
+    keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
+    openGraph: {
+          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod Inc',
+          description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
+          type: 'website',
+          locale: 'en_US',
+          siteName: 'Jax Sod Inc',
+    },
+}
+
+
 export default function Home() {
   return (
     <>
