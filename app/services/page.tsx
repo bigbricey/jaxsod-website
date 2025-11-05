@@ -5,10 +5,17 @@ import Link from 'next/link'
 import { FiHome, FiBriefcase, FiCheckCircle, FiTool, FiClock, FiDollarSign } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-  title: 'Sod Installation Services',
-  description: 'Professional residential and commercial sod installation services in Jacksonville, FL. Expert installation with 37+ years of experience. Free quotes available.',
+    title: 'Sod Installation Services Jacksonville | Residential & Commercial | Jax Sod',
+    description: 'Expert sod installation services in Jacksonville. Residential & commercial projects, soil preparation, quality sod varieties. Fast installation, transparent pricing. Get free estimate today!',
+    keywords: 'sod installation services Jacksonville, residential sod installation, commercial sod installation, sod installation company, professional sod installers, Jacksonville lawn services',
+    openGraph: {
+          title: 'Professional Sod Installation Services in Jacksonville | Jax Sod Inc',
+          description: 'Residential and commercial sod installation services throughout Jacksonville and Northeast Florida.',
+          type: 'website',
+          locale: 'en_US',
+          siteName: 'Jax Sod Inc',
+    },
 }
-
 export default function ServicesPage() {
   return (
     <>
