@@ -4,10 +4,17 @@ import Link from 'next/link'
 import { FiAward, FiCheckCircle, FiMapPin, FiUsers } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about Jax Sod Inc - Jacksonville\'s trusted sod installation specialists since 1988. 37+ years of experience in residential and commercial sod installation.',
+    title: 'About Jax Sod Inc | Jacksonville\'s Sod Installation Experts Since 1988',
+    description: 'Learn about Jacksonville\'s trusted sod installation specialists since 1988. 37+ years experience, family-owned, licensed & insured. We focus exclusively on sod installation.',
+    keywords: 'about Jax Sod, Jacksonville sod company, sod installation specialists, family-owned sod company, licensed sod installer Jacksonville, 37 years experience',
+    openGraph: {
+          title: 'About Jax Sod Inc | 37+ Years of Sod Installation Excellence',
+          description: 'Family-owned and operated since 1988. Jacksonville\'s premier sod installation specialists.',
+          type: 'website',
+          locale: 'en_US',
+          siteName: 'Jax Sod Inc',
+    },
 }
-
 export default function AboutPage() {
   return (
     <>
