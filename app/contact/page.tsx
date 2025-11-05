@@ -4,10 +4,17 @@ import ContactForm from '@/components/ContactForm'
 import { FiPhone, FiMapPin, FiClock, FiMail } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: 'Get a free quote for sod installation in Jacksonville, FL. Call (904) 901-1457 or fill out our contact form. 37+ years of professional service.',
+    title: 'Contact Us | Get Free Quote | Sod Installation Jacksonville | (904) 901-1457',
+    description: 'Get a free sod installation quote in Jacksonville, FL. Call (904) 901-1457 or fill out our contact form. 37+ years experience. Licensed & insured. Fast response time.',
+    keywords: 'contact Jax Sod, free sod quote Jacksonville, sod installation estimate, Jacksonville sod company contact, get sod quote, call for sod installation',
+    openGraph: {
+          title: 'Contact Jax Sod Inc | Free Quote for Sod Installation',
+          description: 'Get your free quote today. Call (904) 901-1457 or contact us online.',
+          type: 'website',
+          locale: 'en_US',
+          siteName: 'Jax Sod Inc',
+    },
 }
-
 export default function ContactPage() {
   return (
     <>
