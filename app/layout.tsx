@@ -12,23 +12,23 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Jax Sod Inc - Professional Sod Installation in Jacksonville, FL',
-    template: '%s | Jax Sod Inc'
+    default: 'Jax Sod - Professional Sod Installation in Jacksonville, FL',
+    template: '%s | Jax Sod'
   },
   description: 'Professional sod installation services in Jacksonville, FL with 37+ years of experience. Residential and commercial sod installation specialists. Call (904) 901-1457 for a free quote.',
   keywords: ['sod installation Jacksonville', 'Jacksonville sod', 'sod installer', 'lawn installation', 'Florida sod', 'residential sod', 'commercial sod'],
-  authors: [{ name: 'Jax Sod Inc' }],
+  authors: [{ name: 'Jax Sod' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://jaxsod.com',
-    siteName: 'Jax Sod Inc',
-    title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod Inc',
+    siteName: 'Jax Sod',
+    title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
     description: '37+ years of professional sod installation services in Jacksonville, FL. Residential and commercial specialists.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jax Sod Inc - Professional Sod Installation',
+    title: 'Jax Sod - Professional Sod Installation',
     description: '37+ years of expert sod installation in Jacksonville, FL',
   },
   robots: {

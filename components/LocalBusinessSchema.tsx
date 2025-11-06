@@ -3,7 +3,7 @@ export default function LocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': 'https://jaxsod.com',
-    name: 'Jax Sod Inc',
+    name: 'Jax Sod',
     image: 'https://jaxsod.com/logo.png',
     description: 'Professional sod installation services in Jacksonville, FL with 37+ years of experience. Residential and commercial sod installation specialists.',
     url: 'https://jaxsod.com',

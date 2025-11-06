@@ -4,15 +4,15 @@ import Link from 'next/link'
 import { FiCalendar, FiArrowRight } from 'react-icons/fi'
 
 export const metadata: Metadata = {
-    title: 'Sod Installation Articles & Tips | Jax Sod Inc Jacksonville',
+    title: 'Sod Installation Articles & Tips | Jax Sod Jacksonville',
     description: 'Expert sod installation tips, lawn care advice, and best practices from Jacksonville\'s sod specialists. 37+ years of experience helping homeowners create beautiful lawns.',
     keywords: 'sod installation tips, lawn care advice Jacksonville, sod maintenance guide, best sod for Florida, sod installation guide, lawn care blog',
     openGraph: {
-          title: 'Sod Installation Tips & Expert Advice | Jax Sod Inc',
+          title: 'Sod Installation Tips & Expert Advice | Jax Sod',
           description: 'Expert insights and practical advice from 37+ years of sod installation experience in Jacksonville.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 interface Article {

@@ -38,7 +38,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary-700">
-            Jax Sod Inc
+            Jax Sod
           </Link>
 
           {/* Desktop Navigation */}
