@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of service for Jax Sod Inc - Terms and conditions for using our website and services.',
+  description: 'Terms of service for Jax Sod - Terms and conditions for using our website and services.',
 }
 
 export default function TermsPage() {
@@ -20,7 +20,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="heading-sm mb-4">Agreement to Terms</h2>
             <p className="text-secondary-700 leading-relaxed mb-4">
-              By accessing or using the Jax Sod Inc website and services, you agree to be bound by these
+              By accessing or using the Jax Sod website and services, you agree to be bound by these
               Terms of Service. If you disagree with any part of these terms, please do not use our website
               or services.
             </p>
@@ -29,7 +29,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="heading-sm mb-4">Services</h2>
             <p className="text-secondary-700 leading-relaxed mb-4">
-              Jax Sod Inc provides professional sod installation services for residential and commercial
+              Jax Sod provides professional sod installation services for residential and commercial
               properties in Jacksonville, FL and surrounding areas. All services are subject to availability
               and our standard business practices.
             </p>
@@ -78,7 +78,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="heading-sm mb-4">Limitation of Liability</h2>
             <p className="text-secondary-700 leading-relaxed mb-4">
-              Jax Sod Inc shall not be liable for any indirect, incidental, special, consequential, or
+              Jax Sod shall not be liable for any indirect, incidental, special, consequential, or
               punitive damages resulting from your use of our services or inability to use our services.
             </p>
           </section>
@@ -99,7 +99,7 @@ export default function TermsPage() {
             </p>
             <div className="bg-secondary-50 p-6 rounded-lg">
               <p className="text-secondary-700 mb-2">
-                <strong>Jax Sod Inc</strong>
+                <strong>Jax Sod</strong>
               </p>
               <p className="text-secondary-700 mb-2">
                 Phone: <a href="tel:9049011457" className="text-primary-600 hover:text-primary-700">(904) 901-1457</a>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy policy for Jax Sod Inc - How we collect, use, and protect your personal information.',
+  description: 'Privacy policy for Jax Sod - How we collect, use, and protect your personal information.',
 }
 
 export default function PrivacyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="heading-sm mb-4">Introduction</h2>
             <p className="text-secondary-700 leading-relaxed mb-4">
-              Jax Sod Inc ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+              Jax Sod ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you visit our website
               or use our services.
             </p>
@@ -91,7 +91,7 @@ export default function PrivacyPage() {
             </p>
             <div className="bg-secondary-50 p-6 rounded-lg">
               <p className="text-secondary-700 mb-2">
-                <strong>Jax Sod Inc</strong>
+                <strong>Jax Sod</strong>
               </p>
               <p className="text-secondary-700 mb-2">
                 Phone: <a href="tel:9049011457" className="text-primary-600 hover:text-primary-700">(904) 901-1457</a>

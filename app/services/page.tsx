@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     description: 'Expert sod installation services in Jacksonville. Residential & commercial projects, soil preparation, quality sod varieties. Fast installation, transparent pricing. Get free estimate today!',
     keywords: 'sod installation services Jacksonville, residential sod installation, commercial sod installation, sod installation company, professional sod installers, Jacksonville lawn services',
     openGraph: {
-          title: 'Professional Sod Installation Services in Jacksonville | Jax Sod Inc',
+          title: 'Professional Sod Installation Services in Jacksonville | Jax Sod',
           description: 'Residential and commercial sod installation services throughout Jacksonville and Northeast Florida.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 export default function ServicesPage() {
@@ -262,7 +262,7 @@ export default function ServicesPage() {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <FiDollarSign className="text-5xl text-primary-600 mx-auto mb-6" />
-            <h2 className="heading-lg mb-6">Transparent Pricing</h2>
+            <h2 className="heading-lg mb-6">Get Your Custom Quote</h2>
             <p className="text-lg text-secondary-600 mb-8">
               Every project is unique, and we provide honest, detailed quotes with no hidden fees.
               Pricing depends on factors including property size, site conditions, sod variety,
@@ -270,11 +270,11 @@ export default function ServicesPage() {
             </p>
             <div className="bg-white p-8 rounded-lg shadow-md mb-8">
               <p className="text-secondary-700 mb-4">
-                <strong>Typical price range:</strong> $0.35 - $0.85 per square foot installed
+                <strong>Contact us for accurate pricing tailored to your specific project</strong>
               </p>
               <p className="text-sm text-secondary-600">
-                Final pricing varies based on project specifics. Contact us for an accurate quote
-                tailored to your property.
+                We'll provide a detailed quote based on your property's unique requirements,
+                including site assessment, sod type, and any special considerations.
               </p>
             </div>
             <Link href="/contact" className="btn-primary">

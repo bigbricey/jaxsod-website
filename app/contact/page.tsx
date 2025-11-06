@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     description: 'Get a free sod installation quote in Jacksonville, FL. Call (904) 901-1457 or fill out our contact form. 37+ years experience. Licensed & insured. Fast response time.',
     keywords: 'contact Jax Sod, free sod quote Jacksonville, sod installation estimate, Jacksonville sod company contact, get sod quote, call for sod installation',
     openGraph: {
-          title: 'Contact Jax Sod Inc | Free Quote for Sod Installation',
+          title: 'Contact Jax Sod | Free Quote for Sod Installation',
           description: 'Get your free quote today. Call (904) 901-1457 or contact us online.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 export default function ContactPage() {
@@ -21,7 +21,7 @@ export default function ContactPage() {
       <Hero
         title="Get Your Free Quote Today"
         subtitle="Contact Us"
-        description="Ready to transform your lawn? Contact Jax Sod Inc for a free, no-obligation quote. We're here to answer your questions and help you create the perfect lawn."
+        description="Ready to transform your lawn? Contact Jax Sod for a free, no-obligation quote. We're here to answer your questions and help you create the perfect lawn."
         ctaText="Call (904) 901-1457"
         ctaLink="tel:9049011457"
         backgroundImage="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2000"

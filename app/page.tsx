@@ -1,21 +1,20 @@
 import Hero from '@/components/Hero'
 import ServiceCard from '@/components/ServiceCard'
 import TestimonialCard from '@/components/TestimonialCard'
-import Calculator from '@/components/Calculator'
 import Link from 'next/link'
 import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers } from 'react-icons/fi'
 
 // SEO Metadata
 export const metadata = {
-    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod Inc',
+    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
     description: 'Professional sod installation in Jacksonville, FL since 1988. 37+ years experience installing residential & commercial lawns. Free quotes. Licensed & insured. Call (904) 901-1457.',
     keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
     openGraph: {
-          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod Inc',
+          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
           description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
           type: 'website',
           locale: 'en_US',
-          siteName: 'Jax Sod Inc',
+          siteName: 'Jax Sod',
     },
 }
 
@@ -39,7 +38,7 @@ export default function Home() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Why Choose Jax Sod Inc?</h2>
+            <h2 className="heading-lg mb-4">Why Choose Jax Sod?</h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               Three decades of expertise delivering beautiful, healthy lawns across Jacksonville
             </p>
@@ -157,40 +156,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Calculator Section */}
+      {/* Get Quote CTA Section */}
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="heading-lg mb-6">Get an Instant Estimate</h2>
-              <p className="text-lg text-secondary-600 mb-6">
-                Use our simple calculator to get a rough estimate for your sod installation project.
-                Enter your lawn size in square feet to see estimated costs.
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="heading-lg mb-6">Get Your Free Custom Quote</h2>
+            <p className="text-lg text-secondary-600 mb-8">
+              Every sod installation project is unique. We provide detailed, accurate quotes based on your
+              specific property requirements, including size, site conditions, and sod variety selection.
+            </p>
+            <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+              <p className="text-secondary-700 mb-4">
+                <strong>What's included in your quote:</strong>
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 text-left max-w-lg mx-auto">
                 <li className="flex items-start gap-3">
                   <FiCheckCircle className="text-primary-600 mt-1 flex-shrink-0" />
                   <span className="text-secondary-700">
-                    Quick and easy calculation
+                    Free on-site property assessment
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FiCheckCircle className="text-primary-600 mt-1 flex-shrink-0" />
                   <span className="text-secondary-700">
-                    Based on industry-standard pricing
+                    Detailed pricing breakdown with no hidden fees
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FiCheckCircle className="text-primary-600 mt-1 flex-shrink-0" />
                   <span className="text-secondary-700">
-                    Contact us for a detailed, accurate quote
+                    Expert recommendations for sod type and care
                   </span>
                 </li>
               </ul>
             </div>
-            <div>
-              <Calculator />
-            </div>
+            <Link href="/contact" className="btn-primary text-lg px-8 py-4">
+              Request Your Free Quote
+            </Link>
           </div>
         </div>
       </section>

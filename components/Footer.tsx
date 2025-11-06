@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-primary-400 mb-4">Jax Sod Inc</h3>
+            <h3 className="text-2xl font-bold text-primary-400 mb-4">Jax Sod</h3>
             <p className="text-secondary-300 mb-4">
               Jacksonville's trusted sod installation specialists for over 37 years.
               Professional residential and commercial services.
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-secondary-400">
             <p>
-              &copy; {currentYear} Jax Sod Inc. All rights reserved.
+              &copy; {currentYear} Jax Sod. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="hover:text-primary-400 transition-colors">
