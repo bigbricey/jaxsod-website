@@ -1,3 +1,6 @@
+import TrustBadges from '@/components/TrustBadges';
+import StickyCallBar from '@/components/StickyCallBar';
+import PricingExpectations from '@/components/PricingExpectations';
 import Hero from '@/components/Hero'
 import ServiceCard from '@/components/ServiceCard'
 import TestimonialCard from '@/components/TestimonialCard'
@@ -242,6 +245,10 @@ export default function Home() {
               Get a free, no-obligation quote from Jacksonville's sod installation experts.
               With over 37 years of experience, we'll help you create the perfect lawn.
             </p>
+<TrustBadges />
+            <PricingExpectations />
+            <StickyCallBar />
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-outline">
                 Get Free Quote
