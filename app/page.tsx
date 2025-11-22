@@ -118,7 +118,7 @@ export default function Home() {
         ctaLink="/contact"
         secondaryCtaText="View Services"
         secondaryCtaLink="/services"
-        backgroundImage="https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=2000"
+        backgroundImage="https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=2000&q=80&ixlib=rb-4.0.3"
       />
 
       {/* Why Choose Us Section */}
