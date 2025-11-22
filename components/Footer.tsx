@@ -15,6 +15,9 @@ const Footer = () => {
               Jacksonville's trusted sod installation specialists for over 37 years.
               Professional residential and commercial services.
             </p>
+            <p className="text-secondary-300">
+              Serving Jacksonville, Mandarin, Jacksonville Beach, Orange Park, Fleming Island, St. Augustine, Ponte Vedra and surrounding Northeast Florida communities.
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -32,6 +35,36 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/sod-types" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  Sod Types
+                </Link>
+              </li>
+              <li>
+                <Link href="/gallery" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  Gallery
+                </Link>
+              </li>
+              <li>
+                <Link href="/reviews" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  Reviews
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/service-areas" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  Service Areas
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-secondary-300 hover:text-primary-400 transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="text-secondary-300 hover:text-primary-400 transition-colors">
                   About Us
                 </Link>
@@ -39,11 +72,6 @@ const Footer = () => {
               <li>
                 <Link href="/articles" className="text-secondary-300 hover:text-primary-400 transition-colors">
                   Articles
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-secondary-300 hover:text-primary-400 transition-colors">
-                  Contact
                 </Link>
               </li>
             </ul>
