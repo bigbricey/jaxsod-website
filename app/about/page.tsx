@@ -55,6 +55,11 @@ export default function AboutPage() {
                   installed by Jax Sod. Our reputation is built on honesty, quality work,
                   and the success of our customers' lawns.
                 </p>
+                <p>
+                  Curious where we work or what people are saying? Explore our{' '}
+                  <Link href="/service-areas" className="text-primary-600 font-semibold hover:text-primary-700">service areas</Link>{' '}
+                  and read recent <Link href="/reviews" className="text-primary-600 font-semibold hover:text-primary-700">reviews</Link> from Jacksonville neighbors.
+                </p>
               </div>
             </div>
 
