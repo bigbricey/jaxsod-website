@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
@@ -46,9 +45,6 @@ const grassTypes = [
   },
 ]
 
-const sodTypesImage =
-  'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=1400&q=80&ixlib=rb-4.0.3'
-
 export default function SodTypesPage() {
   return (
     <div className="section-padding">
@@ -65,17 +61,6 @@ export default function SodTypesPage() {
             team handles prep, grading, and rolling. Have questions?{' '}
             <Link href="/contact" className="text-primary-600 font-semibold hover:text-primary-700">Contact us</Link> for tailored recommendations.
           </p>
-        </div>
-
-        <div className="overflow-hidden rounded-xl shadow-md border border-secondary-100">
-          <Image
-            src={sodTypesImage}
-            alt="Fresh sod being installed on a prepared lawn"
-            width={1400}
-            height={700}
-            className="w-full h-full object-cover"
-            priority
-          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

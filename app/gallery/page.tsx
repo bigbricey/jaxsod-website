@@ -8,21 +8,21 @@ export const metadata = {
 }
 
 const residentialImages = [
-  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
 ]
 
 const commercialImages = [
-  'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1504643039591-52948e9bc5c1?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
 ]
 
 const renovationImages = [
-  'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1582719478248-6b389be1244e?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3',
 ]
 
 const GallerySection = ({ title, images }: { title: string; images: string[] }) => (

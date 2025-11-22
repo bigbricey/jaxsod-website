@@ -25,7 +25,7 @@ export default function Home() {
     {
       name: 'St. Augustine',
       image:
-        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
       bullets: [
         'Thrives in coastal areas with humidity and salt exposure',
         'Ideal for shady spots and established neighborhoods',
@@ -34,7 +34,7 @@ export default function Home() {
     {
       name: 'Zoysia',
       image:
-        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
       bullets: [
         'Loves sun and handles heavy foot traffic for active yards',
         'Dense growth pattern keeps Jacksonville lawns looking manicured',
@@ -43,7 +43,7 @@ export default function Home() {
     {
       name: 'Bermuda',
       image:
-        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
       bullets: [
         'Excellent for full-sun properties and sports-friendly spaces',
         'Recovers quickly from wear in high-traffic areas',
@@ -52,7 +52,7 @@ export default function Home() {
     {
       name: 'Bahia',
       image:
-        'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
       bullets: [
         'Budget-friendly option with strong drought tolerance',
         'Great for larger lots and utility areas around Jacksonville',
@@ -61,12 +61,12 @@ export default function Home() {
   ]
 
   const galleryImages = [
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
   ]
 
   const processSteps = [
