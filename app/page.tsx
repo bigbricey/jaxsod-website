@@ -25,7 +25,7 @@ export default function Home() {
     {
       name: 'St. Augustine',
       image:
-        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
       bullets: [
         'Thrives in coastal areas with humidity and salt exposure',
         'Ideal for shady spots and established neighborhoods',
@@ -34,7 +34,7 @@ export default function Home() {
     {
       name: 'Zoysia',
       image:
-        'https://images.unsplash.com/photo-1504595403659-9088ce801e29?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
       bullets: [
         'Loves sun and handles heavy foot traffic for active yards',
         'Dense growth pattern keeps Jacksonville lawns looking manicured',
@@ -43,7 +43,7 @@ export default function Home() {
     {
       name: 'Bermuda',
       image:
-        'https://images.unsplash.com/photo-1501696461442-503a91226402?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1425136738262-212551713a58?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
       bullets: [
         'Excellent for full-sun properties and sports-friendly spaces',
         'Recovers quickly from wear in high-traffic areas',
@@ -52,7 +52,7 @@ export default function Home() {
     {
       name: 'Bahia',
       image:
-        'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80&ixlib=rb-4.0.3',
       bullets: [
         'Budget-friendly option with strong drought tolerance',
         'Great for larger lots and utility areas around Jacksonville',
@@ -61,12 +61,12 @@ export default function Home() {
   ]
 
   const galleryImages = [
-    'https://images.unsplash.com/flagged/photo-1570129476769-2e011141ab76?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
+    'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
     'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1600585154340-0ef3c08c0632?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
     'https://images.unsplash.com/photo-1504643039591-52948e9bc5c1?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=700&q=80&ixlib=rb-4.0.3',
   ]
 
   const processSteps = [
@@ -118,7 +118,7 @@ export default function Home() {
         ctaLink="/contact"
         secondaryCtaText="View Services"
         secondaryCtaLink="/services"
-        backgroundImage="https://images.unsplash.com/photo-1504643039591-52948e9bc5c1?auto=format&fit=crop&w=2000&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=2000&q=80&ixlib=rb-4.0.3"
       />
 
       {/* Why Choose Us Section */}

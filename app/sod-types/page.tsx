@@ -47,7 +47,7 @@ const grassTypes = [
 ]
 
 const sodTypesImage =
-  'https://images.unsplash.com/photo-1504643039591-52948e9bc5c1?auto=format&fit=crop&w=1400&q=80&ixlib=rb-4.0.3'
+  'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=1400&q=80&ixlib=rb-4.0.3'
 
 export default function SodTypesPage() {
   return (

@@ -8,21 +8,21 @@ export const metadata = {
 }
 
 const residentialImages = [
-  'https://images.unsplash.com/flagged/photo-1570129476769-2e011141ab76?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1600585154340-0ef3c08c0632?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
 ]
 
 const commercialImages = [
   'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
   'https://images.unsplash.com/photo-1504643039591-52948e9bc5c1?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
 ]
 
 const renovationImages = [
-  'https://images.unsplash.com/photo-1501696461442-503a91226402?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1504595403659-9088ce801e29?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
-  'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1582719478248-6b389be1244e?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
+  'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80&ixlib=rb-4.0.3',
 ]
 
 const GallerySection = ({ title, images }: { title: string; images: string[] }) => (
