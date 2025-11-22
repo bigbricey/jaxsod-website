@@ -10,6 +10,11 @@ const Header = () => {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
+    { href: '/sod-types', label: 'Sod Types' },
+    { href: '/gallery', label: 'Gallery' },
+    { href: '/reviews', label: 'Reviews' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/service-areas', label: 'Service Areas' },
     { href: '/about', label: 'About' },
     { href: '/articles', label: 'Articles' },
     { href: '/contact', label: 'Contact' },
@@ -42,7 +47,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

@@ -37,6 +37,12 @@ export default function ServicesPage() {
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               Specialized sod installation services for every need
             </p>
+            <p className="text-secondary-600 max-w-3xl mx-auto mt-4">
+              Need help selecting the right grass? Visit our{' '}
+              <Link href="/sod-types" className="text-primary-600 font-semibold hover:text-primary-700">sod types guide</Link>, see finished lawns in our{' '}
+              <Link href="/gallery" className="text-primary-600 font-semibold hover:text-primary-700">project gallery</Link>, and read{' '}
+              <Link href="/reviews" className="text-primary-600 font-semibold hover:text-primary-700">customer reviews</Link> from across Jacksonville.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">

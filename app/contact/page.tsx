@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Hero from '@/components/Hero'
 import ContactForm from '@/components/ContactForm'
+import Link from 'next/link'
 import { FiPhone, FiMapPin, FiClock, FiMail } from 'react-icons/fi'
 
 export const metadata: Metadata = {
@@ -168,52 +169,46 @@ export default function ContactPage() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto">
-            <h2 className="heading-lg mb-4 text-center">Frequently Asked Questions</h2>
+            <h2 className="heading-lg mb-4 text-center">Common Questions</h2>
             <p className="text-lg text-secondary-600 mb-12 text-center">
-              Quick answers to common questions about our services
+              Quick answers about contacting, scheduling, and getting your project on the calendar.
             </p>
 
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">How quickly can you provide a quote?</h3>
+                <h3 className="font-bold text-lg mb-2">How fast will you respond?</h3>
                 <p className="text-secondary-600">
-                  We typically respond to quote requests within 24 hours and can often schedule an
-                  on-site consultation within a few days.
+                  We reply to form submissions and voicemails within one business day—often the same day—so you can plan confidently.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">Do you offer free estimates?</h3>
+                <h3 className="font-bold text-lg mb-2">When can my installation start?</h3>
                 <p className="text-secondary-600">
-                  Yes! We provide free, no-obligation quotes for all sod installation projects,
-                  including an on-site consultation to assess your property.
+                  Most Jacksonville projects begin within 1–2 weeks after approval, depending on sod availability and weather.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">What areas do you service?</h3>
+                <h3 className="font-bold text-lg mb-2">Do you work weekends?</h3>
                 <p className="text-secondary-600">
-                  We serve Jacksonville and surrounding areas throughout Northeast Florida. Contact
-                  us to confirm we service your specific location.
+                  Saturday appointments are available based on crew schedule and forecast. We’ll confirm your best window during booking.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">How long does installation take?</h3>
+                <h3 className="font-bold text-lg mb-2">What should I do before the crew arrives?</h3>
                 <p className="text-secondary-600">
-                  Most residential projects are completed in 1-2 days, depending on the size and
-                  complexity. We'll provide a timeline with your quote.
+                  Clear personal items and flag sprinkler heads or pets’ areas. We’ll handle the heavy lifting—removal, grading, and installation.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg mb-2">What if I have more questions?</h3>
+                <h3 className="font-bold text-lg mb-2">Need more details?</h3>
                 <p className="text-secondary-600">
-                  We're always happy to answer questions! Call us at{' '}
-                  <a href="tel:9049011457" className="text-primary-600 font-semibold hover:text-primary-700">
-                    (904) 901-1457
-                  </a>{' '}
-                  or fill out the contact form above.
+                  Browse the full{' '}
+                  <Link href="/faq" className="text-primary-600 font-semibold hover:text-primary-700">FAQ page</Link> or call us at{' '}
+                  <a href="tel:9049011457" className="text-primary-600 font-semibold hover:text-primary-700">(904) 901-1457</a>.
                 </p>
               </div>
             </div>
