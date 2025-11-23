@@ -121,7 +121,7 @@ export default function ServicesPage() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Our Installation Process</h2>
+            <h2 className="heading-lg mb-4">Professional Sod Installation Services</h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               A proven process perfected over 37+ years
             </p>
@@ -132,9 +132,9 @@ export default function ServicesPage() {
               <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
                 1
               </div>
-              <h3 className="text-xl font-bold mb-3">Consultation</h3>
+              <h3 className="text-xl font-bold mb-3">Site Clearing & Removal</h3>
               <p className="text-secondary-600">
-                Free on-site consultation to assess your property, discuss your needs, and provide an accurate quote.
+                Our team begins by completely removing old turf, weeds, and debris from the installation area. We utilize professional sod cutters to strip the ground to the root level, ensuring a clean slate for your new lawn. All debris is hauled away to a licensed dump facility.
               </p>
             </div>
 
@@ -142,9 +142,9 @@ export default function ServicesPage() {
               <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
                 2
               </div>
-              <h3 className="text-xl font-bold mb-3">Preparation</h3>
+              <h3 className="text-xl font-bold mb-3">Soil Base Preparation</h3>
               <p className="text-secondary-600">
-                Proper soil preparation including grading, removal of old grass or debris, and soil amendments.
+                Proper soil prep is critical for Florida lawns. We prepare the surface with a stable <strong>clean yellow sand base</strong> to establish the correct foundation. This ensures optimal root contact and prevents the moisture retention issues common with improper organic fillers.
               </p>
             </div>
 
@@ -152,9 +152,9 @@ export default function ServicesPage() {
               <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
                 3
               </div>
-              <h3 className="text-xl font-bold mb-3">Installation</h3>
+              <h3 className="text-xl font-bold mb-3">Farm-Fresh Installation</h3>
               <p className="text-secondary-600">
-                Professional installation of premium sod with careful attention to seams, edges, and proper laying techniques.
+                We install premium, <strong>Muck-Bottom sod</strong> sourced directly from local farms. Our installation team lays sod in a tight, seamless pattern—utilizing brick-patterning for Zoysia and Bermuda varieties—to ensure immediate stability and curb appeal.
               </p>
             </div>
 
@@ -162,9 +162,9 @@ export default function ServicesPage() {
               <div className="w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
                 4
               </div>
-              <h3 className="text-xl font-bold mb-3">Care Instructions</h3>
+              <h3 className="text-xl font-bold mb-3">Post-Installation Care</h3>
               <p className="text-secondary-600">
-                Detailed instructions and ongoing support to ensure your new lawn thrives for years to come.
+                Sod is a perishable product that requires immediate attention. Upon completion, we provide a seasonal watering schedule tailored to current weather conditions to guarantee successful rooting. Note: Failure to water immediately invalidates standard survivability expectations.
               </p>
             </div>
           </div>
