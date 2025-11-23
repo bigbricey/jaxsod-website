@@ -75,16 +75,16 @@ export default function Home() {
       description: 'We walk your site, note sunlight and drainage, and capture accurate square footage for precise pricing.',
     },
     {
-      title: 'Remove old turf and fix grade/drainage',
-      description: 'Existing grass is cleared out and trouble spots are leveled so water flows correctly.',
+      title: 'Remove old turf and touch up drainage/grade',
+      description: 'Existing grass is cleared out and trouble spots are lightly leveled so water flows correctly.',
     },
     {
-      title: 'Prepare and level the soil',
-      description: 'We amend the soil as needed, smooth it out, and set a firm base for root contact.',
+      title: 'Prepare and smooth the soil base',
+      description: 'We amend the soil as needed, smooth it out, and set a firm base for root contact—no full regrading, just final touch-ups.',
     },
     {
-      title: 'Lay, stagger, and roll the sod for tight seams',
-      description: 'Fresh sod is laid in a running pattern, seams are tightened, and the lawn is rolled for full soil contact.',
+      title: 'Lay and stagger sod (roll Zoysia/Bermuda installs)',
+      description: 'Fresh sod is laid in a running pattern, seams are tightened, and only Zoysia/Bermuda lawns are rolled for full soil contact.',
     },
     {
       title: 'Walk-through and custom watering / after-care plan',
@@ -103,7 +103,7 @@ export default function Home() {
     },
     {
       question: 'What prep is included?',
-      answer: 'Removal, grading, soil smoothing, and rolling are part of every installation.',
+      answer: 'Removal, minor leveling and drainage touch-ups, soil smoothing; Zoysia/Bermuda installs are rolled, St. Augustine/Bahia are not.',
     },
   ]
 
