@@ -139,6 +139,9 @@ const articlesData: Article[] = [
           Choosing the right sod is the single most important decision you will make for your landscape. Pick the right one, and you&apos;ll have a low-maintenance oasis. Pick the wrong one (like planting a shade-intolerant grass under an oak tree), and you are guaranteed to be replacing it within two years.
         </p>
         <p>
+          When you are ready to move forward, our <Link href="/services" className="text-primary-600 font-semibold hover:text-primary-700 underline">Residential Sod Installation</Link> team can handle the entire process for you.
+        </p>
+        <p>
           At Jax Sod, we believe an informed customer is a happy customer. This guide breaks down the "Big Four" grass families used in Jacksonville and Northeast Florida: St. Augustine, Zoysia, Bahia, and Bermuda. We will explore the specific cultivars, pros and cons, and best use cases for each.
         </p>
 

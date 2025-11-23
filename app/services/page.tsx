@@ -15,6 +15,10 @@ export const metadata: Metadata = {
           locale: 'en_US',
           siteName: 'Jax Sod',
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
 }
 export default function ServicesPage() {
   return (
