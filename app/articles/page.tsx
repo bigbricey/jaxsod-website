@@ -28,26 +28,26 @@ const articles: Article[] = [
   {
     slug: 'benefits-of-professional-sod-installation',
     title: 'The Benefits of Professional Sod Installation vs. DIY',
-    excerpt: 'Discover why professional sod installation delivers better results, saves time, and provides long-term value compared to DIY approaches.',
+    excerpt: 'Is DIY sod installation worth the risk? Discover why professional installation ensures a healthier lawn, saves you back-breaking labor, and prevents costly mistakes.',
     date: '2024-10-15',
     category: 'Installation Tips',
-    readTime: '5 min read',
+    readTime: '10 min read',
   },
   {
     slug: 'choosing-right-sod-florida',
-    title: 'Choosing the Right Sod for Your Florida Lawn',
-    excerpt: 'Learn about the best sod varieties for Florida\'s climate, including St. Augustine, Bahia, and Zoysia grass options.',
+    title: 'Choosing the Right Sod for Your Florida Lawn: The Ultimate Guide',
+    excerpt: 'St. Augustine, Zoysia, Bahia, or Bermuda? Don\'t guess. Our comprehensive guide breaks down the pros, cons, and shade tolerance of every major Florida grass type.',
     date: '2024-10-08',
     category: 'Sod Types',
-    readTime: '7 min read',
+    readTime: '12 min read',
   },
   {
     slug: 'soil-preparation-for-sod',
-    title: 'Proper Ground Preparation for Sod Installation',
-    excerpt: 'The secret to a healthy, thriving lawn starts with proper ground preparation. Here\'s what you need to know.',
+    title: 'The Hidden Foundation: Soil Preparation for Sod Installation',
+    excerpt: 'Why does some sod thrive while others fail? The secret lies underground. Learn the professional steps for soil preparation that guarantee rooting success.',
     date: '2024-09-30',
     category: 'Installation Tips',
-    readTime: '6 min read',
+    readTime: '11 min read',
   },
   {
     slug: 'new-sod-care-guide',
@@ -59,43 +59,43 @@ const articles: Article[] = [
   },
   {
     slug: 'when-to-install-sod-florida',
-    title: 'Best Time to Install Sod in Jacksonville',
-    excerpt: 'Timing matters when installing sod. Learn about the best seasons for sod installation in Northeast Florida.',
+    title: 'Timing is Everything: The Best Time to Install Sod in Jacksonville',
+    excerpt: 'Spring, Summer, Fall, or Winter? We break down the pros and cons of installing sod in every season in Northeast Florida.',
     date: '2024-09-15',
     category: 'Installation Tips',
-    readTime: '5 min read',
+    readTime: '9 min read',
   },
   {
     slug: 'sod-cost-factors',
-    title: 'Understanding Sod Installation Costs',
-    excerpt: 'What factors affect the cost of sod installation? A transparent look at pricing from site preparation to final installation.',
+    title: 'The Real Cost of Sod Installation: A Transparent Pricing Guide',
+    excerpt: 'How much does sod installation actually cost in Jacksonville? We peel back the layers of pricing, explaining everything from pallet costs to site access.',
     date: '2024-09-08',
     category: 'Planning',
-    readTime: '6 min read',
+    readTime: '10 min read',
   },
   {
     slug: 'commercial-vs-residential-sod',
-    title: 'Commercial vs. Residential Sod Installation: Key Differences',
-    excerpt: 'How large-scale commercial sod installation differs from residential projects in scope, planning, and execution.',
+    title: 'Commercial vs. Residential Sod Installation: Understanding the Differences',
+    excerpt: 'Is a commercial sod project just a big residential one? Not quite. Explore the unique challenges of commercial landscaping and strict compliance standards.',
     date: '2024-09-01',
     category: 'Commercial',
-    readTime: '7 min read',
+    readTime: '11 min read',
   },
   {
     slug: 'sod-vs-seed',
-    title: 'Sod vs. Seed: Which is Right for Your Property?',
-    excerpt: 'Compare the pros and cons of sod installation versus seeding to determine the best choice for your lawn.',
+    title: 'Sod vs. Seed: The Battle for Your Lawn',
+    excerpt: 'Is it better to pay for sod or save money with seed? We compare the two methods head-to-head on cost, time, weed control, and success rate.',
     date: '2024-08-25',
     category: 'Planning',
-    readTime: '6 min read',
+    readTime: '10 min read',
   },
   {
     slug: 'erosion-control-with-sod',
-    title: 'Using Sod for Erosion Control',
-    excerpt: 'How professional sod installation can solve erosion problems on slopes and challenging terrain.',
+    title: 'Stop the Slide: Using Sod for Instant Erosion Control',
+    excerpt: 'Is your soil washing away with every rainstorm? Learn why sod is the most effective engineering solution for stabilizing slopes, swales, and lake banks.',
     date: '2024-08-18',
     category: 'Solutions',
-    readTime: '5 min read',
+    readTime: '8 min read',
   },
 ]
 
@@ -126,9 +126,9 @@ export default function ArticlesPage() {
             {articles.map((article) => (
               <article
                 key={article.slug}
-                className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col h-full"
               >
-                <div className="p-6">
+                <div className="p-6 flex-grow flex flex-col">
                   <div className="flex items-center gap-4 mb-3 text-sm">
                     <span className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full font-medium">
                       {article.category}
@@ -140,9 +140,9 @@ export default function ArticlesPage() {
                     {article.title}
                   </h3>
 
-                  <p className="text-secondary-600 mb-4 leading-relaxed">{article.excerpt}</p>
+                  <p className="text-secondary-600 mb-4 leading-relaxed flex-grow">{article.excerpt}</p>
 
-                  <div className="flex items-center justify-between pt-4 border-t border-secondary-200">
+                  <div className="flex items-center justify-between pt-4 border-t border-secondary-200 mt-auto">
                     <div className="flex items-center gap-2 text-sm text-secondary-500">
                       <FiCalendar />
                       <time dateTime={article.date}>
@@ -154,7 +154,6 @@ export default function ArticlesPage() {
                       </time>
                     </div>
 
-                    {/* CORRECTED LINK HERE: */}
                     <Link 
                       href={`/articles/${article.slug}`} 
                       className="text-primary-600 font-semibold hover:text-primary-700 transition-colors inline-flex items-center gap-2"
@@ -168,7 +167,7 @@ export default function ArticlesPage() {
             ))}
           </div>
 
-          {/* REMOVED the "Note: Individual article pages are coming soon" placeholder */}
+          {/* Contact CTA */}
           <div className="mt-12 text-center">
              <Link href="/contact" className="btn-primary inline-block">
                 Contact Us with Questions
