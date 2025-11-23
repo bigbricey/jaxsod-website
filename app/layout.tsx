@@ -12,10 +12,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Jax Sod - Professional Sod Installation in Jacksonville, FL',
+    default: 'Professional Sod Installation Jacksonville FL | Jax Sod',
     template: '%s | Jax Sod'
   },
-  description: 'Professional sod installation services in Jacksonville, FL with 37+ years of experience. Residential and commercial sod installation specialists. Call (904) 901-1457 for a free quote.',
+  description: 'Premier sod installation in Jacksonville, St. Augustine, and Mandarin. 37 years of experience. Specialists in St. Augustine, Zoysia, and Bermuda sod.',
   keywords: ['sod installation Jacksonville', 'Jacksonville sod', 'sod installer', 'lawn installation', 'Florida sod', 'residential sod', 'commercial sod'],
   authors: [{ name: 'Jax Sod' }],
   openGraph: {
