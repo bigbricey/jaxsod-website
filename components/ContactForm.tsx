@@ -9,8 +9,7 @@ const ContactForm = () => {
       </div>
 
       <p className="text-lg text-secondary-700 mb-6">
-        The fastest way to get your free estimate is to text us! We don't answer phone calls due to spam,
-        but we respond quickly to text messages.
+        We are often out in the field installing sod. For the fastest service, please text us! We respond to texts much quicker than voicemails.
       </p>
 
       <div className="bg-white rounded-lg p-6 mb-6">
