@@ -11,7 +11,7 @@ const areas = [
     heading: 'Jacksonville & Mandarin',
     bullets: [
       'Residential lawn replacements and new builds with tailored sod varieties',
-      'Drainage fixes and grading for established neighborhoods',
+      'Surface smoothing for established neighborhoods',
       'Fast turnaround for front and back yard transformations',
     ],
   },
@@ -35,7 +35,7 @@ const areas = [
     heading: 'St. Augustine & St. Johns County',
     bullets: [
       'New construction sod installation with builder coordination',
-      'Historic home lawn refreshes with proper grading',
+      'Historic home lawn refreshes with proper surface smoothing',
       'Estate lots and acreage projects with budget-smart options',
     ],
   },

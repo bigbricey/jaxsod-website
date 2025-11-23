@@ -14,7 +14,7 @@ const faqSections = [
       {
         question: 'How much does sod installation cost in Jacksonville?',
         answer:
-          'Pricing depends on square footage, site prep, and sod variety. We provide detailed, line-item quotes after a quick assessment so you know exactly what is included.',
+          'Every project is unique. Pricing varies significantly based on accessibility (wheelbarrow distance), square footage, and site conditions. We provide a precise, all-inclusive quote after a quick site assessment.',
       },
       {
         question: 'Do you provide free on-site quotes?',
@@ -32,12 +32,15 @@ const faqSections = [
       {
         question: 'What do I need to do to prepare my yard?',
         answer:
-          'We handle removal, grading, and soil prep. Please clear personal items and note any irrigation details so we can protect your system.',
+          'We handle removal, site prep, and soil conditioning. Please clear personal items and note any irrigation details so we can protect your system.',
       },
       {
         question: 'Do you remove old grass and fix low spots?',
-        answer:
-          'Yes. We strip existing turf, address low or uneven areas, and level the soil so the new sod roots evenly and drains properly.',
+        answer: (
+          <>
+            We strip existing turf and perform <strong>surface smoothing</strong> to ensure the sod lays flat. <em>Note: We do not perform major land grading, drainage engineering, or filling of large rolling contours.</em>
+          </>
+        ),
       },
       {
         question: 'Which sod type is best for my yard?',
@@ -46,8 +49,11 @@ const faqSections = [
       },
       {
         question: 'How soon can I walk on the new sod?',
-        answer:
-          'Light foot traffic is fine after installation for watering. Plan for 2–3 weeks before normal use so roots can establish.',
+        answer: (
+          <>
+            <strong>Stay off the sod entirely</strong> until it has rooted (usually 2-3 weeks). Walking on fresh sod can shift the pieces and create gaps. If you must access a gate, step carefully, but minimize all traffic.
+          </>
+        ),
       },
     ],
   },
@@ -56,8 +62,11 @@ const faqSections = [
     items: [
       {
         question: 'How often should I water after installation?',
-        answer:
-          'For the first 10–14 days, water daily or as directed in your custom care plan. Then transition to a deeper, less frequent schedule as roots knit.',
+        answer: (
+          <>
+            There is no 'one size fits all' schedule. Watering depends on the season, shade, and your sprinkler type. We provide <strong>customized instructions</strong> for your specific lawn upon completion.
+          </>
+        ),
       },
       {
         question: 'Do you offer commercial sod installation?',

@@ -100,7 +100,7 @@ export default function Home() {
     },
     {
       question: 'What prep is included?',
-      answer: 'Removal, grading, soil smoothing, and rolling are part of every installation.',
+      answer: 'Removal, site prep, soil smoothing, and rolling are part of every installation.',
     },
   ]
 

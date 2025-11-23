@@ -178,28 +178,28 @@ export default function ContactPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg mb-2">How fast will you respond?</h3>
                 <p className="text-secondary-600">
-                  We reply to form submissions and voicemails within one business day—often the same day—so you can plan confidently.
+                  <strong>Texting is the fastest way to reach us.</strong> Due to a high volume of spam calls, we often miss voicemails. Please text your <strong>Name, Address, and 'Estimate'</strong> to <strong>(904) 901-1457</strong>. We typically respond to texts within hours.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg mb-2">When can my installation start?</h3>
                 <p className="text-secondary-600">
-                  Most Jacksonville projects begin within 1–2 weeks after approval, depending on sod availability and weather.
+                  <strong>It depends on the season.</strong> Installation wait times vary wildly based on weather (rain/hurricanes) and current demand. We could be booked out 6 days or 6 weeks. Text us for our current schedule.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg mb-2">Do you work weekends?</h3>
                 <p className="text-secondary-600">
-                  Saturday appointments are available based on crew schedule and forecast. We’ll confirm your best window during booking.
+                  <strong>Yes, if your community allows it.</strong> We are willing to work weekends to get the job done, but many HOAs and gated communities strictly prohibit contractor work on Saturdays and Sundays. We follow your neighborhood's rules.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg mb-2">What should I do before the crew arrives?</h3>
                 <p className="text-secondary-600">
-                  Clear personal items and flag sprinkler heads or pets’ areas. We’ll handle the heavy lifting—removal, grading, and installation.
+                  Clear personal items and flag sprinkler heads or pets’ areas. We’ll handle the heavy lifting—removal, <strong>site prep and installation</strong>.
                 </p>
               </div>
 
