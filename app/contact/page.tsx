@@ -25,7 +25,7 @@ export default function ContactPage() {
         description="Ready to transform your lawn? Contact Jax Sod for a free, no-obligation quote. We're here to answer your questions and help you create the perfect lawn."
         ctaText="Call (904) 901-1457"
         ctaLink="tel:9049011457"
-        backgroundImage="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2000"
+        backgroundImage="https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?auto=format&fit=crop&w=2000&q=80&ixlib=rb-4.0.3"
         height="medium"
       />
 
