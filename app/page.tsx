@@ -25,7 +25,8 @@ export default function Home() {
     {
       name: 'St. Augustine',
       image:
-        'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'St. Augustine sod creating a lush green lawn by a walkway',
       bullets: [
         'Thrives in coastal areas with humidity and salt exposure',
         'Ideal for shady spots and established neighborhoods',
@@ -34,7 +35,8 @@ export default function Home() {
     {
       name: 'Zoysia',
       image:
-        'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Close-up of dense Zoysia sod with visible blade texture',
       bullets: [
         'Loves sun and handles heavy foot traffic for active yards',
         'Dense growth pattern keeps Jacksonville lawns looking manicured',
@@ -43,7 +45,8 @@ export default function Home() {
     {
       name: 'Bermuda',
       image:
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Fresh Bermuda turf covering a sunlit backyard',
       bullets: [
         'Excellent for full-sun properties and sports-friendly spaces',
         'Recovers quickly from wear in high-traffic areas',
@@ -52,7 +55,8 @@ export default function Home() {
     {
       name: 'Bahia',
       image:
-        'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Wide view of Bahia grass stretching across a large property',
       bullets: [
         'Budget-friendly option with strong drought tolerance',
         'Great for larger lots and utility areas around Jacksonville',
@@ -61,12 +65,30 @@ export default function Home() {
   ]
 
   const galleryImages = [
-    'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+    {
+      src: 'https://images.unsplash.com/photo-1589935447063-5c800c6fb250?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Crew rolling out fresh sod beside a new driveway',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1589923188900-8c0ef686f6ca?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Stacked sod pallets ready for installation',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1589927459591-80d9a65f5d55?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Installer aligning new sod strips across a yard',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1600607687920-4e2d05f5f0b6?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Freshly laid sod surrounding a brick home',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1504595403659-9088ce801e29?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Manicured front lawn with healthy green turf',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
+      alt: 'Sprinklers watering new sod in a residential yard',
+    },
   ]
 
   const processSteps = [
@@ -290,7 +312,7 @@ export default function Home() {
                 <div className="w-20 h-20 mx-auto mb-4 relative">
                   <Image
                     src={variety.image}
-                    alt={`${variety.name} sod in Jacksonville`}
+                    alt={variety.alt}
                     width={80}
                     height={80}
                     className="w-20 h-20 rounded-full object-cover"
@@ -359,10 +381,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {galleryImages.map((image, index) => (
-              <Link key={`${image}-${index}`} href="/gallery" className="group block overflow-hidden rounded-lg shadow-sm">
+              <Link key={`${image.src}-${index}`} href="/gallery" className="group block overflow-hidden rounded-lg shadow-sm">
                 <Image
-                  src={image}
-                  alt={`Jax Sod installation gallery image ${index + 1}`}
+                  src={image.src}
+                  alt={image.alt}
                   width={400}
                   height={300}
                   className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
