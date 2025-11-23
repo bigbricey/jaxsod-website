@@ -179,7 +179,7 @@ export default function ServicesPage() {
               <h2 className="heading-lg mb-6">Why Professional Installation Matters</h2>
               <p className="text-lg text-secondary-600 mb-6">
                 Sod installation isn't just about laying grass. It requires expertise in soil preparation,
-                proper grading, variety selection, and installation techniques that ensure long-term success.
+                proper site prep, variety selection, and installation techniques that ensure long-term success.
               </p>
               <div className="space-y-4">
                 <div className="flex gap-4">
@@ -191,7 +191,7 @@ export default function ServicesPage() {
                   <div>
                     <h4 className="font-bold text-secondary-900 mb-1">Expert Soil Preparation</h4>
                     <p className="text-secondary-600">
-                      Proper grading and soil amendments for optimal root establishment
+                      Proper site prep and soil amendments for optimal root establishment
                     </p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ export default function ServicesPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <FiCheckCircle className="text-primary-600 mt-1 flex-shrink-0 text-xl" />
-                  <span className="text-secondary-700">Complete soil preparation and grading</span>
+                  <span className="text-secondary-700">Complete soil preparation and surface smoothing</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FiCheckCircle className="text-primary-600 mt-1 flex-shrink-0 text-xl" />
