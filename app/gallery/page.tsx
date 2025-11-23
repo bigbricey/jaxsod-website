@@ -6,67 +6,77 @@ export const metadata = {
   description: 'See Jacksonville-area sod installation projects by Jax Sod, including residential, commercial, and lawn renovation work.'
 }
 
-const residentialImages = [
-  { src: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Fresh sod installation at Jacksonville home – front yard' },
-  { src: 'https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'New backyard lawn with installed sod in Northeast Florida' },
-  { src: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Residential front lawn after sod installation in Jacksonville' },
+const galleryImages = [
+  {
+    src: 'https://images.unsplash.com/photo-1589496933738-f5c27bc146e3?auto=format&fit=crop&w=800&q=80',
+    alt: 'Lush Zoysia sod installation in a residential backyard',
+    category: 'Residential'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1533460004989-cef01064af7e?auto=format&fit=crop&w=800&q=80',
+    alt: 'Close-up of premium St. Augustine grass texture',
+    category: 'Sod Types'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1606749482582-8c73563adc2b?auto=format&fit=crop&w=800&q=80',
+    alt: 'Manicured backyard with freshly installed sod',
+    category: 'Residential'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1567621301854-85b95d32bbf3?auto=format&fit=crop&w=800&q=80',
+    alt: 'Professional sod installation process',
+    category: 'Commercial'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1494187570835-b188e7f0f26e?auto=format&fit=crop&w=800&q=80',
+    alt: 'Lawn renovation project in Jacksonville',
+    category: 'Renovation'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1556575157-75a0d60e4835?auto=format&fit=crop&w=800&q=80',
+    alt: 'Perfectly finished commercial lawn project',
+    category: 'Commercial'
+  }
 ]
-
-const commercialImages = [
-  { src: 'https://images.unsplash.com/photo-1523419400524-c6a145ee45f2?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Commercial building entrance with new sod' },
-  { src: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Office park lawn after sod installation in Jacksonville' },
-]
-
-const renovationImages = [
-  { src: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Lawn renovated with fresh sod and landscaping in Jacksonville' },
-  { src: 'https://images.unsplash.com/photo-1523650055327-1445e07ff06e?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3', alt: 'Before and after sod renovation side by side in Florida' },
-]
-
-function GallerySection({ title, images }) {
-  return (
-    <section className="space-y-4">
-      <h2 className="heading-md">{title}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {images.map((image, idx) => (
-          <div key={idx} className="relative w-full h-0 pb-[66.66%] overflow-hidden rounded-lg shadow-sm">
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
-            />
-          </div>
-        ))}
-      </div>
-    </section>
-  )
-}
 
 export default function GalleryPage() {
   return (
     <div className="section-padding">
       <div className="container-custom space-y-12">
-        <div className="space-y-4 max-w-3xl">
-          <h1 className="heading-xl">Project Gallery</h1>
+        <div className="space-y-4 max-w-3xl mx-auto text-center">
+          <h1 className="heading-xl">Our Work</h1>
           <p className="text-lg text-secondary-700">
-            Explore a selection of recent sod installations around Jacksonville. From residential front yards to commercial entryways,
-            we deliver healthy lawns that are ready to enjoy on day one.
+            Browse our portfolio of recent sod installations. From lush residential lawns to durable commercial landscapes,
+            we take pride in transforming outdoor spaces across Jacksonville.
           </p>
         </div>
 
-        <GallerySection title="Residential" images={residentialImages} />
-        <GallerySection title="Commercial" images={commercialImages} />
-        <GallerySection title="Lawn Renovation" images={renovationImages} />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {galleryImages.map((image, idx) => (
+            <div key={idx} className="group relative aspect-[4/3] overflow-hidden rounded-xl shadow-md bg-gray-100">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300 bg-gradient-to-t from-black/60 to-transparent">
+                <p className="text-white font-medium text-sm drop-shadow-sm">{image.alt}</p>
+              </div>
+            </div>
+          ))}
+        </div>
 
-        <div className="bg-primary-50 border border-primary-100 rounded-xl p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <div className="space-y-2 max-w-3xl">
-            <h2 className="heading-md">Like what you see?</h2>
+        <div className="bg-primary-50 border border-primary-100 rounded-xl p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4 mt-12">
+          <div className="space-y-2 max-w-2xl">
+            <h2 className="heading-md">Ready to transform your lawn?</h2>
             <p className="text-secondary-700">
-              Tell us about your property and we’ll plan a sod installation that matches these results.
+              Contact us today for a free quote and let us bring this level of quality to your property.
             </p>
           </div>
-          <Link href="/contact" className="btn-primary">
+          <Link href="/contact" className="btn-primary whitespace-nowrap">
             Get a Free Quote
           </Link>
         </div>

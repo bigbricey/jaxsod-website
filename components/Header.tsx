@@ -47,7 +47,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6 lg:gap-8">
+          <div className="hidden lg:flex items-center gap-6 lg:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -57,42 +57,48 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-            <a href="/contact" className="btn-primary">
+            <Link href="/contact" className="btn-primary">
               Get Free Quote
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-2xl text-secondary-700"
+            className="lg:hidden text-2xl text-secondary-700"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <FiX /> : <FiMenu />}
           </button>
         </div>
+      </nav>
 
-        {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-secondary-200">
-            <div className="flex flex-col gap-4 mt-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="text-secondary-700 hover:text-primary-600 font-medium transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <a href="/contact" className="btn-primary text-center">
+      {/* Mobile Navigation Overlay */}
+      {mobileMenuOpen && (
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-secondary-100 overflow-y-auto max-h-[calc(100vh-100px)]">
+          <div className="container-custom py-4 flex flex-col gap-2">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-secondary-700 hover:text-primary-600 font-medium transition-colors py-3 border-b border-gray-100 last:border-none"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <div className="pt-4 pb-2">
+              <Link
+                href="/contact"
+                className="btn-primary w-full text-center block"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 Get Free Quote
-              </a>
+              </Link>
             </div>
           </div>
-        )}
-      </nav>
+        </div>
+      )}
     </header>
   )
 }
