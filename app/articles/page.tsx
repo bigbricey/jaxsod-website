@@ -43,8 +43,8 @@ const articles: Article[] = [
   },
   {
     slug: 'soil-preparation-for-sod',
-    title: 'Proper Soil Preparation for Sod Installation',
-    excerpt: 'The secret to a healthy, thriving lawn starts with proper soil preparation. Here\'s what you need to know.',
+    title: 'Proper Ground Preparation for Sod Installation',
+    excerpt: 'The secret to a healthy, thriving lawn starts with proper ground preparation. Here\'s what you need to know.',
     date: '2024-09-30',
     category: 'Installation Tips',
     readTime: '6 min read',
@@ -154,27 +154,25 @@ export default function ArticlesPage() {
                       </time>
                     </div>
 
-                    <span className="text-primary-600 font-semibold hover:text-primary-700 transition-colors inline-flex items-center gap-2 cursor-pointer">
+                    {/* CORRECTED LINK HERE: */}
+                    <Link 
+                      href={`/articles/${article.slug}`} 
+                      className="text-primary-600 font-semibold hover:text-primary-700 transition-colors inline-flex items-center gap-2"
+                    >
                       Read More
                       <FiArrowRight />
-                    </span>
+                    </Link>
                   </div>
                 </div>
               </article>
             ))}
           </div>
 
-          {/* Note about articles */}
+          {/* REMOVED the "Note: Individual article pages are coming soon" placeholder */}
           <div className="mt-12 text-center">
-            <div className="bg-secondary-50 border border-secondary-200 rounded-lg p-6 max-w-2xl mx-auto">
-              <p className="text-secondary-700">
-                <strong>Note:</strong> Individual article pages are coming soon. In the meantime,
-                contact us with any questions about sod installation, lawn care, or our services.
-              </p>
-              <Link href="/contact" className="btn-primary mt-4 inline-block">
-                Contact Us
+             <Link href="/contact" className="btn-primary inline-block">
+                Contact Us with Questions
               </Link>
-            </div>
           </div>
         </div>
       </section>
