@@ -80,22 +80,117 @@ const articlesData: Article[] = [
   {
     slug: 'new-sod-care-guide',
     title: 'Complete Care Guide for New Sod',
-    excerpt: 'Essential watering, mowing, and maintenance tips for the first 30 days after sod installation.',
+    excerpt: 'Master the art of establishing your new lawn. A comprehensive day-by-day guide to watering, mowing, and protecting your investment for the first 30 days and beyond.',
     date: '2024-09-22',
     category: 'Lawn Care',
-    readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1588722955523-289c4456570c?q=80&w=1200&auto=format&fit=crop',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1693776472225-be367ccf88b7?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
-        <p>The first month is crucial for your new sod. The primary focus must be on **watering** to establish a deep root system. We will provide a custom watering schedule, but generally, you need to water heavily immediately after installation, and then frequently (but less volume) for the first 7-14 days.</p>
-        <h3 className="heading-sm mt-8 mb-4">First 30 Days Checklist:</h3>
+        <p>Congratulations on your new lawn! You have invested in an instant landscape upgrade that adds value and beauty to your property. However, the difference between a lawn that thrives for decades and one that fails in the first month comes down to one thing: <strong>care during the establishment period</strong>.</p>
+        <p>When sod is harvested, the majority of its root system is cut off. It arrives at your home in a state of shock, with only a shallow layer of roots to support it. The first 30 days are a race against time to help the grass regenerate these roots into your native soil before the stored energy in the leaves runs out.</p>
+        <p>This comprehensive guide goes beyond the basics, offering a detailed roadmap to ensure your new sod transitions from a fragile transplant to a permanent, resilient lawn.</p>
+
+        <h3 className="heading-sm mt-8 mb-4">Phase 1: The Critical First 14 Days (Watering Focus)</h3>
+        <p>Water is the single most critical variable. During this phase, you are not watering the soil deep down; you are keeping the sod pad and the top inch of soil wet. The roots are short, so the water needs to be right at the surface.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Day 0: The "Soak-In"</h4>
+        <p>The moment a piece of sod hits the ground, the clock starts ticking. You should not wait until the entire project is finished to start watering.</p>
         <ul className="list-disc pl-6 space-y-3">
-          <li>**Watering:** Keep the sod and the underlying soil moist (not saturated) at all times. Check corners and edges, as these dry out fastest.</li>
-          <li>**Traffic:** Avoid all traffic—walking, playing, or mowing—for at least 2 to 3 weeks until the roots are firmly anchored.</li>
-          <li>**First Mow:** After 3 weeks, you can perform the first mow, setting your mower blade high. Only trim the top third of the blade.</li>
-          <li>**Fertilization:** Avoid fertilizing until the sod is fully rooted (usually after 30 days or based on our custom plan).</li>
+          <li><strong>Immediate Action:</strong> As soon as a section (approx. 500 sq ft) is laid, water it.</li>
+          <li><strong>Saturation Level:</strong> Water until the sod is "squishy" to the step. You want the water to penetrate through the sod pad and moisten the soil beneath. This eliminates air pockets and ensures the roots have immediate access to moisture.</li>
         </ul>
-        <p>Following this initial care plan is the key to transitioning from instant lawn to permanent landscape.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Days 1-7: The "Life Support" Phase</h4>
+        <p>For the first week, your goal is to never let the leaves dry out. If the leaves dry out, the plant shuts down root production to save energy, which is the opposite of what we want.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Frequency:</strong> Water 2 to 3 times per day.
+            <ul className="list-circle pl-6 mt-1 text-sm text-secondary-600">
+              <li><em>7:00 AM:</em> Heavy cycle (replace overnight moisture loss).</li>
+              <li><em>12:00 PM:</em> Light cooling cycle (prevents midday wilt).</li>
+              <li><em>3:00 PM:</em> Light cycle (ensures moisture for the evening).</li>
+            </ul>
+          </li>
+          <li><strong>Duration:</strong> 15-20 minutes for rotary heads (large oscillating sprinklers) or 5-10 minutes for fixed spray heads.</li>
+          <li><strong>Warning Signs:</strong> Look for "footprinting." If you walk on the grass and the blades don't spring back up, it's low on water. Also, watch for a blue-gray tint or curling leaves—these are distress signals requiring immediate hand-watering.</li>
+        </ul>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Days 8-14: Root Encouragement</h4>
+        <p>By the second week, tiny white feeder roots should be initiating. Now we change tactics. We want to force those roots to go <em>down</em> to find water.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Frequency:</strong> Drop to once per day, strictly in the early morning (before 8 AM).</li>
+          <li><strong>Duration:</strong> Increase the time to 30-45 minutes per zone. This "deep watering" pushes moisture further into the soil profile.</li>
+          <li><strong>Why Morning?</strong> Watering in the evening leaves the grass wet all night, which is a perfect recipe for fungal diseases like Large Patch or Grey Leaf Spot, especially in Florida's humid climate.</li>
+        </ul>
+
+        <div className="bg-primary-50 p-6 border-l-4 border-primary-500 my-8 rounded-r-lg">
+          <p className="font-bold text-lg text-primary-900 mb-2">Pro Tip: The Screwdriver Test</p>
+          <p className="text-primary-800">Irrigation systems are not perfect. Wind can drift spray, and heads can get clogged. Don't assume; verify.</p>
+          <p className="text-primary-800 mt-2">Take a 6-inch screwdriver and push it into the ground in various spots (especially corners and near driveways). It should slide in like it's going into butter. If you hit hard resistance, that spot is dry. Hand-water these "hot spots" immediately.</p>
+        </div>
+
+        <h3 className="heading-sm mt-8 mb-4">Phase 2: Weeks 3 & 4 (The Transition)</h3>
+        <p>Congratulations, you've made it through the most dangerous period. Now we transition the lawn to "real world" conditions.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">The "Tug Test"</h4>
+        <p>Before changing your routine, perform a tug test. Go to a few different areas, grab a handful of grass, and gently pull upwards. You should feel significant resistance, meaning the roots have anchored into the soil. If the sod lifts up like a carpet, continue the Day 8-14 watering schedule for another week.</p>
+
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Watering Schedule:</strong> Switch to every other day (3-4 days a week).</li>
+          <li><strong>Volume:</strong> Maintain the deep watering duration (45+ minutes). Shallow, frequent watering creates a "lazy" root system that stays near the surface, making your lawn vulnerable to drought later.</li>
+          <li><strong>Observation:</strong> Continue to monitor for hot spots. Concrete driveways reflect heat, so the grass bordering them often dries out faster than the center of the lawn.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Mowing: The First Cut</h3>
+        <p>Mowing is traumatic for grass. It reduces the leaf surface area available for photosynthesis. For new sod, it can be disastrous if done too early.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">When to Mow</h4>
+        <p>Wait at least 3 weeks (21 days). Do not mow until your "tug test" confirms the sod is firmly rooted. If the roots aren't set, the suction from the mower can lift the sod right off the ground, destroying your progress.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Best Practices for the First Mow</h4>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Height Matters:</strong> Set your mower to the <em>highest possible setting</em>. You are just giving it a light trim. Scalping new sod causes shock and exposes the soil to sunlight, encouraging weed seeds to germinate.</li>
+          <li><strong>Sharp Blades Only:</strong> A dull blade tears the grass rather than slicing it. This leaves ragged tips that turn brown and become entry points for disease. If your blade hasn't been sharpened this season, do it before touching your new sod.</li>
+          <li><strong>The 1/3rd Rule:</strong> Never remove more than 1/3rd of the grass blade at once. If the grass has grown to 6 inches, don't cut it lower than 4 inches. If you need to go lower, wait 3 days and mow again.</li>
+          <li><strong>Bag vs. Mulch:</strong> For the first few mows, bag the clippings. Heavy clumps of wet grass left on the surface can smother the young sod underneath.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Traffic and Compaction</h3>
+        <p>It is tempting to run out and play on the new green carpet, but the soil underneath is soft and muddy from the heavy watering schedule.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Stay Off:</strong> Keep foot traffic to an absolute minimum for the first 3 weeks. Walking on saturated soil causes compaction, which squeezes out the oxygen pockets that roots need to survive.</li>
+          <li><strong>Pet Control:</strong> This is crucial. Large dogs running can tear the seams apart. Furthermore, dog urine is high in nitrogen and salts, which will instantly burn the tender new grass. Walk pets elsewhere or hose down the spot immediately after they go.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Fertilization & Chemicals: The Waiting Game</h3>
+        <p>A common mistake is "loving the lawn to death" with too many products.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>No Nitrogen Yet:</strong> Your sod was likely fertilized at the farm before harvest. Adding high-nitrogen fertilizer to a rootless plant causes leaf growth at the expense of root growth. Wait at least 30 to 60 days before the first light feeding.</li>
+          <li><strong>Ban the Herbicides:</strong> Do not use weed killers, crabgrass preventers, or "Weed and Feed" products for at least 3 months. These chemicals work by inhibiting plant growth—exactly what you don't want right now. Hand-pull any weeds that pop up in the seams.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Troubleshooting Common Issues</h3>
+        <div className="space-y-4">
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Brown/Yellow Edges at the Seams</p>
+            <p><strong>Diagnosis:</strong> Underwatering. The edges of the sod roll are the first to dry out.</p>
+            <p><strong>Solution:</strong> Increase watering time and hand-water the seams. Walk the lines to press them down if they have curled up.</p>
+          </div>
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Sod feels mushy, smells like rotten eggs, or has black slime at the base.</p>
+            <p><strong>Diagnosis:</strong> Overwatering / Poor Drainage. The roots are drowning and rotting.</p>
+            <p><strong>Solution:</strong> Skip a watering cycle. Let the surface dry out slightly. Ensure your sprinklers aren't overlapping too heavily in that spot.</p>
+          </div>
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Circular brown patches that expand rapidly.</p>
+            <p><strong>Diagnosis:</strong> Fungus (likely Brown Patch or Grey Leaf Spot), often caused by watering late in the evening.</p>
+            <p><strong>Solution:</strong> Switch watering to early morning only. You may need a fungicide application—consult a professional before applying.</p>
+          </div>
+        </div>
+
+        <p className="mt-8 p-4 bg-secondary-100 rounded-lg text-secondary-800 italic">
+          Remember: Sod is a living product. No two lawns are identical. Monitor your grass daily, adjust based on the weather (skip watering if it rains heavily!), and give it the time it needs to establish. A little patience now guarantees a stunning lawn for years to come.
+        </p>
       </>
     ),
   },
