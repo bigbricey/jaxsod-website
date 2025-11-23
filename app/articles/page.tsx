@@ -52,10 +52,10 @@ const articles: Article[] = [
   {
     slug: 'new-sod-care-guide',
     title: 'Complete Care Guide for New Sod',
-    excerpt: 'Essential watering, mowing, and maintenance tips for the first 30 days after sod installation.',
+    excerpt: 'Master the art of establishing your new lawn. A comprehensive day-by-day guide to watering, mowing, and protecting your investment for the first 30 days and beyond.',
     date: '2024-09-22',
     category: 'Lawn Care',
-    readTime: '8 min read',
+    readTime: '7 min read',
   },
   {
     slug: 'when-to-install-sod-florida',
