@@ -72,15 +72,15 @@ export default function Home() {
   const processSteps = [
     {
       title: 'Property assessment & measurements',
-      description: 'We walk your site, note sunlight and drainage, and capture accurate square footage for precise pricing.',
+      description: 'We walk your site, note sunlight conditions, and capture accurate square footage for precise pricing.',
     },
     {
-      title: 'Remove old turf and fix grade/drainage',
-      description: 'Existing grass is cleared out and trouble spots are leveled so water flows correctly.',
+      title: 'Remove old turf & surface prep',
+      description: 'Existing grass is cleared out and we perform surface smoothing to ensure the new sod lies flat against the soil.',
     },
     {
-      title: 'Prepare and level the soil',
-      description: 'We amend the soil as needed, smooth it out, and set a firm base for root contact.',
+      title: 'Prepare the soil base',
+      description: 'We prep the soil surface, smooth it out, and set a firm base for optimal root contact.',
     },
     
     {
@@ -237,7 +237,7 @@ export default function Home() {
                 'Front and backyard installation',
                 'New construction lawns',
                 'Lawn replacement and renovation',
-                'Erosion control',
+                'Professional ground preparation',
               ]}
               link="/services#residential"
               linkText="Learn More"
