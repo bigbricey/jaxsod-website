@@ -8,7 +8,7 @@ export const metadata = {
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1589496933738-f5c27bc146e3?auto=format&fit=crop&w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1595757872761-992fd6d3ab25?auto=format&fit=crop&w=800&q=80',
     alt: 'Lush Zoysia sod installation in a residential backyard',
     category: 'Residential'
   },
@@ -18,22 +18,22 @@ const galleryImages = [
     category: 'Sod Types'
   },
   {
-    src: 'https://images.unsplash.com/photo-1606749482582-8c73563adc2b?auto=format&fit=crop&w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1593617589445-a9cb66fbae15?auto=format&fit=crop&w=800&q=80',
     alt: 'Manicured backyard with freshly installed sod',
     category: 'Residential'
   },
   {
-    src: 'https://images.unsplash.com/photo-1567621301854-85b95d32bbf3?auto=format&fit=crop&w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1597040827713-24d4c7e4b0e2?auto=format&fit=crop&w=800&q=80',
     alt: 'Professional sod installation process',
     category: 'Commercial'
   },
   {
-    src: 'https://images.unsplash.com/photo-1494187570835-b188e7f0f26e?auto=format&fit=crop&w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1509218541462-aa68e407d0ca?auto=format&fit=crop&w=800&q=80',
     alt: 'Lawn renovation project in Jacksonville',
     category: 'Renovation'
   },
   {
-    src: 'https://images.unsplash.com/photo-1556575157-75a0d60e4835?auto=format&fit=crop&w=800&q=80',
+    src: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=800&q=80',
     alt: 'Perfectly finished commercial lawn project',
     category: 'Commercial'
   }
