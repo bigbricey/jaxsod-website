@@ -14,11 +14,11 @@ const residentialImages = [
   },
   {
     src: 'https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'New backyard lawn with installed sod',
+    alt: 'New backyard lawn with installed sod in Northeast Florida',
   },
   {
     src: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'Residential front lawn after sod installation',
+    alt: 'Residential front lawn after sod installation in Jacksonville',
   },
 ]
 
@@ -29,11 +29,11 @@ const commercialImages = [
   },
   {
     src: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'Office park lawn after sod installation',
+    alt: 'Office park lawn after sod installation in Jacksonville',
   },
   {
     src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'Commercial greenspace with maintained turf',
+    alt: 'Commercial greenspace with maintained turf near Jacksonville',
   },
 ]
 
@@ -44,11 +44,11 @@ const renovationImages = [
   },
   {
     src: 'https://images.unsplash.com/photo-1582719478248-6b389be1244e?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'Sod rolls being laid on prepared soil',
+    alt: 'Sod rolls being laid on prepared soil during renovation',
   },
   {
     src: 'https://images.unsplash.com/photo-1467803738586-46b7eb7b16a1?auto=format&fit=crop&w=1200&q=80&ixlib=rb-4.0.3',
-    alt: 'Lawn renovation after sod installation',
+    alt: 'Lawn renovation after sod installation in Jacksonville',
   },
 ]
 
