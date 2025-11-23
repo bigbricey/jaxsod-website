@@ -60,10 +60,7 @@ export default function SodTypesPage() {
             variety so your grass thrives from day one—whether you need shade tolerance, durability, or a manicured look.
           </p>
           <p className="text-secondary-700">
-            Once you choose a variety, our{' '}
-            <Link href="/services" className="text-primary-600 font-semibold hover:text-primary-700">professional sod installation</Link>{' '}
-            team handles prep, grading, and rolling. Have questions?{' '}
-            <Link href="/contact" className="text-primary-600 font-semibold hover:text-primary-700">Contact us</Link> for tailored recommendations.
+            Once you choose a variety, our{' '}<Link href="/services" className="text-primary-600 font-semibold hover:text-primary-700">professional sod installation</Link>{' '}team handles prep, grading, and rolling. Have questions?{' '}<Link href="/contact" className="text-primary-600 font-semibold hover:text-primary-700">Contact us</Link> for tailored recommendations.
           </p>
         </div>
 
