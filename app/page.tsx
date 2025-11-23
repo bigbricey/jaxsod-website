@@ -9,7 +9,7 @@ import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers, FiArrowR
 // SEO Metadata
 export const metadata = {
     title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
-    description: 'Professional sod installation in Jacksonville, FL since 1988. 37+ years experience installing residential & commercial lawns. Free quotes. Licensed & insured. Call (904) 901-1457.',
+    description: 'Transform your lawn with professional sod installation in Jacksonville, FL. With over 37 years of experience, Jax Sod delivers beautiful, healthy lawns. Get your free quote today!',
     keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
     openGraph: {
           title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
@@ -222,7 +222,7 @@ export default function Home() {
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">Our Services</h2>
+            <h2 className="heading-lg mb-4">Our Sod Installation Services</h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
               Professional sod installation services tailored to your needs
             </p>
@@ -359,7 +359,7 @@ export default function Home() {
               <Link key={`${image}-${index}`} href="/gallery" className="group block overflow-hidden rounded-lg shadow-sm">
                 <Image
                   src={image}
-                  alt={`Jax Sod installation gallery image ${index + 1}`}
+                  alt={`Lush green sod professionally installed in a Jacksonville backyard ${index + 1}`}
                   width={400}
                   height={300}
                   className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"

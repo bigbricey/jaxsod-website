@@ -14,6 +14,10 @@ export const metadata: Metadata = {
           locale: 'en_US',
           siteName: 'Jax Sod',
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
 }
 interface Article {
   slug: string
@@ -136,9 +140,11 @@ export default function ArticlesPage() {
                     <span className="text-secondary-500">{article.readTime}</span>
                   </div>
 
-                  <h3 className="text-xl font-bold mb-3 text-secondary-900 leading-tight">
-                    {article.title}
-                  </h3>
+                  <Link href={`/articles/${article.slug}`} className="block group-hover:text-primary-600 transition-colors">
+                    <h3 className="text-xl font-bold mb-3 text-secondary-900 leading-tight group-hover:text-primary-600">
+                      {article.title}
+                    </h3>
+                  </Link>
 
                   <p className="text-secondary-600 mb-4 leading-relaxed flex-grow">{article.excerpt}</p>
 
