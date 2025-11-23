@@ -24,7 +24,7 @@ const articlesData: Article[] = [
     date: '2024-10-15',
     category: 'Installation Tips',
     readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1543336496-d419e7284b3d?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -129,7 +129,7 @@ const articlesData: Article[] = [
     date: '2024-10-08',
     category: 'Sod Types',
     readTime: '12 min read',
-    image: 'https://images.unsplash.com/photo-1598032895004-2f6c8df1424c?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1458245201577-fc8a130b8829?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -302,7 +302,7 @@ const articlesData: Article[] = [
     date: '2024-09-30',
     category: 'Installation Tips',
     readTime: '11 min read',
-    image: 'https://images.unsplash.com/photo-1549492474-0ed05f63d6d0?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -400,7 +400,7 @@ const articlesData: Article[] = [
     date: '2024-09-15',
     category: 'Installation Tips',
     readTime: '9 min read',
-    image: 'https://images.unsplash.com/photo-1506087965909-548c783c501f?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -651,7 +651,7 @@ const articlesData: Article[] = [
     date: '2024-09-08',
     category: 'Planning',
     readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1582236314815-467464010a37?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -756,7 +756,7 @@ const articlesData: Article[] = [
     date: '2024-09-01',
     category: 'Commercial',
     readTime: '11 min read',
-    image: 'https://images.unsplash.com/photo-1574360341763-7186193796d8?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -840,7 +840,7 @@ const articlesData: Article[] = [
     date: '2024-08-25',
     category: 'Planning',
     readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1579893457597-94a319f390d4?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
@@ -953,7 +953,7 @@ const articlesData: Article[] = [
     date: '2024-08-18',
     category: 'Solutions',
     readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1522031758509-08a632c021ed?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
         <p className="lead text-xl text-secondary-700 mb-6">
