@@ -82,10 +82,7 @@ export default function Home() {
       title: 'Prepare and level the soil',
       description: 'We amend the soil as needed, smooth it out, and set a firm base for root contact.',
     },
-    {
-      title: 'Lay, stagger, and roll the sod for tight seams',
-      description: 'Fresh sod is laid in a running pattern, seams are tightened, and the lawn is rolled for full soil contact.',
-    },
+    
     {
       title: 'Walk-through and custom watering / after-care plan',
       description: 'Before we leave, we review your new lawn and provide a watering and mowing schedule tailored to your yard.',
