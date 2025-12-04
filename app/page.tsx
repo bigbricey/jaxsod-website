@@ -8,16 +8,16 @@ import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers, FiArrowR
 
 // SEO Metadata
 export const metadata = {
-    title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
-    description: 'Transform your lawn with professional sod installation in Jacksonville, FL. With over 37 years of experience, Jax Sod delivers beautiful, healthy lawns. Get your free quote today!',
-    keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
-    openGraph: {
-          title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
-          description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
-          type: 'website',
-          locale: 'en_US',
-          siteName: 'Jax Sod',
-    },
+  title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
+  description: 'Transform your lawn with professional sod installation in Jacksonville, FL. With over 37 years of experience, Jax Sod delivers beautiful, healthy lawns. Get your free quote today!',
+  keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
+  openGraph: {
+    title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
+    description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Jax Sod',
+  },
 }
 
 export default function Home() {
@@ -60,14 +60,7 @@ export default function Home() {
     },
   ]
 
-  const galleryImages = [
-    'https://images.unsplash.com/photo-1595757872761-992fd6d3ab25?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1533460004989-cef01064af7e?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1593617589445-a9cb66fbae15?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1544914379-806667cd9489?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1597040827713-24d4c7e4b0e2?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-    'https://images.unsplash.com/photo-1509218541462-aa68e407d0ca?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3',
-  ]
+
 
   const processSteps = [
     {
@@ -82,7 +75,7 @@ export default function Home() {
       title: 'Prepare the soil base',
       description: 'We prep the soil surface, smooth it out, and set a firm base for optimal root contact.',
     },
-    
+
     {
       title: 'Walk-through and custom watering / after-care plan',
       description: 'Before we leave, we review your new lawn and provide a watering and mowing schedule tailored to your yard.',
@@ -338,34 +331,6 @@ export default function Home() {
             <div>
               <ContactForm />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallery Strip */}
-      <section className="section-padding pb-8">
-        <div className="container-custom">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
-            <div>
-              <h2 className="heading-lg mb-2">See Our Recent Installs</h2>
-              <p className="text-secondary-600">Real Jacksonville lawns we've installed.</p>
-            </div>
-            <Link href="/gallery" className="btn-outline self-start">
-              View Gallery
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {galleryImages.map((image, index) => (
-              <Link key={`${image}-${index}`} href="/gallery" className="group block overflow-hidden rounded-lg shadow-sm">
-                <Image
-                  src={image}
-                  alt={`Lush green sod professionally installed in a Jacksonville backyard ${index + 1}`}
-                  width={400}
-                  height={300}
-                  className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
-                />
-              </Link>
-            ))}
           </div>
         </div>
       </section>
