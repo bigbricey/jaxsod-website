@@ -9,8 +9,8 @@ import { FiHome, FiCheckCircle, FiBriefcase, FiAward, FiClock, FiUsers, FiArrowR
 // SEO Metadata
 export const metadata = {
   title: 'Professional Sod Installation Jacksonville FL | 37+ Years | Jax Sod',
-  description: 'Transform your lawn with professional sod installation in Jacksonville, FL. With over 37 years of experience, Jax Sod delivers beautiful, healthy lawns. Get your free quote today!',
-  keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation',
+  description: 'Transform your lawn with professional sod installation in Jacksonville, FL. With over 37 years of experience, Jax Sod delivers beautiful, healthy lawns including St. Augustine and Zoysia. Get your free quote today!',
+  keywords: 'sod installation Jacksonville, professional sod installation, Jacksonville sod company, residential sod installation, commercial sod installation, sod installation near me, Jacksonville lawn installation, St. Augustine sod, Zoysia sod, Bermuda sod, Bahia sod',
   openGraph: {
     title: 'Professional Sod Installation in Jacksonville, FL | Jax Sod',
     description: 'Transform your property with expert sod installation. 37+ years of experience serving Jacksonville.',
@@ -99,6 +99,10 @@ export default function Home() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero Section */}
       <Hero
         title="Professional Sod Installation in Jacksonville, FL"

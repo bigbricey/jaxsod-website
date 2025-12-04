@@ -5,6 +5,7 @@ export const metadata = {
   title: 'Sod Types We Install in Jacksonville | Jax Sod',
   description:
     'Learn about the sod varieties Jax Sod installs across Jacksonville, including St. Augustine, Zoysia, Bermuda, and Bahia.',
+  keywords: 'St. Augustine sod, Zoysia sod, Bermuda sod, Bahia sod, sod varieties Jacksonville, best sod for Florida, sod installation types',
 }
 
 const grassTypes = [
