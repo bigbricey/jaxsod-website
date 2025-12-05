@@ -38,7 +38,7 @@ const faqSections = [
         question: 'Do you remove old grass and fix low spots?',
         answer: (
           <>
-            We strip existing turf and perform <strong>surface smoothing</strong> to ensure the sod lays flat. <em>Note: We do not perform major land grading, drainage engineering, or filling of large rolling contours.</em>
+            We strip existing turf and perform <strong>surface smoothing</strong> to ensure the sod lays flat. If your property requires major grading or drainage engineering, we can assess those needs and include them as a separate item in your custom estimate.
           </>
         ),
       },
