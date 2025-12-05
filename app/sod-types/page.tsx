@@ -56,24 +56,26 @@ export default function SodTypesPage() {
       <div className="container-custom space-y-16">
         {/* Header Section */}
         <div className="space-y-6 max-w-4xl">
-          <h1 className="heading-xl">The Ultimate Guide to Jacksonville Sod: Choosing the Right Grass for North Florida</h1>
-          <p className="text-xl text-secondary-700 leading-relaxed">
-            Selecting the perfect sod is one of the most important investments you can make for your property.
-            In Jacksonville, our unique climate—blazing summers, high humidity, salt air, and occasional cold snaps—means
-            classic northern grasses just won't cut it. To get a lawn that thrives, you need to match the specific
-            grass variety to your property's sunlight, soil type, and your personal maintenance preferences.
-          </p>
-          <p className="text-lg text-secondary-700">
-            At Jax Sod, we don't just drop off pallets; we help you navigate these choices. Below is our comprehensive
-            guide to the four major sod families we install across Northeast Florida: St. Augustine, Zoysia, Bermuda, and Bahia.
-          </p>
+          <h1 className="heading-xl">The Complete Guide to Sod Types for Jacksonville, FL Lawns</h1>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-secondary-800">Choosing the Right Grass for North Florida's Climate</h2>
+            <p className="text-xl text-secondary-700 leading-relaxed">
+              Living in Jacksonville (Zone 9a/9b) presents a unique challenge for lawns. We don't have the tropical consistency of Miami,
+              but we certainly aren't Georgia either. Our lawns have to survive blazing summer heat, sandy soil that drains nutrients quickly,
+              salt spray at the beaches, and the occasional freeze in January.
+            </p>
+            <p className="text-lg text-secondary-700">
+              At Jax Sod, we believe in using the right tool for the job. You can't just throw "cheap grass" on a shady lawn and expect it to live.
+              Below is our definitive guide to the proven sod varieties that actually work in Northeast Florida.
+            </p>
+          </section>
         </div>
 
         {/* Feature Image */}
         <div className="overflow-hidden rounded-xl shadow-md border border-secondary-100">
           <Image
             src={sodTypesImage}
-            alt="Lush green St. Augustine sod installed in a Jacksonville backyard"
+            alt="St. Augustine Floratam sod installed on a sunny Jacksonville lawn"
             width={1400}
             height={700}
             className="w-full h-full object-cover"
@@ -82,94 +84,126 @@ export default function SodTypesPage() {
         </div>
 
         {/* SOD TYPE 1: St. Augustine */}
-        <section className="space-y-6">
+        <section className="space-y-8">
           <h2 className="text-3xl font-bold text-secondary-900 border-b border-secondary-200 pb-4">
-            1. St. Augustine Grass: The Florida Standard
+            St. Augustine Grass: The King of Jacksonville Lawns
           </h2>
-          <div className="prose prose-lg text-secondary-700 max-w-none">
+          <div className="prose prose-lg text-secondary-700 max-w-none space-y-6">
             <p>
-              St. Augustine is arguably the most popular grass choice for Jacksonville homeowners. Its broad, flat blades
-              create a lush, dark green carpet that feels dense and spongy underfoot. It loves the heat and humidity of
-              our coastal climate and has excellent salt tolerance, making it ideal for homes in Jacksonville Beach,
-              Ponte Vedra, and Atlantic Beach.
+              St. Augustine is the standard for a reason. It produces that thick, blue-green blade that feels lush to walk on.
+              Critically, quality St. Augustine (like Floratam and Palmetto) is grown on a <strong>muck base</strong>. This organic,
+              nutrient-rich soil layer travels with the sod, giving it a moisture "safety net" that helps it establish faster than
+              sand-based grasses.
             </p>
-            <h3 className="text-2xl font-semibold text-secondary-800 mt-6">Varieties Matter: Floratam vs. Seville</h3>
-            <p>
-              Not all St. Augustine is the same. The two most common cultivars we encounter are **Floratam** and **Seville**,
-              and confusing them can lead to disappointing results.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>
-                <strong>Floratam:</strong> This is the "King of the South." It is robust, aggressive, and requires
-                <strong> full sun</strong> (at least 6-8 hours daily). Floratam has been engineered to resist common viral
-                issues like SAD (St. Augustine Decline) and is somewhat more resistant to chinch bugs than older varieties.
-                However, it has <em>zero</em> tolerance for shade. If you plant Floratam under a large oak tree, it will thin out and die.
-              </li>
-              <li>
-                <strong>Seville:</strong> If you have a yard with moderate shade from large trees or fences, Seville is your
-                problem-solver. It is a "dwarf" variety with a slightly finer texture and lighter green hue. Most importantly,
-                it has the best shade tolerance of the St. Augustine family. It typically thrives with as little as 4 hours
-                of sunlight, making it the go-to choice for established Jacksonville neighborhoods with canopy roads.
-              </li>
-            </ul>
-            <p className="mt-4">
-              <strong>Maintenance Profile:</strong> St. Augustine grows vigorously in the summer and typically requires mowing
-              every 5-7 days. It prefers a high cut (3-4 inches), which helps shade the soil and retain moisture.
-            </p>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="text-2xl font-bold text-secondary-900 mb-2">Floratam St. Augustine</h3>
+              <p className="mb-4"><em>The standard for full sun.</em></p>
+              <p>
+                Floratam is the "Florida Standard." It is aggressive, robust, and loves the heat.
+                However, it has strict sunlight requirements. <strong>Floratam needs 8-10 hours of sunlight daily.</strong>
+                If you put Floratam in a shady corner, it will thin out and die. It's that simple.
+              </p>
+              <p className="mt-2">
+                <strong>Best For:</strong> Wide open backyards, new construction with few trees, and full-sun front lawns.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="text-2xl font-bold text-secondary-900 mb-2">Palmetto St. Augustine</h3>
+              <p className="mb-4"><em>The superior choice for shade.</em></p>
+              <p>
+                When a yard has oak trees or privacy fences casting shadows, we switch to Palmetto (often referred to generically as "shade sod").
+                Unlike the harder-to-get Seville allowing for special orders, Palmetto is a reliable, proven performer in Northeast Florida.
+                It maintains excellent color and, most importantly, can survive on <strong>6-8 hours of sunlight</strong>.
+              </p>
+              <p className="mt-2">
+                <strong>Why we use it:</strong> It has a slightly finer texture than Floratam but still retains that classic St. Augustine look.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-secondary-900 mb-2">Critical Care: Chinch Bugs</h3>
+              <p>
+                The #1 enemy of St. Augustine in Jacksonville is the Chinch Bug. These pests love hot, dry patches (often near driveways)
+                and suck the life out of the grass. We strongly recommend a preventative pest control plan, especially during the dry summer months.
+              </p>
+            </div>
           </div>
         </section>
 
         {/* SOD TYPE 2: Zoysia */}
-        <section className="space-y-6">
+        <section className="space-y-8">
           <h2 className="text-3xl font-bold text-secondary-900 border-b border-secondary-200 pb-4">
-            2. Zoysia Grass: The "Barefoot" Luxury Choice
+            Zoysia Grass: The "Golf Course" Look
           </h2>
-          <div className="prose prose-lg text-secondary-700 max-w-none">
+          <div className="prose prose-lg text-secondary-700 max-w-none space-y-6">
             <p>
-              If St. Augustine is the workhorse, Zoysia is the luxury vehicle. In recent years, Zoysia has exploded in popularity
-              among Jacksonville homeowners looking for that "golf course" look. It has a finer blade than St. Augustine
-              and grows incredibly effectively laterally, creating a dense, carpet-like mat that naturally chokes out weeds.
+              Zoysia is gaining massive popularity for its carpet-like feel and "barefoot" softness. Unlike St. Augustine,
+              <strong>Zoysia is a sand-based sod</strong>.
             </p>
-            <p>
-              One of the main selling points of Empire Zoysia or similar cultivars is the "barefoot feel." It is soft and
-              doesn't itch, making it perfect for families with young children or pets who play in the yard.
-            </p>
-            <h3 className="text-2xl font-semibold text-secondary-800 mt-6">The Cost of Luxury</h3>
-            <p>
-              It is important to note that Zoysia is typically a higher price point option compared to St. Augustine.
-              The pallet cost is generally higher, but many homeowners find the investment worth it for the aesthetic appeal.
-            </p>
-            <p>
-              It is heavily advertised as "maintenance-free," but that is a myth. While it is drought-tough once established,
-              Zoysia still needs water. In fact, if Zoysia gets too parched, it will go dormant and turn brown as a defense mechanism
-              quicker than other grasses (though it usually bounces back). It also requires a sharp mower blade; the grass
-              fibers are tough, and a dull blade will tear the grass tips, leaving a white/brown haze over the lawn.
-            </p>
+
+            <div className="bg-primary-50 p-6 rounded-lg border-l-4 border-primary-600">
+              <h3 className="text-xl font-bold text-primary-800 mb-2">A Surprising Performer in Shade</h3>
+              <p>
+                While often touted for sun, we've seen Zoysia thrive in surprisingly shady areas where other grasses failed.
+                We've installed it in yards with heavy oak canopies where it out-performed traditional options.
+                Empire Zoysia, in particular, has robust chinch bug resistance compared to St. Augustine.
+              </p>
+            </div>
+
+            <h3 className="text-2xl font-bold text-secondary-900 mt-6">St. Augustine vs. Zoysia: The Breakdown</h3>
+            <div className="overflow-x-auto">
+              <table className="min-w-full text-left border-collapse">
+                <thead>
+                  <tr className="border-b-2 border-secondary-200">
+                    <th className="py-3 font-bold text-secondary-900">Feature</th>
+                    <th className="py-3 font-bold text-secondary-900">St. Augustine</th>
+                    <th className="py-3 font-bold text-secondary-900">Empire Zoysia</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-secondary-100">
+                  <tr>
+                    <td className="py-3 text-secondary-700">Feel</td>
+                    <td className="py-3 text-secondary-700">Thick, spongy</td>
+                    <td className="py-3 text-secondary-700">Soft, carpet-like</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 text-secondary-700">Base Soil</td>
+                    <td className="py-3 text-secondary-700">Muck (Organic)</td>
+                    <td className="py-3 text-secondary-700">Sand</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 text-secondary-700">Installation</td>
+                    <td className="py-3 text-secondary-700">Seams disappear in ~3 weeks</td>
+                    <td className="py-3 text-secondary-700">Tight seams, takes longer to blend</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 text-secondary-700">Mowing</td>
+                    <td className="py-3 text-secondary-700">High setting (3-4")</td>
+                    <td className="py-3 text-secondary-700">Lower setting, requires sharp blade</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 
         {/* SOD TYPE 3: Bermuda */}
         <section className="space-y-6">
           <h2 className="text-3xl font-bold text-secondary-900 border-b border-secondary-200 pb-4">
-            3. Bermuda Grass: The Athlete's Turf
+            Bermuda Grass: For High-Traffic & Sport Families
           </h2>
           <div className="prose prose-lg text-secondary-700 max-w-none">
             <p>
-              Bermuda grass is the alpha species of sports fields and golf courses. It is built for abuse.
-              If you have three large dogs that run wind sprints in your backyard all day, standard St. Augustine will
-              likely get torn up. Bermuda, however, has an aggressive root structure (rhizomes and stolons) that allows
-              it to recover from damage faster than almost any other warm-season grass.
+              Bermuda is the choice for durability. If you have big dogs or kids playing soccer, St. Augustine will eventually wear down.
+              Bermuda has aggressive rhizomes that repair damage quickly.
             </p>
-            <h3 className="text-2xl font-semibold text-secondary-800 mt-6">High Maintenance Required</h3>
+            <h3 className="text-xl font-bold text-secondary-900 mt-4">The "High Maintenance" Warning</h3>
             <p>
-              The catch with Bermuda is maintenance. It is not a "plant it and forget it" grass. To look like a golf course
-              fairway, it needs to be mowed very low and very often—sometimes twice a week during peak summer growth.
-            </p>
-            <p>
-              It also has high nutritional needs, requiring regular fertilizer to maintain that deep green color.
-              If you neglect Bermuda, it tends to look thin and stringy. But for the homeowner who loves working in the
-              yard and wants a manicured, high-performance turf, it is unbeatable. Note: Bermuda requires <strong>full, unfiltered sun</strong>.
-              It has very poor shade tolerance.
+              Bermuda is not for the "lazy" lawn owner. It looks best when mowed low and often—sometimes twice a week in summer.
+              It is also sand-based and needs a specific installation pattern, as the seams can be visible for months if not
+              laid expertly with a focus on tight joints. It requires <strong>full sun</strong> and has poor shade tolerance.
             </p>
           </div>
         </section>
@@ -177,56 +211,84 @@ export default function SodTypesPage() {
         {/* SOD TYPE 4: Bahia */}
         <section className="space-y-6">
           <h2 className="text-3xl font-bold text-secondary-900 border-b border-secondary-200 pb-4">
-            4. Bahia Grass: The Rural Workhorse
+            Bahia Grass: The Budget-Friendly Option
           </h2>
           <div className="prose prose-lg text-secondary-700 max-w-none">
             <p>
-              Bahia is the utility player of Florida grasses. You likely recognize it from roadsides and pastures.
-              It is not designed to be a "show lawn" grass. It has a lighter green color, an open growth habit, and
-              produces distinctive "V-shaped" seed heads that pop up quickly after mowing.
-            </p>
-            <h3 className="text-2xl font-semibold text-secondary-800 mt-6">Why Choose Bahia?</h3>
-            <p>
-              So why do people install it? <strong>Durability and price.</strong> Bahia is excellent for large lots (1 acre+),
-              rural properties, or roadsides where irrigation is non-existent. It has a deep root system that makes it incredibly
-              drought-tolerant. It can survive on natural rainfall alone in Jacksonville once established.
+              Let's be honest: Bahia is basically a weed that we learned to live with. It is the grass you see on the side of I-95 in Jacksonville.
             </p>
             <p>
-              It is also the most budget-friendly sod per pallet. If you are trying to cover a large area to prevent
-              erosion and don't need a manicured look, Argentine Bahia is the standard choice. We typically assume
-              Bahia installations will not have in-ground irrigation systems.
+              It falls apart when you handle it, it comes with weeds in it naturally, and it looks distinctively "rural."
+              So why do we sell it? <strong>Because it survives without irrigation.</strong>
+            </p>
+            <p>
+              If you have a 1-acre lot, a retention pond bank, or a rental property where you know nobody is going to water it, Bahia is the answer.
+              It sets down deep roots and survives on rainfall and "cow pasture" conditions. Just don't expect it to look like a manicured lawn.
             </p>
           </div>
         </section>
 
-        {/* COMMON PROBLEMS */}
+        {/* MAINTENANCE CALENDAR */}
         <section className="bg-secondary-50 p-8 rounded-xl space-y-6 border border-secondary-100">
           <h2 className="text-3xl font-bold text-secondary-900">
-            Common Jacksonville Lawn Challenges
+            Seasonal Maintenance Checklist for Jacksonville
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-secondary-700">
             <div>
-              <h3 className="text-xl font-bold text-primary-700 mb-3">Chinch Bugs</h3>
+              <h3 className="text-xl font-bold text-primary-700 mb-3">Spring (March-May)</h3>
               <p>
-                The arch-nemesis of St. Augustine grass. These tiny insects suck the moisture out of the grass blades,
-                leaving behind dry, yellow patches that look like drought damage. They love hot, dry spots near driveways.
-                We recommend preventative pest control, especially in summer.
+                <strong>Wake Up:</strong> As soil temps rise, the grass wakes up. This is time for a "weed and feed" pre-emergent to stop weeds before summer rain hits.
+                Watch out for late frosts!
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-primary-700 mb-3">Salt Tolerance</h3>
+              <h3 className="text-xl font-bold text-primary-700 mb-3">Summer (June-Sept)</h3>
               <p>
-                If you live "beaches side" (Atlantic Beach, Neptune, Jax Beach), salt spray is a real factor.
-                St. Augustine is your best bet here. Zoysia has moderate tolerance, while Bahia might struggle if the
-                soil salinity is too high.
+                <strong>Pest Defense:</strong> This is Chinch Bug and Sod Webworm season.
+                <strong>Fungus:</strong> With our humidity, Grey Leaf Spot can appear. Don't water in the evenings; let the grass dry out before nightfall.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-primary-700 mb-3">Watering Rules</h3>
+              <h3 className="text-xl font-bold text-primary-700 mb-3">Winter Dormancy</h3>
               <p>
-                New sod <strong>MUST</strong> be watered. For the first 14-21 days, the soil needs to be kept moist while roots establish.
-                After that, Jacksonville follows strict St. Johns River Water Management District rules (usually 1-2 days per week depending on the season).
-                Deep, infrequent watering promotes deep roots!
+                <strong>Brown is Normal:</strong> In Jacksonville, warm-season grasses go dormant (turn brown) after the first freeze.
+                <strong>Do NOT Fertilize:</strong> You will just feed winter weeds. Let the lawn sleep until March.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="space-y-6">
+          <h2 className="text-3xl font-bold text-secondary-900 border-b border-secondary-200 pb-4">
+            Frequently Asked Questions
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="font-bold text-lg text-secondary-900 mb-2">What is the best grass for shade in Jacksonville?</h3>
+              <p className="text-secondary-700">
+                Palmetto St. Augustine is the proven winner. It handles the filtered light under our oak canopies better than Floratam.
+                Zoysia is also a surprisingly strong contender for shady spots.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="font-bold text-lg text-secondary-900 mb-2">Can I lay sod in the winter?</h3>
+              <p className="text-secondary-700">
+                Yes! In fact, roots continue to establish even when the top growth is dormant.
+                You actually need to water <em>less</em> in winter, making it an easier installation for some homeowners.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="font-bold text-lg text-secondary-900 mb-2">How much does a pallet of sod cost in Jax?</h3>
+              <p className="text-secondary-700">
+                Prices fluctuate seasonally and by fuel costs. Generally, Bahia is the cheapest, followed by Floratam St. Augustine,
+                with Zoysia and Palmetto being premium options. <Link href="/contact" className="text-primary-600 underline">Contact us for today's pricing.</Link>
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-100">
+              <h3 className="font-bold text-lg text-secondary-900 mb-2">What happens if I don't water new sod?</h3>
+              <p className="text-secondary-700">
+                It dies. Quickly. Muck-based sod (St. Augustine) has a small buffer, but sand-based sod (Zoysia/Bermuda) can dry out in a single hot afternoon if not watered immediately upon installation.
               </p>
             </div>
           </div>
@@ -234,14 +296,13 @@ export default function SodTypesPage() {
 
         {/* Call to Action */}
         <div className="bg-primary-600 text-white rounded-xl p-10 flex flex-col gap-6 text-center">
-          <h2 className="heading-lg">Not sure which grass is right for you?</h2>
+          <h2 className="heading-lg">Get the Right Grass for Your Property</h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            You don't have to guess. Our experts can walk your property, measure the shade levels, test the soil,
-            and recommend the perfect variety for your specific home.
+            Don't guess with your investment. We know exactly which varieties work in Atlantic Beach sand versus Mandarin loam.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="btn-secondary bg-white text-primary-700 hover:text-primary-800">
-              Schedule On-Site Consult
+              Get a Free Quote
             </Link>
             <a href="tel:9049011457" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               Call (904) 901-1457
