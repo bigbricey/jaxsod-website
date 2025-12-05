@@ -11,10 +11,10 @@ export default function LocalBusinessSchema() {
     priceRange: '$$$',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '',
+      streetAddress: 'serving Jacksonville area',
       addressLocality: 'Jacksonville',
       addressRegion: 'FL',
-      postalCode: '',
+      postalCode: '32256',
       addressCountry: 'US',
     },
     geo: {
