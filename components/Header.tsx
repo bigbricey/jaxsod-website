@@ -11,7 +11,6 @@ const Header = () => {
     { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
     { href: '/sod-types', label: 'Sod Types' },
-    { href: '/gallery', label: 'Gallery' },
     { href: '/reviews', label: 'Reviews' },
     { href: '/faq', label: 'FAQ' },
     { href: '/service-areas', label: 'Service Areas' },
