@@ -1,3 +1,4 @@
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import Hero from '@/components/Hero'
 import ServiceCard from '@/components/ServiceCard'
 import TestimonialCard from '@/components/TestimonialCard'
@@ -93,16 +94,13 @@ export default function Home() {
     },
     {
       question: 'What prep is included?',
-      answer: 'Removal, site prep, soil smoothing, and rolling are part of every installation.',
+      answer: 'Removal, site prep, and soil smoothing are part of every installation.',
     },
   ]
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <LocalBusinessSchema />
       {/* Hero Section */}
       <Hero
         title="Professional Sod Installation in Jacksonville, FL"
