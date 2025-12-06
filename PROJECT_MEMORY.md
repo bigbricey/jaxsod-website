@@ -12,9 +12,8 @@
 
 ## 🛠 Recent Accomplishments (QA Report 1)
 1.  **Fixed Read Time Logic:**
-    *   *Problem:* Read times were hardcoded (e.g., "15 min read") and inaccurate for short content.
-    *   *Fix:* Refactored `Article` interface to use `wordCount: number`.
-    *   *Logic:* Read time is now dynamically calculated in UI: `Math.ceil(wordCount / 200)`.
+    *   *Problem:* Read times were hardcoded (e.g., "15 min read") and inaccurate for short- **Content Expansion:** Rewrote "Irrigation Rules" (Step 196), "Shade Trees" (Step 229), and "Landscape Design" (Step 232) to matching word counts.
+- **Dynamic Read Time:** Implemented accurate calculation `Math.ceil(wordCount / 200)`.
 2.  **Content Audit:**
     *   Rewrote **"The Golden Rules of Irrigation"** (`irrigation-golden-rules`) to be ~1,200 words to improve quality and justify read time.
     *   Updated word counts for other short articles to ensure accurate metadata.

@@ -991,36 +991,62 @@ export const articles: Article[] = [
     excerpt: 'Beyond the lawn: create a stunning, low-maintenance landscape. We share the top plants that thrive in Northeast Florida\'s unique climate, from vibrant crotons to hardy grasses.',
     date: '2024-10-22',
     category: 'Landscaping',
-    wordCount: 400,
+    wordCount: 1000,
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">More Than Just Grass</h2>
-        <p>A beautiful lawn is the canvas, but the plants are the paint. Living in Jacksonville (USDA Zone 9a/9b) gives us a unique palette to work with—tropical enough for stunning colors, but with occasional freezes that demand hardiness.</p>
-        <p>Designing a landscape here requires balancing aesthetics with resilience. You want plants that can survive a hot, humid July <em>and</em> a 25-degree night in January.</p>
+        <>
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">More Than Just Grass</h2>
+          <p>A beautiful lawn is the canvas, but the plants are the paint. Living in Jacksonville (USDA Zone 9a/9b) gives us a unique palette to work with—tropical enough for stunning colors, but with occasional freezes that demand hardiness.</p>
+          <p>Designing a landscape here requires balancing aesthetics with resilience. You want plants that can survive a hot, humid July <em>and</em> a 25-degree night in January. This guide explores the "Bulletproof" plants that we have trusted for decades.</p>
 
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">The &quot;Bulletproof&quot; List for Jacksonville</h2>
-        <p>After decades of landscaping in Duval and St. Johns counties, these are the plants we return to again and again because they simply work.</p>
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">1. Core Design Principles</h2>
+          <p>Before buying plants, you need a plan. Professional landscape design follows three key rules:</p>
+          <div className="bg-secondary-50 p-6 rounded-lg mb-6 border border-secondary-200">
+            <ul className="list-disc pl-6 space-y-3">
+              <li><strong>Layering:</strong> Think in heights. Tall trees in the back, medium shrubs in the middle, and low groundcovers in the front. This creates depth.</li>
+              <li><strong>Grouping:</strong> Never plant just one of something (unless it's a specimen tree). Plant in odd numbers (groups of 3, 5, or 7). Drifts of color are more impactful than single polka-dots.</li>
+              <li><strong>Texture Contrast:</strong> Pair broad-leafed plants (like Ginger) with fine-textured plants (like Ornamental Grasses). The contrast makes both pop.</li>
+            </ul>
+          </div>
 
-        <h3 className="heading-sm mt-6 mb-3">1. For Structure & Screening</h3>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Podocarpus</strong>: The ultimate privacy screen. Clean, vertical, and pest-free.</li>
-          <li><strong>Viburnum Odoratissimum</strong>: Fast-growing, glossy leaves, and drought-tolerant once established.</li>
-          <li><strong>Loropetalum (Chinese Fringe Flower)</strong>: Adds stunning deep purple foliage to break up the green. varieties like &apos;Ruby&apos; stay compact.</li>
-        </ul>
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Foundation Shrubs (The Backbone)</h2>
+          <p>These are the plants that hide your home's foundation and provide year-round structure. They must be evergreen.</p>
+          <ul className="list-disc pl-6 space-y-3 mb-6">
+            <li><strong>Podocarpus:</strong> The ultimate vertical screen. Can be kept as a 3-foot hedge or grown into a 15-foot privacy wall. Clean, pest-free, and sleek.</li>
+            <li><strong>Viburnum Odoratissimum:</strong> Fast-growing with large glossy leaves. Great for quickly hiding fences or A/C units.</li>
+            <li><strong>Loropetalum (Chinese Fringe Flower):</strong> Adds deep purple foliage to a sea of green. Varieties like 'Ruby' stay compact (3-4 feet), preventing the need for constant shearing.</li>
+            <li><strong>Indian Hawthorn:</strong> A low-mounding, salt-tolerant shrub that blooms white/pink in spring. Excellent for coastal homes.</li>
+          </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">2. For Color & Texture</h3>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Flax Lily (Dianella)</strong>: Variegated leaves brighten up shady corners. Very hardy.</li>
-          <li><strong>Agapanthus (Lily of the Nile)</strong>: Bursts of blue or white flowers in spring. Loves the Florida sun.</li>
-          <li><strong>Crotons</strong>: The explosion of color everyone loves. *Warning*: Keep them close to the house on the south side for frost protection.</li>
-        </ul>
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Palms (The Tropical Touch)</h2>
+          <p>No Florida landscape is complete without palms, but you must choose cold-hardy varieties for Jacksonville.</p>
+          <ul className="list-disc pl-6 space-y-3 mb-6">
+            <li><strong>Sylvester Date Palm:</strong> The "diamond cut" trunk makes this a stunning centerpiece for circular driveways. Extremely cold hardy.</li>
+            <li><strong>Roebelenii (Pygmy Date Palm):</strong> A small, multi-trunk palm perfect for tight spaces or planter beds. Needs protection from hard freezes (cover it when temps drop below 30°F).</li>
+            <li><strong>Sabal Palm (Cabbage Palm):</strong> The state tree of Florida. Native, indestructible, and zero maintenance. Great for a natural look.</li>
+          </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">3. Groundcovers</h3>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Asiatic Jasmine</strong>: The solution for areas where grass won&apos;t grow, like under heavy oak shade.</li>
-          <li><strong>Liriope</strong>: Perfect for bordering walkways and defining beds.</li>
-        </ul>
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Color & Accents</h2>
+          <p>These plants add the "wow" factor. Use them near entryways and patios.</p>
+          <ul className="list-disc pl-6 space-y-3 mb-6">
+            <li><strong>Crotons:</strong> The most vibrant foliage plant available. However, they are frost-sensitive. Plant them on the south side of your home or under the canopy of a tree for warmth.</li>
+            <li><strong>Agapanthus (Lily of the Nile):</strong> Explodes with blue or white fireworks-like blooms in May/June. Loves full sun.</li>
+            <li><strong>Flax Lily (Dianella):</strong> Strappy, variegated leaves (green and white stripes). Brightens up shady corners under oaks. very cold hardy.</li>
+            <li><strong>Drift Roses:</strong> Low-maintenance groundcover roses that bloom almost year-round. Far superior to high-maintenance Tea Roses.</li>
+          </ul>
+
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">5. Groundcovers (The Mulch Replacers)</h2>
+          <p>Stop buying mulch every year. Plant extensive groundcovers to seal the weed barrier.</p>
+          <ul className="list-disc pl-6 space-y-3 mb-6">
+            <li><strong>Asiatic Jasmine:</strong> The solution for deep shade where grass won't grow. Once established, it is a thick, weed-proof mat.</li>
+            <li><strong>Liriope (Monkey Grass):</strong> Perfect for defining bed lines. 'Super Blue' is a great variety that stays clumped and clean.</li>
+            <li><strong>Mondo Grass:</strong> A dark green, grass-like groundcover that is slower growing but very elegant for zen-style gardens.</li>
+          </ul>
+
+          <h2 className="heading-md mt-10 mb-6 text-primary-800">Conclusion</h2>
+          <p>Great landscape design boosts curb appeal and creates an outdoor room for your family. Start with the "bones" (trees and sod), add your "walls" (shrubs), and finish with "decorations" (color plants). If you are overwhelmed, our design team at Jax Sod can create a digital rendering of your future yard before a shovel ever hits the ground.</p>
+        </>
       </>
     )
   },
@@ -1035,18 +1061,61 @@ export const articles: Article[] = [
     content: (
       <>
         <h2 className="heading-md mt-10 mb-6 text-primary-800">The Value of Canopy</h2>
-        <p>In Florida, shade isn&apos;t a luxury—it&apos;s a necessity. A strategically placed shade tree can lower your home&apos;s cooling costs by up to 20% and reduce the ambient temperature of your patio by 10-15 degrees.</p>
+        <p>In Florida, shade isn&apos;t a luxury—it&apos;s a necessity. A strategically placed shade tree can lower your home&apos;s cooling costs by up to 20% and reduce the ambient temperature of your patio by 10-15 degrees. Beyond comfort, trees absorb stormwater, filter pollutants, and raise property values by an average of 7-19%.</p>
+        <p>But not all trees are created equal. In Jacksonville's unique climate (USDA Zone 9a/9b), we need trees that can handle intense summer heat, occasional frost, and hurricane-force winds. Here are the top 5 proven performers for Northeast Florida.</p>
 
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">Our Top 5 Picks for Northeast Florida</h2>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. Live Oak (Quercus virginiana)</h2>
+        <p><strong>The Icon.</strong> Nothing says "The South" like a Live Oak draped in Spanish Moss. It is the backbone of the urban forest in Jacksonville.</p>
+        <ul className="list-disc pl-6 space-y-2 mb-4">
+          <li><strong>Pros:</strong> Incredibly wind-resistant (adapted to hurricanes). Long-lived (centuries). evergreen (keeps leaves year-round).</li>
+          <li><strong>Cons:</strong> Slow growing. Massive root system requires space.</li>
+          <li><strong>Best For:</strong> Large backyards or front yards set back from the street. Do not plant within 20 feet of a foundation.</li>
+        </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">1. Live Oak (Quercus virginiana)</h3>
-        <p><strong>The Icon.</strong> Nothing says &quot;The South&quot; like a Live Oak. They are incredibly wind-resistant (hurricane adaptation). <em>Caveat:</em> They need space. Do not plant within 20 feet of a foundation.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Drake Elm (Ulmus parvifolia 'Drake')</h2>
+        <p><strong>The Fast Grower.</strong> If you don't want to wait 20 years for shade, the Drake Elm is your answer. It is semi-evergreen (briefly drops leaves in spring) and has beautiful peeling bark.</p>
+        <ul className="list-disc pl-6 space-y-2 mb-4">
+          <li><strong>Pros:</strong> Fast growth rate. Beautiful weeping canopy shape. Tolerates sandy, poor soil well.</li>
+          <li><strong>Cons:</strong> Can have surface roots if watered shallowly. Brittle wood if not pruned correctly.</li>
+          <li><strong>Best For:</strong> Quick shade near patios or walkways (roots are generally less destructive than Oaks).</li>
+        </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">2. Drake Elm</h3>
-        <p><strong>The Fast Grower.</strong> If you want shade <em>now</em>, the Drake Elm is a great choice. It has a beautiful weeping habit and semi-evergreen leaves. It tolerates our sandy soils well.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Red Maple (Acer rubrum)</h2>
+        <p><strong>The Color Splash.</strong> Florida is generally green and brown, but the Red Maple offers a rare pop of true autumnal color. The 'Florida Flame' variety is adapted specifically for our heat.</p>
+        <ul className="list-disc pl-6 space-y-2 mb-4">
+          <li><strong>Pros:</strong> Stunning red foliage in fall/winter. Excellent for low-lying areas that hold water.</li>
+          <li><strong>Cons:</strong> Deciduous (you will have leaves to rake). Requires consistent moisture; struggles in dry, sugar-sand dunes.</li>
+          <li><strong>Best For:</strong> Swales, retention pond banks, or irrigated lawns.</li>
+        </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">3. Red Maple (Acer rubrum)</h3>
-        <p>One of the few Florida trees that gives true fall color. They prefer wetter soils, making them great for low spots in the yard.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Southern Magnolia (Magnolia grandiflora)</h2>
+        <p><strong>The Elegant Giant.</strong> Famous for its massive, fragrant white flowers and glossy dark green leaves. The 'Little Gem' or 'DD Blanchard' varieties are tighter and better for residential lots than the wild type.</p>
+        <ul className="list-disc pl-6 space-y-2 mb-4">
+          <li><strong>Pros:</strong> Beautiful structural shape. Heavenly scent in late spring. Dense foliage acts as a privacy screen and windbreak.</li>
+          <li><strong>Cons:</strong> It drops leaves and seed pods year-round (messy). Dense shade makes it hard to grow grass underneath.</li>
+          <li><strong>Best For:</strong> Privacy screening or a standalone specimen tree in a mulch bed (not in the middle of the lawn).</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. River Birch (Betula nigra)</h2>
+        <p><strong>The Texture King.</strong> With its peeling, paper-like bark and multi-trunk form, the River Birch adds vertical interest to any landscape.</p>
+        <ul className="list-disc pl-6 space-y-2 mb-4">
+          <li><strong>Pros:</strong> Fast growing. Unique visual texture. Loves wet feet (great for drainage issues).</li>
+          <li><strong>Cons:</strong> Short-lived compared to Oaks (30-40 years). Drops small sticks.</li>
+          <li><strong>Best For:</strong> Clusters of 3 in a landscape island.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">How to Plant Them (So They Don't Die)</h2>
+        <p>The #1 reason trees die in the first year is being planted too deep. The "root flare" (where the trunk widens at the base) must be visible above the soil line.</p>
+        <ol className="list-decimal pl-6 space-y-3 mb-6">
+          <li><strong>Dig Wide, Not Deep:</strong> Dig the hole 2x as wide as the root ball, but no deeper. The tree should sit on undisturbed soil.</li>
+          <li><strong>No Soil Amendments:</strong> Backfill with the native dirt you dug out. If you put rich potting soil in the hole, the roots will never leave that "luxury apartment" to enter the sandy reality of your yard.</li>
+          <li><strong>Water, Water, Water:</strong> A new tree needs 15-20 gallons of water, 3 times a week, for the first month.</li>
+          <li><strong>Mulch Correctly:</strong> Create a "donut" of mulch, not a "volcano." Keep mulch 3 inches away from the trunk to prevent rot.</li>
+        </ol>
+
+        <p className="mt-8">
+          A tree is a lifetime investment. If you need help selecting or planting the right tree for your sod project, ask the Jax Sod team during your consultation. We often install trees and sod in the same phase to ensure seamless irrigation coverage.
+        </p>
       </>
     )
   },
