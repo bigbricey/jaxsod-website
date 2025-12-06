@@ -75,7 +75,7 @@ export default function ArticlePage({ params }: Props) {
                 </div>
                 <div className="flex items-center gap-1">
                   <FiClock className="text-primary-600" />
-                  <span>{article.readTime}</span>
+                  <span>{Math.max(1, Math.ceil(article.wordCount / 200))} min read</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <FiTag className="text-primary-600" />

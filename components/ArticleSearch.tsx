@@ -123,7 +123,7 @@ export default function ArticleSearch() {
                                         <span className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full font-medium">
                                             {article.category}
                                         </span>
-                                        <span className="text-secondary-500">{article.readTime}</span>
+                                        <span className="text-secondary-500">{Math.max(1, Math.ceil(article.wordCount / 200))} min read</span>
                                     </div>
 
                                     <Link href={`/articles/${article.slug}`} className="block group hover:text-primary-600 transition-colors">

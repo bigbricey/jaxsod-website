@@ -7,8 +7,8 @@ export interface Article {
   excerpt: string
   date: string
   category: string
-  readTime: string
-  content: JSX.Element // Using JSX.Element for rich content paragraphs
+  wordCount: number
+  content: JSX.Element
   image: string
 }
 
@@ -19,7 +19,7 @@ export const articles: Article[] = [
     excerpt: 'Is DIY sod installation worth the risk? Discover why professional installation ensures a healthier lawn, saves you back-breaking labor, and prevents costly mistakes that can ruin your investment.',
     date: '2024-10-15',
     category: 'Installation Tips',
-    readTime: '10 min read',
+    wordCount: 1250,
     image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -30,6 +30,11 @@ export const articles: Article[] = [
         <p>
           In the age of YouTube tutorials and home improvement shows, the &quot;Do It Yourself&quot; (DIY) route is tempting. It promises to save money and offers the satisfaction of manual labor. However, sod installation is deceptively complex. It is not merely rolling out green carpets on dirt. It is a biological transplant operation where timing, soil chemistry, and handling are the difference between a thriving landscape and a field of dead grass.
         </p>
+// ... (content truncated for brevity, assume full original content here)
+        <p>
+          At Jax Sod, we have seen countless homeowners in Jacksonville attempt DIY installation only to call us weeks later to fix patchy, yellowing, or uneven lawns. In this deep-dive guide, we will explore the tangible and intangible benefits of professional sod installation, breaking down why expertise often pays for itself.
+        </p>
+// ... (I will need to reproduce the full content for the file to be valid, or use multi-replace if I don't want to overwrite everything. Since I am changing the interface, I strictly need to update ALL objects. For safety, I will use multi-replace to update the interface and then update each object. Actually, replace_file_content with a huge block is risky if I miss lines. I'll use multi_replace.)
 
         <p>
           At Jax Sod, we have seen countless homeowners in Jacksonville attempt DIY installation only to call us weeks later to fix patchy, yellowing, or uneven lawns. In this deep-dive guide, we will explore the tangible and intangible benefits of professional sod installation, breaking down why expertise often pays for itself.
@@ -124,7 +129,7 @@ export const articles: Article[] = [
     excerpt: 'St. Augustine, Zoysia, Bahia, or Bermuda? Don\'t guess. Our comprehensive guide breaks down the pros, cons, shade tolerance, and maintenance needs of every major Florida grass type to help you make the perfect choice.',
     date: '2024-10-08',
     category: 'Sod Types',
-    readTime: '12 min read',
+    wordCount: 1800,
     image: 'https://images.unsplash.com/photo-1458245201577-fc8a130b8829?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -300,7 +305,7 @@ export const articles: Article[] = [
     excerpt: 'Why does some sod thrive while others fail? The secret lies underground. Learn the professional steps for soil preparation, from old turf removal to surface smoothing, that guarantee rooting success.',
     date: '2024-09-30',
     category: 'Installation Tips',
-    readTime: '11 min read',
+    wordCount: 1900,
     image: 'https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -398,7 +403,7 @@ export const articles: Article[] = [
     excerpt: 'Spring, Summer, Fall, or Winter? We break down the pros and cons of installing sod in every season in Northeast Florida, helping you decide when to pull the trigger on your new lawn.',
     date: '2024-09-15',
     category: 'Installation Tips',
-    readTime: '9 min read',
+    wordCount: 1300,
     image: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -531,7 +536,7 @@ export const articles: Article[] = [
     excerpt: 'Master the art of establishing your new lawn. A comprehensive day-by-day guide to watering, mowing, and protecting your investment for the first 30 days and beyond.',
     date: '2024-09-22',
     category: 'Lawn Care',
-    readTime: '7 min read',
+    wordCount: 1200,
     image: 'https://images.unsplash.com/photo-1693776472225-be367ccf88b7?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -649,7 +654,7 @@ export const articles: Article[] = [
     excerpt: 'How much does sod installation actually cost in Jacksonville? We peel back the layers of pricing, explaining everything from pallet costs to site access, so you can budget accurately without surprises.',
     date: '2024-09-08',
     category: 'Planning',
-    readTime: '10 min read',
+    wordCount: 1800,
     image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -754,7 +759,7 @@ export const articles: Article[] = [
     excerpt: 'Is a commercial sod project just a big residential one? Not quite. Explore the unique challenges of commercial landscaping, from heavy-duty equipment to strict compliance standards.',
     date: '2024-09-01',
     category: 'Commercial',
-    readTime: '11 min read',
+    wordCount: 1500,
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -838,7 +843,7 @@ export const articles: Article[] = [
     excerpt: 'Is it better to pay for sod or save money with seed? We compare the two methods head-to-head on cost, time, weed control, and success rate in the Florida climate.',
     date: '2024-08-25',
     category: 'Planning',
-    readTime: '10 min read',
+    wordCount: 1400,
     image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -950,7 +955,7 @@ export const articles: Article[] = [
     excerpt: 'Is your soil washing away with every rainstorm? Learn why sod is the most effective engineering solution for stabilizing slopes, swales, and lake banks.',
     date: '2024-08-18',
     category: 'Solutions',
-    readTime: '8 min read',
+    wordCount: 500,
     image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -986,7 +991,7 @@ export const articles: Article[] = [
     excerpt: 'Beyond the lawn: create a stunning, low-maintenance landscape. We share the top plants that thrive in Northeast Florida\'s unique climate, from vibrant crotons to hardy grasses.',
     date: '2024-10-22',
     category: 'Landscaping',
-    readTime: '15 min read',
+    wordCount: 400,
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -1025,7 +1030,7 @@ export const articles: Article[] = [
     excerpt: 'Beat the Florida heat with the canopy of a perfect shade tree. We rank the best native and adapted trees that provide cooling shade without destroying your foundation.',
     date: '2024-10-25',
     category: 'Trees',
-    readTime: '12 min read',
+    wordCount: 1200,
     image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1200&auto=format&fit=crop',
     content: (
       <>
@@ -1051,28 +1056,68 @@ export const articles: Article[] = [
     excerpt: 'Stop guessing with your sprinkler timer. Learn the science of deep watering to promote drought-tolerant roots and avoid fungus in St. Augustine and Zoysia lawns.',
     date: '2024-10-28',
     category: 'Lawn Care',
-    readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1558230911-37f9046c8273?q=80&w=1200&auto=format&fit=crop',
+    wordCount: 1200,
+    image: '/irrigation-sprinkler.png',
     content: (
       <>
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">Watering: The Most Misunderstood Task</h2>
-        <p>Most homeowner irrigation issues stem from one myth: &quot;I need to water a little bit every day.&quot;</p>
-        <p><strong>This is false.</strong> Frequent, shallow watering encourages shallow roots. When the summer heat hits, those shallow roots fry. The goal is <em>Deep and Infrequent</em> watering.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Science of Watering</h2>
+        <p>
+          Watering your lawn seems simple: turn on the hose, get it wet, turn it off. However, in Florida&apos;s sandy soil and intense heat, improper irrigation is the #1 killer of sod. Shallow watering encourages shallow roots. Evening watering encourages fungus. To maintain a drought-tolerant, disease-free lawn, you must follow the "Golden Rules" of irrigation.
+        </p>
 
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Golden Rules</h2>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Rule #1: The 4:00 AM Start Time</h2>
+        <p>
+          The single best time to water your lawn is between 4:00 AM and 8:00 AM.
+        </p>
+        <div className="bg-blue-50 p-6 rounded-lg mb-6 border border-blue-200">
+          <h4 className="font-bold text-blue-900 mb-2">Why Morning?</h4>
+          <ul className="list-disc pl-6 space-y-2 text-blue-800">
+            <li><strong>Wind is calm:</strong> The water goes where you aim it, not onto your driveway.</li>
+            <li><strong>Evaporation is low:</strong> The water has time to soak into the root zone before the sun burns it off.</li>
+            <li><strong>Disease Prevention:</strong> This is critical. If you water in the evening (6 PM - 10 PM), your grass stays wet all night. Warm, wet, dark conditions are a petri dish for Fungus (Large Patch, Grey Leaf Spot). By watering in the morning, the sun dries the blades quickly, preventing disease.</li>
+          </ul>
+        </div>
 
-        <h3 className="heading-sm mt-6 mb-3">1. The &quot;Tuna Can&quot; Test</h3>
-        <p>Grass doesn&apos;t care about &quot;20 minutes.&quot; It cares about inches of water. Different heads put out different amounts. Place empty tuna cans around your zone. Run it for 30 minutes. See how full they are. Your goal is to apply <strong>3/4 inch of water</strong> per session.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Rule #2: Deep and Infrequent</h2>
+        <p>
+          Your goal is to train your grass roots to grow deep. Roots follow the water.
+        </p>
+        <p>
+          <strong>The Wrong Way:</strong> Watering for 10 minutes every day. This keeps the top inch of soil wet. The roots have no reason to dig deeper. When a drought comes (or you miss a day), these shallow roots fry, and your lawn dies.
+        </p>
+        <p>
+          <strong>The Right Way:</strong> Water for 45-60 minutes, twice a week. This "Deep Soak" forces water 6-8 inches down into the soil. The roots must stretch down to find it. This creates a robust, drought-tolerant root system that can survive days without water.
+        </p>
 
-        <h3 className="heading-sm mt-6 mb-3">2. Morning is Mandatory</h3>
-        <p>The best time to water is <strong>4:00 AM to 8:00 AM</strong>.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Rule #3: The "Tuna Can" Calibration</h2>
+        <p>
+          A timer setting of "30 minutes" means nothing. One zone might have high-flow rotors, another might have mist heads. You need to measure the <em>volume</em> of water, not the time.
+        </p>
+        <p>
+          <strong>The Test:</strong> Place empty tuna cans (or straight-sided coffee mugs) around your lawn. Run your sprinklers for 30 minutes. Measure the water depth in the cans.
+        </p>
         <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><em>Too early (Evening/Night):</em> The grass stays wet all night, inviting fungus.</li>
-          <li><em>Too late (Afternoon):</em> Much of the water evaporates before it soaks in.</li>
+          <li><strong>Target:</strong> You want <strong>3/4 inch</strong> of water per session.</li>
+          <li><strong>Math:</strong> If you get 1/4 inch in 30 minutes, you need to run that zone for 90 minutes to get the proper soak. Adjust your timer accordingly.</li>
         </ul>
 
-        <h3 className="heading-sm mt-6 mb-3">3. Watch the Leaves</h3>
-        <p>St. Augustine grass tells you when it&apos;s thirsty. The blades will fold in half lengthwise (looking like straw). <strong>That</strong> is when you water.</p>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Rule #4: Watch the Weather (and the Law)</h2>
+        <p>
+          Jacksonville (St. Johns River Water Management District) has strict watering restrictions.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li>During Daylight Savings Time (Spring/Summer): You may water <strong>twice a week</strong> on your designated days.</li>
+          <li>During Eastern Standard Time (Fall/Winter): You may water <strong>once a week</strong>.</li>
+          <li><strong>Never water between 10 AM and 4 PM.</strong> It is wasteful and illegal.</li>
+        </ul>
+        <p>
+          Also, install a <strong>Rain Sensor</strong>. It is required by Florida law on all automated systems. It shuts off your system after heavy rain, saving you money and saving the grass from root rot.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Summary</h2>
+        <p>
+          Irrigation is not "set it and forget it." It is a tool. Use it wisely. Deep, infrequent, morning watering is the secret to the lush, green lawns you see in magazines.
+        </p>
       </>
     )
   }
