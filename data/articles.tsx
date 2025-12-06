@@ -1,0 +1,1079 @@
+import Link from 'next/link'
+
+// --- ARTICLE DATA & CONTENT ---
+export interface Article {
+  slug: string
+  title: string
+  excerpt: string
+  date: string
+  category: string
+  readTime: string
+  content: JSX.Element // Using JSX.Element for rich content paragraphs
+  image: string
+}
+
+export const articles: Article[] = [
+  {
+    slug: 'benefits-of-professional-sod-installation',
+    title: 'The Benefits of Professional Sod Installation vs. DIY',
+    excerpt: 'Is DIY sod installation worth the risk? Discover why professional installation ensures a healthier lawn, saves you back-breaking labor, and prevents costly mistakes that can ruin your investment.',
+    date: '2024-10-15',
+    category: 'Installation Tips',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          A lush, green lawn is the crown jewel of any Florida home. It boosts curb appeal, cools your property, and provides a soft, organic space for family activities. When it comes to establishing a new lawn, sod is the undisputed king of instant gratification. But once you&apos;ve decided on sod, you face a critical decision: <strong>Should you tackle this project yourself or hire a professional?</strong>
+        </p>
+
+        <p>
+          In the age of YouTube tutorials and home improvement shows, the &quot;Do It Yourself&quot; (DIY) route is tempting. It promises to save money and offers the satisfaction of manual labor. However, sod installation is deceptively complex. It is not merely rolling out green carpets on dirt. It is a biological transplant operation where timing, soil chemistry, and handling are the difference between a thriving landscape and a field of dead grass.
+        </p>
+
+        <p>
+          At Jax Sod, we have seen countless homeowners in Jacksonville attempt DIY installation only to call us weeks later to fix patchy, yellowing, or uneven lawns. In this deep-dive guide, we will explore the tangible and intangible benefits of professional sod installation, breaking down why expertise often pays for itself.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. The Science of Site Preparation (It&apos;s Not Just Raking)</h2>
+        <p>
+          The most common reason for sod failure happens before a single piece of grass is laid. Proper ground preparation is the foundation of a healthy lawn. In Jacksonville, our soil varies from sandy dunes to compacted clay, each requiring a specific approach.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Old Turf Removal</h3>
+        <p>
+          A professional team doesn&apos;t just mow the old weeds; we remove them. Using specialized sod cutters, we slice off the existing vegetation below the crown. A DIYer often relies on chemical killers (which take weeks to work) or manual digging, which is back-breaking and often incomplete. If the old root system isn&apos;t removed, it creates a barrier that prevents new sod from making contact with the soil, leading to &quot;floating&quot; sod that dries out and dies.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Surface Smoothing vs. Grading</h3>
+        <p>
+          Here is a critical distinction: <strong>Surface Smoothing</strong>. While we do not perform major civil engineering or drainage grading (altering the slope of the land), our site prep involves meticulous surface smoothing. We remove rocks, sticks, and debris that would cause lumps in your lawn. We use heavy rollers and landscape rakes to create a uniform, firm seedbed.
+        </p>
+        <p>
+          A DIY job often skips this step, resulting in a bumpy lawn that is a nightmare to mow. Every high spot gets scalped by the mower blade (turning brown), and every low spot holds water (inviting fungus). Professional smoothing ensures a tabletop finish that makes future maintenance easy.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. The Logistics of Perishability</h2>
+        <p>
+          Sod is a living, breathing organism with a ticking clock. Once it is harvested from the farm, it is cut off from its water and nutrient supply. In the Florida heat, sod can begin to compost (heat up and rot) on the pallet within 24 hours.
+        </p>
+
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Farm-to-Yard Timing:</strong> Professionals coordinate logistics so that the sod is harvested early in the morning and installed the same day. DIYers often buy sod from big-box stores where it may have been sitting in the parking lot for days, already drying out and yellowing.</li>
+          <li><strong>Speed of Installation:</strong> A pallet of sod covers approximately 400-500 square feet and weighs over 2,000 pounds. An average yard might need 5 to 10 pallets. A professional crew of 4-5 men can lay this in a few hours. A solo DIYer might take all weekend. By the time the last piece is laid, the first piece might already be in shock. Speed is essential for survival.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Installation Technique: The Details Matter</h2>
+        <p>
+          There is an art to laying sod that goes beyond &quot;green side up.&quot; Professional installers employ specific techniques to ensure the structural integrity of the lawn.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6 my-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-200">
+            <h4 className="font-bold text-lg mb-2 text-secondary-900">The Brick Pattern</h4>
+            <p className="text-sm">We stagger the seams like brickwork. This prevents long, continuous lines that can wash out during heavy rain or allow weeds to infiltrate. It locks the sod pieces together for a tighter fit.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-200">
+            <h4 className="font-bold text-lg mb-2 text-secondary-900">Butting the Seams</h4>
+            <p className="text-sm">We ensure edges are pushed tightly together without overlapping. Overlaps create air pockets where roots dry out; gaps expose the soil to weed seeds. It takes experienced hands to get this perfect tension.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-200">
+            <h4 className="font-bold text-lg mb-2 text-secondary-900">Cutting Around Obstacles</h4>
+            <p className="text-sm">Professionals use sharp machetes or sod knives to cut clean curves around flower beds, trees, and walkways. DIY cuts are often jagged or leave large gaps, ruining the aesthetic finish.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-secondary-200">
+            <h4 className="font-bold text-lg mb-2 text-secondary-900">Rolling the Sod</h4>
+            <p className="text-sm">After installation, we use a heavy water-filled roller to press the sod down. This eliminates air pockets and ensures 100% contact between the roots and the soil, which is vital for capillary water uptake.</p>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. The Cost-Benefit Analysis</h2>
+        <p>
+          Let&apos;s talk numbers. Yes, the upfront cash cost of a DIY project is lower because you aren&apos;t paying for labor. But have you calculated the hidden costs?
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Equipment Rental:</strong> Sod cutter, rototiller, dump trailer for debris, and a sod roller. These rentals can add up to hundreds of dollars per day.</li>
+          <li><strong>Debris Disposal:</strong> Where will you put tons of old grass and dirt? You&apos;ll likely need to pay dumping fees at a landfill.</li>
+          <li><strong>Waste Factor:</strong> Without precise measuring and cutting, DIYers often order too much (waste money) or too little (paying for a second delivery fee).</li>
+          <li><strong>Physical Toll:</strong> Moving 15,000 pounds of sod is grueling, athletic work. The risk of back injury or heat exhaustion in Florida is real.</li>
+          <li><strong>Replacement Risk:</strong> If your DIY sod dies because of poor prep or slow installation, you have no recourse. You have to buy it all again. Professional installations typically come with satisfaction guarantees on the workmanship.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. Expert Advice on Variety Selection</h2>
+        <p>
+          Do you know the difference between 'Classic' St. Augustine and 'Palmetto' St. Augustine? Do you know which Zoysia strain handles shade better? A professional assessment prevents you from buying the wrong grass for your environment.
+        </p>
+        <p>
+          At Jax Sod, we assess your sunlight availability, soil type, irrigation capability, and foot traffic needs before recommending a variety. We don&apos;t just sell what&apos;s in stock; we source what will thrive in your specific micro-climate.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Conclusion: Invest in Quality</h2>
+        <p>
+          Your landscape is an investment. Professional sod installation is an insurance policy on that investment. It ensures that the money you spend on the grass itself isn&apos;t wasted through installation errors.
+        </p>
+        <p>
+          By hiring Jax Sod, you are buying more than just labor. You are buying a clean slate, a scientifically prepared base, fresh-cut quality grass, and the peace of mind that comes from knowing the job was done right the first time. Save your back, save your weekend, and ultimately, save your lawn.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'choosing-right-sod-florida',
+    title: 'Choosing the Right Sod for Your Florida Lawn: The Ultimate Guide',
+    excerpt: 'St. Augustine, Zoysia, Bahia, or Bermuda? Don\'t guess. Our comprehensive guide breaks down the pros, cons, shade tolerance, and maintenance needs of every major Florida grass type to help you make the perfect choice.',
+    date: '2024-10-08',
+    category: 'Sod Types',
+    readTime: '12 min read',
+    image: 'https://images.unsplash.com/photo-1458245201577-fc8a130b8829?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Florida is a paradise for humans, but it can be a battlefield for grass. With our scorching subtropical sun, sandy nutrient-poor soil, salt air, and oppressive humidity, only the toughest grass varieties survive. But survival isn&apos;t enough—you want a lawn that <em>thrives</em>.
+        </p>
+        <p>
+          Choosing the right sod is the single most important decision you will make for your landscape. Pick the right one, and you&apos;ll have a low-maintenance oasis. Pick the wrong one (like planting a shade-intolerant grass under an oak tree), and you are guaranteed to be replacing it within two years.
+        </p>
+        <p>
+          When you are ready to move forward, our <Link href="/services" className="text-primary-600 font-semibold hover:text-primary-700 underline">Residential Sod Installation</Link> team can handle the entire process for you.
+        </p>
+        <p>
+          At Jax Sod, we believe an informed customer is a happy customer. This guide breaks down the "Big Four" grass families used in Jacksonville and Northeast Florida: St. Augustine, Zoysia, Bahia, and Bermuda. We will explore the specific cultivars, pros and cons, and best use cases for each.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. St. Augustine Grass: The Florida Classic</h2>
+        <p>
+          If you drive through any subdivision in Jacksonville, 90% of the lawns you see are St. Augustine grass. It is the gold standard for a reason. It produces that wide-bladed, deep blue-green, lush "carpet" look that most homeowners desire.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Varieties</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Floratam:</strong> The king of Florida lawns. It loves the sun and grows aggressively, choking out weeds. However, it has very poor shade tolerance and poor cold tolerance. If you have wide-open sun, this is your best bet.</li>
+          <li><strong>Palmetto:</strong> A dwarf variety with a finer texture and a deeper green color. Its superpower is shade tolerance. It can survive with 4-5 hours of sunlight, whereas Floratam needs 6-8. It also handles cold snaps better.</li>
+          <li><strong>Seville:</strong> A niche variety for heavy shade. It has a dwarf growth habit and excellent color retention, but it is softer and less wear-tolerant than Floratam.</li>
+          <li><strong>CitraBlue:</strong> A newer variety developed by the University of Florida. It has a distinctive blue-green hue and requires less fertilizer and mowing than older varieties.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">Pros & Cons</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
+            <strong className="text-green-800">The Good:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Highest shade tolerance (specific varieties).</li>
+              <li>Excellent salt tolerance (great for coastal homes).</li>
+              <li>Lush, dense growth that blocks weeds.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
+            <strong className="text-red-800">The Bad:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>High water requirement.</li>
+              <li>Prone to Chinch Bugs (a major pest).</li>
+              <li>Prone to fungus in high humidity.</li>
+              <li>Not great for heavy foot traffic.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Zoysia Grass: The Premium Up-and-Comer</h2>
+        <p>
+          Zoysia has exploded in popularity over the last decade. It offers a "golf course" look with finer blades and a soft feel underfoot. It is often marketed as the "maintenance-free" grass, which is a myth, but it <em>is</em> generally hardier than St. Augustine.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Varieties</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Empire Zoysia:</strong> The most common Zoysia in Florida. It has a wider blade (for a Zoysia) and is incredibly durable. It handles drought better than St. Augustine because it goes dormant (turns brown) to protect itself, then bounces back green when watered.</li>
+          <li><strong>Icon / Zeon:</strong> Fine-bladed varieties that look truly luxurious. They are often used on high-end properties. They require a reel mower to look their absolute best but can be maintained with a sharp rotary mower.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">Pros & Cons</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
+            <strong className="text-green-800">The Good:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Feels like carpet; best barefoot grass.</li>
+              <li>Excellent traffic tolerance (kids and dogs).</li>
+              <li>Chinch bug resistant.</li>
+              <li>Better cold tolerance than St. Augustine.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
+            <strong className="text-red-800">The Bad:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>More expensive upfront cost.</li>
+              <li>Slower recovery from damage (grows slower).</li>
+              <li>Thatch buildup requires vertical mowing (dethatching) every few years.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Bahia Grass: The Rural Utility Player</h2>
+        <p>
+          Bahia is the pasture grass of the South. You see it on roadsides and on acreages. It is not an ornamental grass—it doesn't look like a manicured lawn—but it is nearly indestructible.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Varieties</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Argentine:</strong> The preferred choice for lawns. It has wider blades and a darker green color. It produces fewer of the ugly "Y" shaped seed heads than other types.</li>
+          <li><strong>Pensacola:</strong> Used mostly for highway medians and erosion control. Not recommended for residential lawns due to its pale color and prolific seed head production.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">Pros & Cons</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
+            <strong className="text-green-800">The Good:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Cheapest sod option.</li>
+              <li>Incredible drought tolerance (deep root system).</li>
+              <li>Needs very little fertilizer.</li>
+              <li>Resists almost all bugs and diseases.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
+            <strong className="text-red-800">The Bad:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Aesthetically "messy" look.</li>
+              <li>Rapid seed head production dulls mower blades.</li>
+              <li>Poor shade tolerance (needs full sun).</li>
+              <li>Open growth habit allows weeds to mix in.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Bermuda Grass: The Athlete</h2>
+        <p>
+          Bermuda is the grass of golf courses and sports fields. It is designed to be cut low and run on. For a residential lawn, it requires a high level of maintenance to look good.
+        </p>
+        <h3 className="heading-sm mt-6 mb-3">Pros & Cons</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
+            <strong className="text-green-800">The Good:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Repairability: It spreads aggressively to fill in bare spots.</li>
+              <li>Traffic Tolerance: The toughest grass for wear and tear.</li>
+              <li>Beautiful fine texture when mowed low.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
+            <strong className="text-red-800">The Bad:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Highest maintenance (needs frequent mowing and fertilizing).</li>
+              <li>Zero shade tolerance.</li>
+              <li>invasive: It will grow into your flower beds and neighbor's yard.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Decision Framework: How to Choose</h2>
+        <p>
+          Don't pick based on pictures alone. Pick based on your property's reality.
+        </p>
+        <div className="space-y-4">
+          <div className="p-4 bg-secondary-50 rounded-lg">
+            <h4 className="font-bold text-lg text-secondary-900">Do you have large oak trees?</h4>
+            <p><strong>Answer:</strong> You need St. Augustine (Palmetto or Seville). Zoysia and Bermuda will slowly thin out and die in the shade.</p>
+          </div>
+          <div className="p-4 bg-secondary-50 rounded-lg">
+            <h4 className="font-bold text-lg text-secondary-900">Do you have big dogs and kids playing soccer?</h4>
+            <p><strong>Answer:</strong> You need Zoysia (Empire) or Bermuda. St. Augustine is too fragile for heavy claw traffic.</p>
+          </div>
+          <div className="p-4 bg-secondary-50 rounded-lg">
+            <h4 className="font-bold text-lg text-secondary-900">Do you have no irrigation system?</h4>
+            <p><strong>Answer:</strong> You need Bahia. It's the only one that will reliably survive on rainfall alone once established.</p>
+          </div>
+          <div className="p-4 bg-secondary-50 rounded-lg">
+            <h4 className="font-bold text-lg text-secondary-900">Do you want the best-looking lawn on the block?</h4>
+            <p><strong>Answer:</strong> St. Augustine (Floratam) or Zoysia (Empire), provided you commit to the watering and fertilization schedule.</p>
+          </div>
+        </div>
+
+        <p className="mt-8">
+          Still unsure? The best way to decide is a site visit. Our experts can measure the light levels in your yard and test the soil to give you a definitive recommendation. Contact Jax Sod today to start planning your perfect lawn.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'soil-preparation-for-sod',
+    title: 'The Hidden Foundation: Soil Preparation for Sod Installation',
+    excerpt: 'Why does some sod thrive while others fail? The secret lies underground. Learn the professional steps for soil preparation, from old turf removal to surface smoothing, that guarantee rooting success.',
+    date: '2024-09-30',
+    category: 'Installation Tips',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Imagine building a luxury home on a foundation of loose sand and rubble. It doesn&apos;t matter how expensive the house is; it will eventually crack and fail. The same principle applies to your lawn. The sod you buy is the "house," but the soil preparation is the "foundation."
+        </p>
+        <p>
+          At Jax Sod, we treat soil preparation as the most critical phase of the project. It is the one step you cannot redo once the grass is down. Many homeowners (and cut-rate installers) rush this stage to get to the "instant green" gratification, only to find their new lawn struggling with root rot, air pockets, or uneven growth months later.
+        </p>
+        <p>
+          In this guide, we pull back the curtain on the professional preparation process, explaining what we do, why we do it, and why "grading" is a term you should be careful with.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Phase 1: Demolition and Removal</h2>
+        <p>
+          You cannot paint over a dirty canvas. To install new sod, the old organic material must be removed.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The "Sod Cutter" Method</h3>
+        <p>
+          We use a mechanical sod cutter, a heavy machine that slices a uniform layer of earth 1 to 2 inches below the surface.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Weed Elimination:</strong> By cutting below the crown of the weeds, we remove the reproductive parts of the plant. Spraying weeds with glyphosate (Roundup) kills the top, but often leaves the root mass intact, which can decompose and cause uneven settling later.</li>
+          <li><strong>Thatch Removal:</strong> Old lawns have a layer of "thatch" (dead organic matter) that acts like a barrier. New roots cannot penetrate through thick thatch to reach the mineral soil. Cutting it out solves this.</li>
+          <li><strong>Level Reset:</strong> Sod comes with about an inch of soil attached. If you lay it on top of existing grass, your lawn height rises, potentially blocking drainage from your patio or causing water to run into your garage. Removing the old layer keeps the grade consistent.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Phase 2: Surface Smoothing (Not Grading!)</h2>
+        <p>
+          This is where terminology—and legal liability—matters. In the construction world, <strong>"Grading"</strong> implies engineering. It involves changing the slope of the land to alter water flow, requiring surveys, permits, and heavy earth-moving equipment.
+        </p>
+        <p>
+          Most sod installers, including Jax Sod, perform <strong>"Site Prep" or "Surface Smoothing."</strong> We work with the existing topography of your yard. We are not re-engineering your drainage plan; we are refining the surface to ensure the sod lays flat.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Smoothing Process</h3>
+        <ol className="list-decimal pl-6 space-y-3 mb-6">
+          <li><strong>Debris Clearing:</strong> We rake out rocks, large sticks, construction debris, and old roots. A rock the size of a golf ball left under the sod will feel like a boulder when you step on it later, and it will scalp your mower blade every time you pass over it.</li>
+          <li><strong>Rototilling (Conditional):</strong> If the ground is compacted like concrete (common in new construction), we may till the soil to break up the surface. This allows water to drain and roots to penetrate. However, we are careful not to till too deep, which can cause the ground to sink unevenly later.</li>
+          <li><strong>Dragging and rolling:</strong> We use landscape rakes and drag mats to pull soil from high spots into low spots (micro-leveling). The goal is a "tabletop" finish.</li>
+        </ol>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Phase 3: Soil Amendments (The Secret Sauce)</h2>
+        <p>
+          Jacksonville soil is often just grey sand. It drains instantly (good) but holds zero nutrients (bad).
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Should You Add Topsoil?</h3>
+        <p>
+          It depends. If your yard is pure sand, bringing in a layer of organic compost or topsoil is beneficial. However, you must be careful not to raise the grade too high against the house (inviting termites) or change the water flow.
+        </p>
+        <p>
+          Instead of bulk topsoil, we often recommend a <strong>Starter Fertilizer</strong> applied directly to the soil before the sod is laid. This puts phosphorus (the root-building nutrient) right where the new roots will emerge. Since phosphorus moves slowly through soil, putting it underneath the sod is 10x more effective than sprinkling it on top later.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Phase 4: The Final Roll</h2>
+        <p>
+          Preparation doesn&apos;t end when the sod is down. The final step of installation is arguably a preparation step for rooting: <strong>Rolling.</strong>
+        </p>
+        <p>
+          We use a heavy water-filled drum roller over the newly laid sod.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Eliminating Air Pockets:</strong> Roots cannot grow through air. If there is a gap between the sod pad and the soil, the roots will dry out and die. Rolling presses them together.</li>
+          <li><strong>Smoothing the Seams:</strong> Rolling helps press the seams down, making the joints less visible and less likely to catch a toe or mower wheel.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Common DIY Prep Mistakes</h2>
+        <div className="space-y-4">
+          <div className="p-4 bg-red-50 rounded-lg border-l-4 border-red-500">
+            <h4 className="font-bold text-red-900">Mistake #1: Tilling without compacting</h4>
+            <p className="text-red-800 text-sm">If you fluff up the soil with a tiller 6 inches deep and then lay sod, the ground will settle unevenly when it gets wet. You&apos;ll end up with a lumpy, wavy lawn that twists ankles.</p>
+          </div>
+          <div className="p-4 bg-red-50 rounded-lg border-l-4 border-red-500">
+            <h4 className="font-bold text-red-900">Mistake #2: Leaving weeds</h4>
+            <p className="text-red-800 text-sm">Laying sod over existing weeds does not kill them. Tough weeds like Nutsedge or Dollarweed will grow right through the seams of your new sod within weeks.</p>
+          </div>
+          <div className="p-4 bg-red-50 rounded-lg border-l-4 border-red-500">
+            <h4 className="font-bold text-red-900">Mistake #3: Ignoring soil pH</h4>
+            <p className="text-red-800 text-sm">Centipede grass loves acidic soil. St. Augustine hates it. If you don't check your pH, you might be planting your grass in a chemical environment it cannot survive in.</p>
+          </div>
+        </div>
+
+        <p className="mt-8">
+          The difference between a 5-year lawn and a 20-year lawn is what lies beneath. Don&apos;t skimp on the prep work. If you want it done right, with the proper equipment and expertise, call the team at Jax Sod.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'when-to-install-sod-florida',
+    title: 'Timing is Everything: The Best Time to Install Sod in Jacksonville',
+    excerpt: 'Spring, Summer, Fall, or Winter? We break down the pros and cons of installing sod in every season in Northeast Florida, helping you decide when to pull the trigger on your new lawn.',
+    date: '2024-09-15',
+    category: 'Installation Tips',
+    readTime: '9 min read',
+    image: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          One of the most common questions we get at Jax Sod is, "Is it okay to lay sod right now?" The answer, almost always, is <strong>yes—but with caveats.</strong>
+        </p>
+        <p>
+          Unlike our neighbors to the north, Florida's subtropical climate allows for year-round sod installation. However, each season presents a unique set of challenges and benefits for the establishment of new grass. The "perfect" time depends on your ability to water, your budget, and your risk tolerance.
+        </p>
+        <p>
+          Let's break down the calendar year in Jacksonville and analyze the sod installation conditions for each season.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Goldilocks Zone: Spring (March - May)</h2>
+        <p>
+          If you could pick the absolute perfect day to lay sod, it would be in April.
+        </p>
+
+        <div className="bg-green-50 p-6 rounded-lg mb-6 border border-green-200">
+          <h4 className="font-bold text-lg text-green-900 mb-2">Why it's the winner:</h4>
+          <ul className="list-disc pl-6 space-y-2 text-green-800">
+            <li><strong>Root Growth:</strong> Soil temperatures are rising, triggering aggressive root growth. The sod wants to establish.</li>
+            <li><strong>Manageable Heat:</strong> It is warm enough for growth but not so hot that the grass wilts in an hour.</li>
+            <li><strong>Rainfall:</strong> Spring showers help supplement your irrigation bill.</li>
+          </ul>
+        </div>
+        <p>
+          <strong>The Catch:</strong> Everyone knows this. Spring is the busiest season for installers and farms. Availability can be tight, and prices may be higher due to demand. You need to book your installation weeks in advance.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Danger Zone: Summer (June - August)</h2>
+        <p>
+          Can you install sod in July? Yes. Do we do it every day? Yes. Is it stressful? Absolutely.
+        </p>
+        <p>
+          Summer is the peak growing season for warm-season grasses (St. Augustine, Zoysia, Bermuda). They want to grow, and they grow fast. However, the heat is a double-edged sword.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Challenges of Summer Installation</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Rapid Dehydration:</strong> On a 95°F day, a pallet of sod sitting on a driveway can heat up to 120°F inside. The grass starts to "cook." Sod must be laid immediately upon delivery.</li>
+          <li><strong>Watering Intensity:</strong> You cannot miss a watering cycle. If your sprinkler timer fails or a head gets clogged, the grass will turn brown in a single afternoon. You will be watering large volumes, so expect a high water bill.</li>
+          <li><strong>Fungus Pressure:</strong> High heat + high humidity + heavy watering = perfect conditions for fungus (Grey Leaf Spot, Pythium). You must monitor the lawn daily for signs of disease.</li>
+        </ul>
+        <p>
+          <strong>Verdict:</strong> Great for fast rooting (often rooted in 7-10 days), but high risk if you are not diligent with care.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Second Sweet Spot: Autumn (September - November)</h2>
+        <p>
+          Early autumn is arguably the second-best time to install sod. The intense heat breaks, but the soil stays warm well into November.
+        </p>
+        <div className="bg-blue-50 p-6 rounded-lg mb-6 border border-blue-200">
+          <h4 className="font-bold text-lg text-blue-900 mb-2">Why we love Fall installs:</h4>
+          <ul className="list-disc pl-6 space-y-2 text-blue-800">
+            <li><strong>Less Water Stress:</strong> Evaporation rates drop, so you don't have to water as aggressively as in summer.</li>
+            <li><strong>Weed Competition Drops:</strong> Summer weeds are dying off, giving your new sod a head start before the winter weeds germinate.</li>
+            <li><strong>Enjoyment:</strong> You get a green lawn just in time for the holidays and outdoor gatherings.</li>
+          </ul>
+        </div>
+        <p>
+          <strong>Warning:</strong> Don't wait too long. If you install in late November, a sudden freeze could damage roots that haven't fully established. Aim for September or October.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Sleepy Season: Winter (December - February)</h2>
+        <p>
+          Many people think you cannot lay sod in winter. This is false. In fact, for commercial projects and new home builds, winter installation is standard.
+        </p>
+        <p>
+          In Jacksonville, our ground rarely freezes. The grass goes "dormant" (stops growing leaves), but the roots can still slowly develop.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Pros & Cons of Winter Installation</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
+            <strong className="text-green-800">The Good:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Lowest water requirement (once a day or every other day).</li>
+              <li>Lowest risk of shock/drying out.</li>
+              <li>Sod is essentially "in storage" on your lawn, ready to explode with growth in spring.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
+            <strong className="text-red-800">The Bad:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>It won't look perfect instantly. It might be off-color (brownish) until spring.</li>
+              <li>Rooting takes 30-60 days instead of 10-14.</li>
+              <li>If we get a hard freeze (below 28°F), fresh sod is more vulnerable to cold damage than established sod.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Specific Advice by Grass Type</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>St. Augustine:</strong> Can be installed year-round. Be careful with fertilizer in winter (don't push growth).</li>
+          <li><strong>Zoysia:</strong> Best installed when active (Spring/Summer). Winter installation is possible but it will be completely brown/dormant upon arrival.</li>
+          <li><strong>Bermuda:</strong> Highly risky in winter. It goes fully dormant. Best to wait for Spring.</li>
+          <li><strong>Bahia:</strong> Avoid winter installation. Bahia often turns yellow and looks terrible in cool weather. Stick to the rainy season.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Summary</h2>
+        <p>
+          There is never a "wrong" time, only different management strategies.
+        </p>
+        <ul className="space-y-2 mt-4">
+          <li className="flex items-center gap-2">
+            <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-sm font-bold">Best Overall</span>
+            <span>March, April, May</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-bold">Best for Low Water</span>
+            <span>December, January</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm font-bold">Fastest Establishment</span>
+            <span>June, July (if watered well)</span>
+          </li>
+        </ul>
+
+        <p className="mt-8">
+          Ready to schedule? Don't wait for the calendar to turn. Contact Jax Sod, and we will advise you on the current conditions and help you build a plan for success, no matter the season.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'new-sod-care-guide',
+    title: 'Complete Care Guide for New Sod',
+    excerpt: 'Master the art of establishing your new lawn. A comprehensive day-by-day guide to watering, mowing, and protecting your investment for the first 30 days and beyond.',
+    date: '2024-09-22',
+    category: 'Lawn Care',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1693776472225-be367ccf88b7?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p>Congratulations on your new lawn! You have invested in an instant landscape upgrade that adds value and beauty to your property. However, the difference between a lawn that thrives for decades and one that fails in the first month comes down to one thing: <strong>care during the establishment period</strong>.</p>
+        <p>When sod is harvested, the majority of its root system is cut off. It arrives at your home in a state of shock, with only a shallow layer of roots to support it. The first 30 days are a race against time to help the grass regenerate these roots into your native soil before the stored energy in the leaves runs out.</p>
+        <p>This comprehensive guide goes beyond the basics, offering a detailed roadmap to ensure your new sod transitions from a fragile transplant to a permanent, resilient lawn.</p>
+
+        <h3 className="heading-sm mt-8 mb-4">Phase 1: The Critical First 14 Days (Watering Focus)</h3>
+        <p>Water is the single most critical variable. During this phase, you are not watering the soil deep down; you are keeping the sod pad and the top inch of soil wet. The roots are short, so the water needs to be right at the surface.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Day 0: The "Soak-In"</h4>
+        <p>The moment a piece of sod hits the ground, the clock starts ticking. You should not wait until the entire project is finished to start watering.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Immediate Action:</strong> As soon as a section (approx. 500 sq ft) is laid, water it.</li>
+          <li><strong>Saturation Level:</strong> Water until the sod is "squishy" to the step. You want the water to penetrate through the sod pad and moisten the soil beneath. This eliminates air pockets and ensures the roots have immediate access to moisture.</li>
+        </ul>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Days 1-7: The "Life Support" Phase</h4>
+        <p>For the first week, your goal is to never let the leaves dry out. If the leaves dry out, the plant shuts down root production to save energy, which is the opposite of what we want.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Frequency:</strong> Water 2 to 3 times per day.
+            <ul className="list-circle pl-6 mt-1 text-sm text-secondary-600">
+              <li><em>7:00 AM:</em> Heavy cycle (replace overnight moisture loss).</li>
+              <li><em>12:00 PM:</em> Light cooling cycle (prevents midday wilt).</li>
+              <li><em>3:00 PM:</em> Light cycle (ensures moisture for the evening).</li>
+            </ul>
+          </li>
+          <li><strong>Duration:</strong> 15-20 minutes for rotary heads (large oscillating sprinklers) or 5-10 minutes for fixed spray heads.</li>
+          <li><strong>Warning Signs:</strong> Look for "footprinting." If you walk on the grass and the blades don't spring back up, it's low on water. Also, watch for a blue-gray tint or curling leaves—these are distress signals requiring immediate hand-watering.</li>
+        </ul>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Days 8-14: Root Encouragement</h4>
+        <p>By the second week, tiny white feeder roots should be initiating. Now we change tactics. We want to force those roots to go <em>down</em> to find water.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Frequency:</strong> Drop to once per day, strictly in the early morning (before 8 AM).</li>
+          <li><strong>Duration:</strong> Increase the time to 30-45 minutes per zone. This "deep watering" pushes moisture further into the soil profile.</li>
+          <li><strong>Why Morning?</strong> Watering in the evening leaves the grass wet all night, which is a perfect recipe for fungal diseases like Large Patch or Grey Leaf Spot, especially in Florida's humid climate.</li>
+        </ul>
+
+        <div className="bg-primary-50 p-6 border-l-4 border-primary-500 my-8 rounded-r-lg">
+          <p className="font-bold text-lg text-primary-900 mb-2">Pro Tip: The Screwdriver Test</p>
+          <p className="text-primary-800">Irrigation systems are not perfect. Wind can drift spray, and heads can get clogged. Don't assume; verify.</p>
+          <p className="text-primary-800 mt-2">Take a 6-inch screwdriver and push it into the ground in various spots (especially corners and near driveways). It should slide in like it's going into butter. If you hit hard resistance, that spot is dry. Hand-water these "hot spots" immediately.</p>
+        </div>
+
+        <h3 className="heading-sm mt-8 mb-4">Phase 2: Weeks 3 & 4 (The Transition)</h3>
+        <p>Congratulations, you've made it through the most dangerous period. Now we transition the lawn to "real world" conditions.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">The "Tug Test"</h4>
+        <p>Before changing your routine, perform a tug test. Go to a few different areas, grab a handful of grass, and gently pull upwards. You should feel significant resistance, meaning the roots have anchored into the soil. If the sod lifts up like a carpet, continue the Day 8-14 watering schedule for another week.</p>
+
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Watering Schedule:</strong> Switch to every other day (3-4 days a week).</li>
+          <li><strong>Volume:</strong> Maintain the deep watering duration (45+ minutes). Shallow, frequent watering creates a "lazy" root system that stays near the surface, making your lawn vulnerable to drought later.</li>
+          <li><strong>Observation:</strong> Continue to monitor for hot spots. Concrete driveways reflect heat, so the grass bordering them often dries out faster than the center of the lawn.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Mowing: The First Cut</h3>
+        <p>Mowing is traumatic for grass. It reduces the leaf surface area available for photosynthesis. For new sod, it can be disastrous if done too early.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">When to Mow</h4>
+        <p>Wait at least 3 weeks (21 days). Do not mow until your "tug test" confirms the sod is firmly rooted. If the roots aren't set, the suction from the mower can lift the sod right off the ground, destroying your progress.</p>
+
+        <h4 className="text-lg font-semibold mt-6 mb-2">Best Practices for the First Mow</h4>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Height Matters:</strong> Set your mower to the <em>highest possible setting</em>. You are just giving it a light trim. Scalping new sod causes shock and exposes the soil to sunlight, encouraging weed seeds to germinate.</li>
+          <li><strong>Sharp Blades Only:</strong> A dull blade tears the grass rather than slicing it. This leaves ragged tips that turn brown and become entry points for disease. If your blade hasn't been sharpened this season, do it before touching your new sod.</li>
+          <li><strong>The 1/3rd Rule:</strong> Never remove more than 1/3rd of the grass blade at once. If the grass has grown to 6 inches, don't cut it lower than 4 inches. If you need to go lower, wait 3 days and mow again.</li>
+          <li><strong>Bag vs. Mulch:</strong> For the first few mows, bag the clippings. Heavy clumps of wet grass left on the surface can smother the young sod underneath.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Traffic and Compaction</h3>
+        <p>It is tempting to run out and play on the new green carpet, but the soil underneath is soft and muddy from the heavy watering schedule.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>Stay Off:</strong> Keep foot traffic to an absolute minimum for the first 3 weeks. Walking on saturated soil causes compaction, which squeezes out the oxygen pockets that roots need to survive.</li>
+          <li><strong>Pet Control:</strong> This is crucial. Large dogs running can tear the seams apart. Furthermore, dog urine is high in nitrogen and salts, which will instantly burn the tender new grass. Walk pets elsewhere or hose down the spot immediately after they go.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Fertilization & Chemicals: The Waiting Game</h3>
+        <p>A common mistake is "loving the lawn to death" with too many products.</p>
+        <ul className="list-disc pl-6 space-y-3">
+          <li><strong>No Nitrogen Yet:</strong> Your sod was likely fertilized at the farm before harvest. Adding high-nitrogen fertilizer to a rootless plant causes leaf growth at the expense of root growth. Wait at least 30 to 60 days before the first light feeding.</li>
+          <li><strong>Ban the Herbicides:</strong> Do not use weed killers, crabgrass preventers, or "Weed and Feed" products for at least 3 months. These chemicals work by inhibiting plant growth—exactly what you don't want right now. Hand-pull any weeds that pop up in the seams.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-8 mb-4">Troubleshooting Common Issues</h3>
+        <div className="space-y-4">
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Brown/Yellow Edges at the Seams</p>
+            <p><strong>Diagnosis:</strong> Underwatering. The edges of the sod roll are the first to dry out.</p>
+            <p><strong>Solution:</strong> Increase watering time and hand-water the seams. Walk the lines to press them down if they have curled up.</p>
+          </div>
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Sod feels mushy, smells like rotten eggs, or has black slime at the base.</p>
+            <p><strong>Diagnosis:</strong> Overwatering / Poor Drainage. The roots are drowning and rotting.</p>
+            <p><strong>Solution:</strong> Skip a watering cycle. Let the surface dry out slightly. Ensure your sprinklers aren't overlapping too heavily in that spot.</p>
+          </div>
+          <div>
+            <p className="font-semibold text-secondary-900">Problem: Circular brown patches that expand rapidly.</p>
+            <p><strong>Diagnosis:</strong> Fungus (likely Brown Patch or Grey Leaf Spot), often caused by watering late in the evening.</p>
+            <p><strong>Solution:</strong> Switch watering to early morning only. You may need a fungicide application—consult a professional before applying.</p>
+          </div>
+        </div>
+
+        <p className="mt-8 p-4 bg-secondary-100 rounded-lg text-secondary-800 italic">
+          Remember: Sod is a living product. No two lawns are identical. Monitor your grass daily, adjust based on the weather (skip watering if it rains heavily!), and give it the time it needs to establish. A little patience now guarantees a stunning lawn for years to come.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'sod-cost-factors',
+    title: 'The Real Cost of Sod Installation: A Transparent Pricing Guide',
+    excerpt: 'How much does sod installation actually cost in Jacksonville? We peel back the layers of pricing, explaining everything from pallet costs to site access, so you can budget accurately without surprises.',
+    date: '2024-09-08',
+    category: 'Planning',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          "How much is it to sod my yard?" This is the first question every customer asks. It seems like a simple math problem: <em>Price per square foot × Square feet = Total.</em>
+        </p>
+        <p>
+          In reality, professional sod installation is more like a construction project than a retail purchase. The price of the grass itself is often less than half of the total project cost. The rest lies in the labor, logistics, preparation, and waste management.
+        </p>
+        <p>
+          At Jax Sod, we believe in transparency. We don't want you to experience "sticker shock." Instead, we want you to understand exactly what goes into the quote. This guide breaks down the invisible variables that drive the cost of a high-quality sod installation.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. The Raw Material: Not All Grass is Equal</h2>
+        <p>
+          The most obvious cost factor is the type of grass you choose. Just like buying flooring (laminate vs. hardwood), the variety of sod dictates the base price.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Economy Tier (Bahia):</strong> The least expensive option. Great for large acreages but offers a pasture-like appearance.</li>
+          <li><strong>Standard Tier (St. Augustine Floratam):</strong> The mid-range standard. This is the baseline for most residential pricing.</li>
+          <li><strong>Premium Tier (Zoysia, St. Augustine Seville/Provista):</strong> These varieties have higher production costs at the farm (slower growth, more patented technology), which translates to a higher price per pallet—often 30% to 50% more than standard Floratam.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Site Preparation: The Hidden Labor</h2>
+        <p>
+          This is where quotes vary wildly between "Chuck in a Truck" and a professional company.
+        </p>
+        <p>
+          If a quote is suspiciously low, it's usually because they are skipping the prep work. Proper site prep involves:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Removal:</strong> We have to pay labor to cut the old grass. Then we have to pay dumping fees to dispose of it. If your yard is overgrown with 3-foot weeds, the removal cost doubles.</li>
+          <li><strong>Smoothing:</strong> If your yard is full of roots or ruts, we spend hours hand-raking and rolling. A "flat" yard is cheaper to prep than a lumpy, root-filled one.</li>
+          <li><strong>Access Issues:</strong> This is a big one.
+            <ul className="list-circle pl-6 mt-1 text-sm text-secondary-600">
+              <li><em>Easy Access:</em> We can drive a forklift or Bobcat directly into the backyard. Lowest cost.</li>
+              <li><em>Hard Access:</em> We have to park on the street and wheelbarrow 10 tons of sod and dirt through a 3-foot gate. This triples the labor time.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Geometry and Waste</h2>
+        <p>
+          A perfectly square, open backyard is the most efficient to install. But most Jacksonville yards are complex.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Curves and Obstacles:</strong> Every tree, flower bed, walkway, and sprinkler head requires a custom cut. A yard with 20 trees takes twice as long to sod as an open field of the same square footage.</li>
+          <li><strong>Waste Factor:</strong> Sod comes in rectangles. If you have a curved flower bed, we cut off the corners of the sod to fit the curve. That cut-off piece is waste. Complex yards require ordering 10-15% more material to account for these cuts.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Logistics and Scale</h2>
+        <p>
+          There are fixed costs associated with every job, regardless of size.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Delivery Fees:</strong> The sod farm charges a delivery fee for the 18-wheeler, whether we order 1 pallet or 18 pallets. Small jobs (under 1,000 sq ft) have a much higher cost-per-foot because that delivery fee is amortized over a smaller area.</li>
+          <li><strong>Mobilization:</strong> Getting our crew, trucks, and equipment to your site costs money in fuel and time.</li>
+        </ul>
+        <div className="bg-primary-50 p-6 rounded-lg mb-6 border border-primary-200">
+          <h4 className="font-bold text-lg text-primary-900 mb-2">The Volume Discount</h4>
+          <p className="text-primary-800">
+            Because of these fixed costs, the price per square foot drops significantly as the project size increases. A 10,000 sq ft installation will always be cheaper <em>per foot</em> than a 500 sq ft patch job.
+          </p>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. "You Get What You Pay For"</h2>
+        <p>
+          When comparing quotes, ask these questions to ensure you are comparing apples to apples:
+        </p>
+        <div className="space-y-4">
+          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
+            <h4 className="font-bold text-secondary-900">Are they licensed and insured?</h4>
+            <p className="text-sm text-secondary-600">If an uninsured worker gets hurt on your property, you could be liable. Professional companies carry Workers' Comp and General Liability.</p>
+          </div>
+          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
+            <h4 className="font-bold text-secondary-900">Where does the sod come from?</h4>
+            <p className="text-sm text-secondary-600">We source directly from certified farms, cut the same day. Cheaper quotes may use "reseller" sod that sat on a lot for two days.</p>
+          </div>
+          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
+            <h4 className="font-bold text-secondary-900">Is removal included?</h4>
+            <p className="text-sm text-secondary-600">Some low quotes assume they will lay sod <em>over</em> your existing grass (a recipe for disaster). Always verify that old turf removal is included.</p>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Budgeting Tips</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Measure Twice:</strong> Get an accurate measurement of your lawn. Use an online map tool or a measuring tape. Guessing usually leads to under-budgeting.</li>
+          <li><strong>Group Projects:</strong> If your neighbor also needs sod, hiring us to do both yards at once can save on delivery and mobilization fees.</li>
+          <li><strong>Prep Yourself (Advanced):</strong> If you are handy, you can save money by removing the old grass and clearing the site yourself, hiring us only for the final grade and installation.</li>
+        </ul>
+
+        <p className="mt-8">
+          The cost of sod is the price of an instant, healthy landscape. While not cheap, it adds immediate value to your home—often recovering 100% or more of the cost in increased property value. Contact Jax Sod for a detailed, itemized quote today.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'commercial-vs-residential-sod',
+    title: 'Commercial vs. Residential Sod Installation: Understanding the Differences',
+    excerpt: 'Is a commercial sod project just a big residential one? Not quite. Explore the unique challenges of commercial landscaping, from heavy-duty equipment to strict compliance standards.',
+    date: '2024-09-01',
+    category: 'Commercial',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          At first glance, sod installation seems universal: grass goes on dirt. However, the gap between re-sodding a suburban backyard and installing turf for a new apartment complex or shopping center is massive.
+        </p>
+        <p>
+          Commercial sod installation is a distinct discipline requiring different equipment, different planning, and a different mindset. It is not just about aesthetics; it is about liability, durability, and strict adherence to construction schedules.
+        </p>
+        <p>
+          At Jax Sod, we handle both residential and commercial projects. This guide highlights the key differences and what property managers or general contractors should look for in a commercial sod partner.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. Scale and Logistics: The Numbers Game</h2>
+        <p>
+          The most obvious difference is size, but the implications of that size are complex.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Volume:</strong> A residential job might be 2,000 square feet. A commercial job might be 200,000 square feet. This requires a supply chain that can deliver tractor-trailer loads of fresh sod on a rotating schedule throughout the day. We can't have 10 trucks show up at 8 AM; they must be staggered to ensure the sod is laid as soon as it arrives.</li>
+          <li><strong>Equipment:</strong> We don't use wheelbarrows on commercial sites. We use Moffett forklifts, skid steers with grading attachments, and sometimes installation machines that lay large "big rolls" (40-inch wide rolls) instead of standard slabs.</li>
+          <li><strong>Speed:</strong> Commercial projects often have strict deadlines tied to Certificates of Occupancy (CO). If the sod isn't down, the building can't open. We deploy larger crews (10+ men) to cover massive ground in single-day pushes.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Durability and Variety Selection</h2>
+        <p>
+          In a backyard, the grass needs to feel good on bare feet. In a commercial space, the grass needs to survive a war zone.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The "Utility" Mindset</h3>
+        <p>
+          Commercial turf faces abuse that residential lawns never see: constant foot traffic from the public, dog waste in apartment complexes, and heat radiation from massive parking lots.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Bermuda Grass:</strong> The darling of commercial sites. It is cheap, repairs itself rapidly from damage, and tolerates the heat of parking lot islands.</li>
+          <li><strong>Bahia Grass:</strong> Used for retention ponds and highway frontages. It is low maintenance and controls erosion effectively, even if it isn't "pretty."</li>
+          <li><strong>Zoysia (High-End):</strong> Used for luxury apartment courtyards or office entryways where visual impact matters more than cost.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Compliance, Safety, and Paperwork</h2>
+        <p>
+          You don't need a safety vest to sod a backyard. On a commercial site, safety and compliance are paramount.
+        </p>
+        <div className="bg-secondary-50 p-6 rounded-lg mb-6 border border-secondary-200">
+          <h4 className="font-bold text-lg text-secondary-900 mb-2">The Commercial Checklist</h4>
+          <ul className="list-disc pl-6 space-y-2 text-secondary-800">
+            <li><strong>Insurance:</strong> Commercial GCs require high limits on General Liability and Workers' Comp. "Chuck in a Truck" cannot get on these job sites.</li>
+            <li><strong>PPE:</strong> Crews must wear high-vis vests, hard hats, and steel-toe boots. Compliance with OSHA regulations is non-negotiable.</li>
+            <li><strong>Plan Reading:</strong> We must follow landscape architect prints precisely, understanding grading plans, swales, and irrigation zones.</li>
+          </ul>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Soil and Water Challenges</h2>
+        <p>
+          Commercial construction sites are notoriously hostile environments for plants.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Compacted Soil:</strong> Heavy machinery (cranes, concrete trucks) drives over the ground for months, packing the soil like concrete. We spend significantly more time on commercial sites ripping and tilling the soil to de-compact it before laying sod.</li>
+          <li><strong>Debris:</strong> We often find buried concrete, rebar, and trash in the soil. Cleaning a commercial site is a major task.</li>
+          <li><strong>Irrigation Delays:</strong> Often, the irrigation system is the last thing to be hooked up. We frequently have to use water trucks or temporary hydrants to keep commercial sod alive for the first few weeks.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. Maintenance Hand-Off</h2>
+        <p>
+          In a residential job, we teach the homeowner how to water. In a commercial job, there is often a disconnect between the installer and the maintenance team.
+        </p>
+        <p>
+          We work to bridge this gap by coordinating with the property management team or the landscape maintenance contractor. We provide detailed "care manuals" to ensure the expensive new turf isn't killed by a mower crew cutting it too short the week after installation.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Why Choose Jax Sod for Commercial Work?</h2>
+        <p>
+          We have the fleet, the manpower, and the insurance to handle projects from subdivision entryways to office parks. We understand that on a commercial job, time is money. We show up when scheduled, we work safely, and we deliver a finished product that passes inspection the first time.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: 'sod-vs-seed',
+    title: 'Sod vs. Seed: The Battle for Your Lawn',
+    excerpt: 'Is it better to pay for sod or save money with seed? We compare the two methods head-to-head on cost, time, weed control, and success rate in the Florida climate.',
+    date: '2024-08-25',
+    category: 'Planning',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Every homeowner dreaming of a new lawn faces the same dilemma: <strong>"Should I sod it or seed it?"</strong>
+        </p>
+        <p>
+          On paper, seed looks like the winner. A bag of seed costs $50, while a pallet of sod costs significantly more. But if seed were truly the superior option, the sod industry wouldn't exist.
+        </p>
+        <p>
+          In the Northeast or Midwest, seeding cool-season grasses (like Fescue) is effective. In Florida's subtropical climate, however, the math changes. Here is a brutally honest comparison of Sod vs. Seed for the Jacksonville market.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. Instant Gratification vs. The Waiting Game</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">Sod: The "Instant" Solution</h3>
+        <p>
+          Sod is a finished product. You buy a mature lawn that has been growing on a farm for 12-18 months.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Day 1:</strong> You have bare dirt.</li>
+          <li><strong>Day 2:</strong> You have a lush, green lawn.</li>
+          <li><strong>Day 30:</strong> You can play football on it.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">Seed: The Long Haul</h3>
+        <p>
+          Seed is a promise, not a product.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Week 1-2:</strong> You stare at mud. You water mud. You hope birds don't eat the seed.</li>
+          <li><strong>Week 3-4:</strong> Green fuzz appears. It looks like 5 o'clock shadow.</li>
+          <li><strong>Month 3-4:</strong> If you are lucky, you have patchy grass. You likely have to re-seed the bare spots.</li>
+          <li><strong>Month 12:</strong> You might have a full lawn.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. The Weed War</h2>
+        <p>
+          This is the #1 reason seeding fails in Florida.
+        </p>
+        <p>
+          <strong>Sod</strong> acts as a "weed block." The dense mat of mature grass and soil physically smothers weed seeds in the ground, preventing them from getting sunlight. It dominates the space immediately.
+        </p>
+        <p>
+          <strong>Seed</strong> requires bare soil, water, and sunlight to grow. Guess what else loves bare soil, water, and sunlight? <strong>Weeds.</strong> In Florida, weed seeds (crabgrass, dollarweed) germinate faster than grass seed. Often, a seeded lawn becomes a weed field with some grass mixed in. You cannot spray weed killer on young grass seedlings, so you are forced to hand-pull weeds for months.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Erosion and Runoff</h2>
+        <p>
+          Florida has violent afternoon thunderstorms.
+        </p>
+        <p>
+          If you spread seed on a Monday and a thunderstorm hits on Tuesday, your seed (and your topsoil) is currently washing down the storm drain. You have to buy it again.
+        </p>
+        <p>
+          <strong>Sod</strong> is heavy. A single piece weighs 30-40 pounds. It pins the soil in place. It is the only viable option for slopes or areas with drainage flow. It stops erosion <em>immediately</em>.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Availability of Varieties</h2>
+        <p>
+          Here is a secret: <strong>Most Florida grasses cannot be grown from seed.</strong>
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>St. Augustine:</strong> Available as SOD ONLY. It does not produce viable commercial seed. If you want St. Augustine (the most popular grass in Florida), you <em>must</em> sod or plug it.</li>
+          <li><strong>Zoysia:</strong> Mostly sod only. Some seed varieties exist (Zenith), but they are notoriously difficult to germinate and look different than the premium sod varieties (Empire/Zeon).</li>
+          <li><strong>Bahia:</strong> Readily available as seed. This is the one grass that is often seeded successfully in Florida, primarily for pastures and roadsides.</li>
+          <li><strong>Bermuda:</strong> Available as seed, but "Common Bermuda" seed looks very different (coarser) than the hybrid Bermuda sod used on golf courses.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. The Cost Reality</h2>
+        <p>
+          Yes, seed is cheaper upfront. But let's calculate the "Total Cost of Ownership" for the first year.
+        </p>
+        <div className="grid md:grid-cols-2 gap-6 my-8">
+          <div className="bg-white p-6 shadow-sm rounded-lg border border-secondary-200">
+            <h4 className="font-bold text-center text-secondary-900 mb-4">Sod Cost</h4>
+            <p className="text-sm">High initial material cost. Moderate water cost (2-4 weeks of intense watering). Zero weed control cost initially.</p>
+            <p className="text-center font-bold text-primary-600 mt-4">Result: Guaranteed Lawn</p>
+          </div>
+          <div className="bg-white p-6 shadow-sm rounded-lg border border-secondary-200">
+            <h4 className="font-bold text-center text-secondary-900 mb-4">Seed Cost</h4>
+            <p className="text-sm">Low initial material cost. <strong>Extreme</strong> water cost (must keep moist 24/7 for weeks). High fertilizer/chemical cost to fight weeds and push growth. High labor cost (re-seeding washouts).</p>
+            <p className="text-center font-bold text-red-600 mt-4">Result: 50/50 Chance</p>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">When Does Seed Make Sense?</h2>
+        <p>
+          We aren't anti-seed. It has its place.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Large Acreage:</strong> If you are doing 5 acres of Bahia pasture, sod is too expensive. Hydro-seeding is the answer.</li>
+          <li><strong>Overseeding Winter Rye:</strong> In winter, many people throw Ryegrass seed over their dormant lawn to have temporary green color. This works great.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Conclusion</h2>
+        <p>
+          For a residential lawn in Jacksonville, sod is the clear winner. The success rate is exponentially higher, the maintenance is lower during establishment, and you get the immediate value of a finished landscape.
+        </p>
+        <p>
+          Don't gamble on seed washing away in the next rainstorm. Invest in a permanent solution with Jax Sod.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: 'erosion-control-with-sod',
+    title: 'Stop the Slide: Using Sod for Instant Erosion Control',
+    excerpt: 'Is your soil washing away with every rainstorm? Learn why sod is the most effective engineering solution for stabilizing slopes, swales, and lake banks.',
+    date: '2024-08-18',
+    category: 'Solutions',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Silent Destroyer of Landscapes</h2>
+        <p>In Florida&apos;s climate, heavy afternoon thunderstorms can dump inches of rain in less than an hour. For bare soil or sparsely vegetated slopes, this is a recipe for disaster. Erosion isn&apos;t just an aesthetic issue—it&apos;s a property risk. It undermines fences, clogs drainage systems, and washes away expensive topsoil.</p>
+        <p>While retaining walls and geogrids have their place, the most cost-effective and immediate solution for most residential erosion problems is simple: <strong>Sod</strong>.</p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">How Sod Stops Erosion Immediately</h2>
+        <p>Unlike seed, which can wash away in the first rain, sod provides instant &quot;armoring&quot; of the soil. Here&apos;s the mechanics of how it works:</p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Instant Coverage:</strong> The physical mat of the sod protects the soil particles from the impact of raindrops, which is the first stage of erosion.</li>
+          <li><strong>Root Anchoring:</strong> Even before new roots grow deep, the existing root mat holds the soil together. As the sod establishes over the next 30 days, deep roots bind the soil layers together.</li>
+          <li><strong>Velocity Reduction:</strong> Grass blades create friction, slowing down the speed of surface water runoff. Slower water carries less sediment and causes less scouring.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Best Grass Types for Erosion Control</h2>
+        <p>Not all grass is created equal when it comes to holding ground. In Jacksonville, we look for grasses with aggressive root systems and dense growth habits.</p>
+        <h3 className="heading-sm mt-6 mb-3">1. Bahia Grass</h3>
+        <p>The champion of slope stabilization. Bahia puts down a deep, extensive root system (often several feet deep) that anchors soil better than almost any other turfgrass. It&apos;s the standard choice for retention ponds and steep embankments.</p>
+        <h3 className="heading-sm mt-6 mb-3">2. Bermuda Grass</h3>
+        <p>With both above-ground stolons and below-ground rhizomes, Bermuda creates a dense, netted mat that is excellent for high-flow areas like swales.</p>
+        <h3 className="heading-sm mt-6 mb-3">3. St. Augustine</h3>
+        <p>While not deep-rooted like Bahia, its dense canopy is excellent at protecting topsoil from rain impact. However, it requires more water to establish on a well-drained slope.</p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Conclusion</h2>
+        <p>If you have a washing-out bank or a swale that constantly turns into a mud pit, stop waiting for seed to sprout. Sod offers the only immediate, engineering-grade solution to lock that soil in place today.</p>
+      </>
+    ),
+  },
+  {
+    slug: 'florida-landscape-design-2024',
+    title: 'Designing a Florida Landscape: Best Plants for Jacksonville',
+    excerpt: 'Beyond the lawn: create a stunning, low-maintenance landscape. We share the top plants that thrive in Northeast Florida\'s unique climate, from vibrant crotons to hardy grasses.',
+    date: '2024-10-22',
+    category: 'Landscaping',
+    readTime: '15 min read',
+    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">More Than Just Grass</h2>
+        <p>A beautiful lawn is the canvas, but the plants are the paint. Living in Jacksonville (USDA Zone 9a/9b) gives us a unique palette to work with—tropical enough for stunning colors, but with occasional freezes that demand hardiness.</p>
+        <p>Designing a landscape here requires balancing aesthetics with resilience. You want plants that can survive a hot, humid July <em>and</em> a 25-degree night in January.</p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The &quot;Bulletproof&quot; List for Jacksonville</h2>
+        <p>After decades of landscaping in Duval and St. Johns counties, these are the plants we return to again and again because they simply work.</p>
+
+        <h3 className="heading-sm mt-6 mb-3">1. For Structure & Screening</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Podocarpus</strong>: The ultimate privacy screen. Clean, vertical, and pest-free.</li>
+          <li><strong>Viburnum Odoratissimum</strong>: Fast-growing, glossy leaves, and drought-tolerant once established.</li>
+          <li><strong>Loropetalum (Chinese Fringe Flower)</strong>: Adds stunning deep purple foliage to break up the green. varieties like &apos;Ruby&apos; stay compact.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">2. For Color & Texture</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Flax Lily (Dianella)</strong>: Variegated leaves brighten up shady corners. Very hardy.</li>
+          <li><strong>Agapanthus (Lily of the Nile)</strong>: Bursts of blue or white flowers in spring. Loves the Florida sun.</li>
+          <li><strong>Crotons</strong>: The explosion of color everyone loves. *Warning*: Keep them close to the house on the south side for frost protection.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">3. Groundcovers</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Asiatic Jasmine</strong>: The solution for areas where grass won&apos;t grow, like under heavy oak shade.</li>
+          <li><strong>Liriope</strong>: Perfect for bordering walkways and defining beds.</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    slug: 'shade-trees-jacksonville',
+    title: 'Top 5 Shade Trees for Jacksonville Yards (And How to Plant Them)',
+    excerpt: 'Beat the Florida heat with the canopy of a perfect shade tree. We rank the best native and adapted trees that provide cooling shade without destroying your foundation.',
+    date: '2024-10-25',
+    category: 'Trees',
+    readTime: '12 min read',
+    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Value of Canopy</h2>
+        <p>In Florida, shade isn&apos;t a luxury—it&apos;s a necessity. A strategically placed shade tree can lower your home&apos;s cooling costs by up to 20% and reduce the ambient temperature of your patio by 10-15 degrees.</p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Our Top 5 Picks for Northeast Florida</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">1. Live Oak (Quercus virginiana)</h3>
+        <p><strong>The Icon.</strong> Nothing says &quot;The South&quot; like a Live Oak. They are incredibly wind-resistant (hurricane adaptation). <em>Caveat:</em> They need space. Do not plant within 20 feet of a foundation.</p>
+
+        <h3 className="heading-sm mt-6 mb-3">2. Drake Elm</h3>
+        <p><strong>The Fast Grower.</strong> If you want shade <em>now</em>, the Drake Elm is a great choice. It has a beautiful weeping habit and semi-evergreen leaves. It tolerates our sandy soils well.</p>
+
+        <h3 className="heading-sm mt-6 mb-3">3. Red Maple (Acer rubrum)</h3>
+        <p>One of the few Florida trees that gives true fall color. They prefer wetter soils, making them great for low spots in the yard.</p>
+      </>
+    )
+  },
+  {
+    slug: 'irrigation-golden-rules',
+    title: 'The Golden Rules of Irrigation in Northeast Florida',
+    excerpt: 'Stop guessing with your sprinkler timer. Learn the science of deep watering to promote drought-tolerant roots and avoid fungus in St. Augustine and Zoysia lawns.',
+    date: '2024-10-28',
+    category: 'Lawn Care',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1558230911-37f9046c8273?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Watering: The Most Misunderstood Task</h2>
+        <p>Most homeowner irrigation issues stem from one myth: &quot;I need to water a little bit every day.&quot;</p>
+        <p><strong>This is false.</strong> Frequent, shallow watering encourages shallow roots. When the summer heat hits, those shallow roots fry. The goal is <em>Deep and Infrequent</em> watering.</p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Golden Rules</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">1. The &quot;Tuna Can&quot; Test</h3>
+        <p>Grass doesn&apos;t care about &quot;20 minutes.&quot; It cares about inches of water. Different heads put out different amounts. Place empty tuna cans around your zone. Run it for 30 minutes. See how full they are. Your goal is to apply <strong>3/4 inch of water</strong> per session.</p>
+
+        <h3 className="heading-sm mt-6 mb-3">2. Morning is Mandatory</h3>
+        <p>The best time to water is <strong>4:00 AM to 8:00 AM</strong>.</p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><em>Too early (Evening/Night):</em> The grass stays wet all night, inviting fungus.</li>
+          <li><em>Too late (Afternoon):</em> Much of the water evaporates before it soaks in.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">3. Watch the Leaves</h3>
+        <p>St. Augustine grass tells you when it&apos;s thirsty. The blades will fold in half lengthwise (looking like straw). <strong>That</strong> is when you water.</p>
+      </>
+    )
+  }
+]
