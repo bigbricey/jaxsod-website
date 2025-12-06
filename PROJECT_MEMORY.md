@@ -27,6 +27,11 @@
 - `components/SodCalculator.tsx`: functional sod area calculator.
 - `data/articles.tsx`: **Source of Truth** for all article content and metadata.
 
+## 🚨 Operational Protocols (IMPORTANT)
+1.  **ALWAYS PUSH TO GITHUB:** The user expects all changes to be pushed to `origin main` immediately after completion. Do not wait for a specific prompt.
+    *   Command: `git add . && git commit -m "feat: description" && git push`
+2.  **Update This File:** Keep this `PROJECT_MEMORY.md` up to date with major changes so the next agent knows what happened.
+
 ## ⏭ Next Steps
 - Await **QA Report 2**.
 - Address any further content expansions or styling tweaks requested.
