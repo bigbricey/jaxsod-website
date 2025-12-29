@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { FiArrowRight } from 'react-icons/fi'
 
 export const metadata: Metadata = {
   title: 'Service Areas | Jax Sod – Jacksonville Sod Installation',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 const areas = [
   {
     heading: 'Jacksonville & Mandarin',
+    slug: 'mandarin',
     bullets: [
       'Residential lawn replacements and new builds with tailored sod varieties',
       'Surface smoothing for established neighborhoods',
@@ -17,6 +19,8 @@ const areas = [
   },
   {
     heading: 'Jacksonville Beach & Atlantic Beach',
+    slug: 'jacksonville-beach',
+    altSlug: 'atlantic-beach',
     bullets: [
       'Coastal-friendly sod selections that handle salt and humidity',
       'Rental and vacation property upgrades with clean installation',
@@ -25,6 +29,8 @@ const areas = [
   },
   {
     heading: 'Orange Park & Fleming Island',
+    slug: 'orange-park',
+    altSlug: 'fleming-island',
     bullets: [
       'HOA-ready installs with careful access planning',
       'Commercial and office park projects with minimal disruption',
@@ -33,6 +39,7 @@ const areas = [
   },
   {
     heading: 'St. Augustine & St. Johns County',
+    slug: 'st-augustine',
     bullets: [
       'New construction sod installation with builder coordination',
       'Historic home lawn refreshes with proper surface smoothing',
@@ -41,6 +48,8 @@ const areas = [
   },
   {
     heading: 'Ponte Vedra & Nocatee',
+    slug: 'ponte-vedra',
+    altSlug: 'nocatee',
     bullets: [
       'Premium varieties and manicured finishes for curb appeal',
       'Athletic-ready Bermuda and Zoysia installs for active households',
@@ -62,7 +71,7 @@ export default function ServiceAreasPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {areas.map((area) => (
-            <div key={area.heading} className="bg-white p-6 rounded-lg shadow-md space-y-3">
+            <div key={area.heading} className="bg-white p-6 rounded-lg shadow-md space-y-4">
               <h2 className="text-2xl font-bold text-secondary-900">{area.heading}</h2>
               <ul className="space-y-2 text-secondary-700">
                 {area.bullets.map((bullet) => (
@@ -72,14 +81,30 @@ export default function ServiceAreasPage() {
                   </li>
                 ))}
               </ul>
+              <div className="flex flex-wrap gap-3 pt-2">
+                <Link
+                  href={`/locations/${area.slug}`}
+                  className="inline-flex items-center gap-1 text-primary-600 font-semibold hover:text-primary-700 transition-colors"
+                >
+                  Learn more <FiArrowRight className="text-sm" />
+                </Link>
+                {area.altSlug && (
+                  <Link
+                    href={`/locations/${area.altSlug}`}
+                    className="inline-flex items-center gap-1 text-primary-600 font-semibold hover:text-primary-700 transition-colors"
+                  >
+                    {area.altSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} <FiArrowRight className="text-sm" />
+                  </Link>
+                )}
+              </div>
             </div>
           ))}
         </div>
 
         <div className="bg-primary-50 border border-primary-100 rounded-xl p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="space-y-2 max-w-3xl">
-            <h2 className="heading-md">Not sure if you’re in our service area?</h2>
-            <p className="text-secondary-700">Tell us about your project and location. We’ll confirm quickly and share the best installation plan for your property.</p>
+            <h2 className="heading-md">Not sure if you're in our service area?</h2>
+            <p className="text-secondary-700">Tell us about your project and location. We'll confirm quickly and share the best installation plan for your property.</p>
           </div>
           <Link href="/contact" className="btn-primary">
             Contact Us
