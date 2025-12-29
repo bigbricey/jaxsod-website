@@ -1189,5 +1189,740 @@ export const articles: Article[] = [
         </p>
       </>
     )
+  },
+
+  // --- NEW BATCH: Commercial Intent Articles ---
+  {
+    slug: 'sod-installation-cost-jacksonville',
+    title: 'How Much Does Sod Installation Cost in Jacksonville, FL? (2025 Guide)',
+    excerpt: 'Get real pricing for sod installation in Jacksonville. We break down cost per square foot, factors that affect your quote, and how to budget for your lawn project.',
+    date: '2025-01-02',
+    category: 'Cost & Pricing',
+    wordCount: 1450,
+    image: 'https://images.unsplash.com/photo-1592595896616-c37162298647?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          &quot;How much will it cost to sod my yard?&quot; It&apos;s the first question every homeowner asks—and the hardest to answer without seeing the property. But after 37 years of installing sod across Jacksonville, I can give you real numbers and help you understand what drives the price.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Short Answer: Jacksonville Sod Installation Pricing</h2>
+        <p>
+          For a <strong>full-service professional sod installation</strong> in Jacksonville (including removal of old grass, ground prep, fresh sod, and installation), expect to pay:
+        </p>
+        <div className="bg-primary-50 border border-primary-200 rounded-lg p-6 my-6">
+          <ul className="space-y-2">
+            <li><strong>St. Augustine (Floratam):</strong> $1.50 - $2.00 per sq ft installed</li>
+            <li><strong>St. Augustine (Palmetto):</strong> $1.75 - $2.25 per sq ft installed</li>
+            <li><strong>Zoysia (Empire):</strong> $2.00 - $2.75 per sq ft installed</li>
+            <li><strong>Bermuda:</strong> $1.25 - $1.75 per sq ft installed</li>
+          </ul>
+        </div>
+        <p>
+          For an average Jacksonville yard of 3,000-5,000 square feet, that translates to <strong>$4,500 - $10,000+</strong> for a complete lawn replacement.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">What&apos;s Included in Professional Installation?</h2>
+        <p>
+          When you hire Jax Sod (or any reputable installer), the price should include:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Old Turf Removal:</strong> We strip and haul away your existing grass, weeds, and debris.</li>
+          <li><strong>Ground Preparation:</strong> Smoothing the surface, removing rocks, and creating a proper seedbed.</li>
+          <li><strong>Fresh Sod Delivery:</strong> Farm-fresh sod delivered and installed the same day.</li>
+          <li><strong>Professional Installation:</strong> Staggered seams, tight joints, custom cuts around beds and trees.</li>
+          <li><strong>Rolling:</strong> Compressing the sod for root-to-soil contact.</li>
+          <li><strong>Cleanup:</strong> We leave your property clean.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Factors That Affect Your Price</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">1. Yard Size</h3>
+        <p>
+          Larger yards mean more sod, more labor, and more time. However, the per-square-foot price often <em>decreases</em> for bigger projects because setup costs are spread across more area. A 10,000 sq ft yard might cost $1.60/sq ft while a 2,000 sq ft yard might be $2.00/sq ft.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">2. Grass Type</h3>
+        <p>
+          St. Augustine Floratam is the workhorse of Jacksonville lawns—it&apos;s affordable and performs well in full sun. Shade-tolerant varieties like Palmetto cost more. Premium grasses like Zoysia are the most expensive but offer superior durability and a finer texture.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">3. Site Conditions</h3>
+        <p>
+          Is your yard flat and accessible, or is it a sloped backyard with a narrow gate? Difficult access means more manual labor (no wheelbarrows, hand-carrying sod). Slopes require more careful installation. These factors add to the price.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">4. Current Lawn Condition</h3>
+        <p>
+          A yard that&apos;s already bare dirt is faster to prep than one with thick, established grass and weeds. If you have significant debris, stumps, or construction waste, removal adds to the cost.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">DIY vs. Professional: The Real Cost Comparison</h2>
+        <p>
+          &quot;Can I save money doing it myself?&quot; Yes—if you value your time at $0/hour and don&apos;t make any mistakes. Here&apos;s what DIY actually costs:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Sod (from a box store):</strong> $0.40 - $0.60/sq ft (but it may have been sitting for days)</li>
+          <li><strong>Sod cutter rental:</strong> $80 - $150/day</li>
+          <li><strong>Rototiller rental:</strong> $60 - $100/day</li>
+          <li><strong>Dump trailer for debris:</strong> $100 - $200</li>
+          <li><strong>Sod roller:</strong> $30 - $50/day</li>
+          <li><strong>Your weekend (or two):</strong> Priceless?</li>
+        </ul>
+        <p>
+          Add it up and you&apos;re at $0.80 - $1.20/sq ft <em>before</em> your labor. If something goes wrong—wrong sod selection, poor root contact, delayed watering—you&apos;ll be paying to do it again.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">How to Get an Accurate Quote</h2>
+        <p>
+          The only way to get a real number is a site visit. A good sod installer will measure your property, assess the existing conditions, discuss grass options, and provide a written quote—all for free.
+        </p>
+        <p>
+          <strong>At Jax Sod, we offer free estimates.</strong> We&apos;ll walk your property with you, answer your questions, and give you a clear, all-inclusive price with no surprises.
+        </p>
+
+        <div className="bg-secondary-50 border border-secondary-200 rounded-lg p-6 my-8">
+          <h3 className="font-bold text-lg mb-2">Ready to get your free quote?</h3>
+          <p className="mb-4">Contact us today. We&apos;ll provide a detailed estimate and help you choose the right sod for your Jacksonville property.</p>
+          <Link href="/contact" className="btn-primary inline-block">Get Your Free Estimate</Link>
+        </div>
+      </>
+    )
+  },
+  {
+    slug: 'when-to-install-sod-florida',
+    title: 'When is the Best Time to Install Sod in Florida?',
+    excerpt: 'Timing matters. Learn which months give your new sod the best chance of success in Florida&apos;s unique climate, and when you should avoid installation.',
+    date: '2025-01-03',
+    category: 'Installation Tips',
+    wordCount: 1200,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          One of the biggest advantages of sod over seeding is that you can install it almost any time of year in Florida. But &quot;can&quot; doesn&apos;t mean &quot;should.&quot; Some seasons give your new lawn a huge head start, while others require extra care to avoid failure.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Best Months for Sod Installation in Florida</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">🏆 Spring (March - May): The Gold Standard</h3>
+        <p>
+          Spring is the <strong>ideal</strong> time to install sod in Florida. Here&apos;s why:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Active Growth:</strong> Grass is coming out of winter dormancy and ready to grow aggressively.</li>
+          <li><strong>Mild Temperatures:</strong> Warm enough for root establishment, cool enough to avoid heat stress.</li>
+          <li><strong>Rainy Season Approaching:</strong> Late spring rains help with establishment (though you still need to irrigate).</li>
+          <li><strong>Full Season Ahead:</strong> Your sod has 6+ months of growing season to establish deep roots before winter.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">✅ Early Fall (September - October): The Strong Second Choice</h3>
+        <p>
+          Fall is another excellent window. The brutal summer heat is fading, but the grass is still actively growing. Root development continues through the cooler months, and you avoid the stress of establishing sod during peak summer.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">⚠️ Summer (June - August): It Works, But Requires Effort</h3>
+        <p>
+          Summer installation is absolutely possible—we do it all the time. But it requires <strong>religious watering</strong>. In 95°F heat, new sod can dry out in hours. You&apos;ll need to water 2-3 times per day for the first 2 weeks. If you have a solid irrigation system and can commit to the schedule, summer works fine.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">❄️ Winter (December - February): The Slow Lane</h3>
+        <p>
+          Winter installation is the trickiest in North Florida (Jacksonville). St. Augustine and Zoysia go semi-dormant, meaning they won&apos;t actively root. The sod will survive, but it just sits there until spring. If you install in winter:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li>Expect the lawn to look stagnant for 2-3 months</li>
+          <li>Don&apos;t worry if seams are visible—they&apos;ll fill in come spring</li>
+          <li>Water less frequently (once or twice a week) since evaporation is low</li>
+          <li>Avoid walking on the sod—it&apos;s fragile without active roots</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">When To Avoid Installation</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Right before a freeze:</strong> If a hard frost is coming within a week of installation, wait. Newly laid sod without established roots is more vulnerable to freeze damage.</li>
+          <li><strong>During drought restrictions:</strong> If watering restrictions are in effect and you can&apos;t get a new sod watering permit, your sod will fail.</li>
+          <li><strong>Before a major event:</strong> Installing sod the week before a party or home sale is risky. Give it at least 2-3 weeks before heavy foot traffic.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Bottom Line</h2>
+        <p>
+          In Florida, you have flexibility. Spring is best, early fall is great, summer works with effort, and winter is viable but slow. The most important factor isn&apos;t the calendar—it&apos;s <strong>your commitment to watering</strong> during the establishment period.
+        </p>
+        <p>
+          Ready to schedule your installation? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact Jax Sod</Link> and we&apos;ll help you pick the right time for your project.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'how-long-sod-root-florida',
+    title: 'How Long Does Sod Take to Root in Florida?',
+    excerpt: 'Patience is key. Learn the timeline for sod establishment in Florida&apos;s climate, when you can walk on it, and when you can mow it.',
+    date: '2025-01-04',
+    category: 'New Lawn Care',
+    wordCount: 1100,
+    image: 'https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          You&apos;ve invested in beautiful new sod. Now you&apos;re staring at your lawn wondering: &quot;When can I walk on it? When can I mow? When is it actually &apos;rooted&apos;?&quot; Here&apos;s the timeline you need.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Rooting Timeline</h2>
+
+        <div className="space-y-6 my-8">
+          <div className="bg-white border border-secondary-200 rounded-lg p-6">
+            <h3 className="font-bold text-lg text-primary-700">Days 1-7: Critical Establishment</h3>
+            <p className="mt-2">The sod is sitting on top of the soil, held in place by its own weight. Roots are just beginning to reach into the ground. This is the most vulnerable period—consistent watering is non-negotiable.</p>
+          </div>
+
+          <div className="bg-white border border-secondary-200 rounded-lg p-6">
+            <h3 className="font-bold text-lg text-primary-700">Days 7-14: Initial Rooting</h3>
+            <p className="mt-2">If you gently tug on a corner, you&apos;ll feel some resistance. Fine roots are anchoring into the soil. You can reduce watering frequency slightly, but don&apos;t stop.</p>
+          </div>
+
+          <div className="bg-white border border-secondary-200 rounded-lg p-6">
+            <h3 className="font-bold text-lg text-primary-700">Days 14-21: Light Foot Traffic OK</h3>
+            <p className="mt-2">The sod should no longer lift when pulled. You can walk on it to retrieve the mail or water. Avoid concentrated traffic (like a dog running the same path repeatedly).</p>
+          </div>
+
+          <div className="bg-white border border-secondary-200 rounded-lg p-6">
+            <h3 className="font-bold text-lg text-primary-700">Days 21-30: First Mow</h3>
+            <p className="mt-2">Once the grass blades reach 4-5 inches, it&apos;s time to mow. Never cut more than 1/3 of the blade height. Use a sharp mower—dull blades tear new grass.</p>
+          </div>
+
+          <div className="bg-white border border-secondary-200 rounded-lg p-6">
+            <h3 className="font-bold text-lg text-primary-700">Days 30-60: Fully Established</h3>
+            <p className="mt-2">In Florida&apos;s growing season, your sod should be fully rooted within 30-60 days. The seams are invisible, the lawn is uniform, and it can handle normal use.</p>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Factors That Speed Up (or Slow Down) Rooting</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Temperature:</strong> Warm soil (70-90°F) = fast rooting. Cool soil (below 60°F) = slow or stalled.</li>
+          <li><strong>Watering:</strong> Consistent moisture is essential. Dry roots don&apos;t grow.</li>
+          <li><strong>Soil Contact:</strong> Proper rolling during installation eliminates air pockets. Poor contact = slow roots.</li>
+          <li><strong>Grass Type:</strong> Bermuda roots fastest. Zoysia is slowest. St. Augustine is in the middle.</li>
+          <li><strong>Season:</strong> Spring/summer = 2-3 weeks. Winter = 6-8 weeks (or until spring warmth arrives).</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The &quot;Tug Test&quot;</h2>
+        <p>
+          The simplest way to check if your sod is rooted: grab a corner and give it a firm tug. If it lifts easily, it&apos;s not rooted. If it resists and feels anchored, the roots have taken hold.
+        </p>
+        <p>
+          Be patient. A little extra time before heavy use means years of healthy lawn ahead.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'st-augustine-vs-zoysia-jacksonville',
+    title: 'St. Augustine vs. Zoysia: Which Grass is Best for Jacksonville?',
+    excerpt: 'The two most popular sod choices in Northeast Florida go head-to-head. Learn which performs better for your specific yard conditions.',
+    date: '2025-01-05',
+    category: 'Sod Types',
+    wordCount: 1350,
+    image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          When Jacksonville homeowners ask me which grass to install, 90% of the time the choice comes down to St. Augustine or Zoysia. Both thrive here. Both look great. But they have different personalities. Let me help you pick the right one.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Quick Comparison</h2>
+        <div className="overflow-x-auto my-6">
+          <table className="w-full border-collapse border border-secondary-300">
+            <thead className="bg-secondary-100">
+              <tr>
+                <th className="border border-secondary-300 p-3 text-left">Factor</th>
+                <th className="border border-secondary-300 p-3 text-left">St. Augustine</th>
+                <th className="border border-secondary-300 p-3 text-left">Zoysia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-secondary-300 p-3 font-semibold">Sun Needs</td>
+                <td className="border border-secondary-300 p-3">6+ hours (Floratam), 4+ hours (Palmetto)</td>
+                <td className="border border-secondary-300 p-3">6+ hours (tolerates light shade)</td>
+              </tr>
+              <tr className="bg-secondary-50">
+                <td className="border border-secondary-300 p-3 font-semibold">Drought Tolerance</td>
+                <td className="border border-secondary-300 p-3">Moderate</td>
+                <td className="border border-secondary-300 p-3">Excellent</td>
+              </tr>
+              <tr>
+                <td className="border border-secondary-300 p-3 font-semibold">Traffic Tolerance</td>
+                <td className="border border-secondary-300 p-3">Moderate</td>
+                <td className="border border-secondary-300 p-3">Excellent</td>
+              </tr>
+              <tr className="bg-secondary-50">
+                <td className="border border-secondary-300 p-3 font-semibold">Texture</td>
+                <td className="border border-secondary-300 p-3">Coarse, wide blades</td>
+                <td className="border border-secondary-300 p-3">Fine, dense, carpet-like</td>
+              </tr>
+              <tr>
+                <td className="border border-secondary-300 p-3 font-semibold">Cost</td>
+                <td className="border border-secondary-300 p-3">$$ (Lower)</td>
+                <td className="border border-secondary-300 p-3">$$$ (Higher)</td>
+              </tr>
+              <tr className="bg-secondary-50">
+                <td className="border border-secondary-300 p-3 font-semibold">Chinch Bug Risk</td>
+                <td className="border border-secondary-300 p-3">High (major pest)</td>
+                <td className="border border-secondary-300 p-3">Low</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Choose St. Augustine If...</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>You have shade:</strong> Palmetto St. Augustine is the most shade-tolerant option in Florida. Under oaks? St. Augustine.</li>
+          <li><strong>You want lower cost:</strong> St. Augustine is more affordable per square foot.</li>
+          <li><strong>You like the classic Florida look:</strong> Those wide, lush blades are iconic in Jacksonville neighborhoods.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Choose Zoysia If...</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>You have kids or dogs:</strong> Zoysia rebounds from traffic like no other grass. It&apos;s the playground champion.</li>
+          <li><strong>You want drought resistance:</strong> Zoysia has deep roots and tolerates dry spells better than St. Augustine.</li>
+          <li><strong>You want that &quot;golf course&quot; look:</strong> Zoysia&apos;s fine, dense texture is visually stunning.</li>
+          <li><strong>You&apos;re tired of chinch bugs:</strong> Zoysia isn&apos;t bothered by them.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">My Recommendation After 37 Years</h2>
+        <p>
+          For most Jacksonville homeowners with <strong>full sun and an active family</strong>, I recommend <strong>Empire Zoysia</strong>. It&apos;s more expensive upfront, but it&apos;s tougher, uses less water, and looks amazing year-round.
+        </p>
+        <p>
+          If you have <strong>significant shade</strong> (4+ hours of tree cover), go with <strong>Palmetto St. Augustine</strong>. No Zoysia can match Palmetto&apos;s shade performance.
+        </p>
+        <p>
+          Not sure which fits your yard? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact us for a free consultation</Link>—we&apos;ll walk your property and give you an honest recommendation.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'best-grass-shade-jacksonville',
+    title: 'Best Grass for Shady Yards in Northeast Florida',
+    excerpt: 'Live under oaks? Struggling with thin, patchy grass? Here are your best options for shaded lawns in Jacksonville and what to do when grass just won&apos;t grow.',
+    date: '2025-01-06',
+    category: 'Sod Types',
+    wordCount: 1150,
+    image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Jacksonville is blessed with beautiful oak canopies. But those majestic trees create a challenge: shade. And shade is the enemy of most grass. If your lawn looks thin and patchy despite your best efforts, it&apos;s probably not your fault—it&apos;s a sunlight problem.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">How Much Shade is Too Much?</h2>
+        <p>
+          All grass needs <em>some</em> sunlight to photosynthesize. Here&apos;s the minimum:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Full sun grasses (Floratam, Bermuda):</strong> Need 6-8 hours of direct sunlight</li>
+          <li><strong>Shade-tolerant grasses (Palmetto, some Zoysia):</strong> Need 4-6 hours of filtered/dappled sunlight</li>
+          <li><strong>Dense shade (less than 4 hours):</strong> No grass will consistently thrive</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Best Shade-Tolerant Grasses for Jacksonville</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">1. Palmetto St. Augustine (Top Pick)</h3>
+        <p>
+          Palmetto is the gold standard for shade in Florida. It requires only 4-5 hours of sunlight per day and maintains good color even under moderate tree cover. It&apos;s also more cold-tolerant than Floratam, which matters in North Florida.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">2. Seville St. Augustine</h3>
+        <p>
+          Seville is similar to Palmetto but with finer blades and slightly better shade tolerance. It&apos;s a great choice for upscale landscapes where you want both shade performance and aesthetics.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">3. CitraBlue St. Augustine</h3>
+        <p>
+          A newer variety with excellent shade tolerance and improved disease resistance. It&apos;s gaining popularity in Florida and worth considering if you have had issues with fungal problems.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">When Grass Won&apos;t Work: Alternatives</h2>
+        <p>
+          If your yard has dense shade—under thick oak canopy, north side of the house—sometimes the honest answer is: <strong>grass isn&apos;t going to work there.</strong>
+        </p>
+        <p>
+          Rather than fighting a losing battle, consider:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Mulch beds:</strong> Clean, low-maintenance, and actually looks intentional</li>
+          <li><strong>Groundcover plants:</strong> Asiatic jasmine, mondo grass, or ferns thrive in shade</li>
+          <li><strong>Pine straw:</strong> Common in Florida and matches the natural environment</li>
+          <li><strong>Hardscape:</strong> Pavers, stepping stones, or gravel paths</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Tips for Shade Lawn Success</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Mow higher:</strong> Set your mower to 4 inches. Taller grass has more leaf surface to capture limited sunlight.</li>
+          <li><strong>Water less:</strong> Shaded areas don&apos;t dry out as fast. Overwatering in shade invites fungus.</li>
+          <li><strong>Thin your tree canopy:</strong> A certified arborist can prune lower branches to let more light through.</li>
+          <li><strong>Accept imperfection:</strong> Shaded grass will never look as lush as full-sun grass. That&apos;s just reality.</li>
+        </ul>
+
+        <p>
+          Need help assessing your shade situation? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Schedule a free estimate</Link> and I&apos;ll give you an honest assessment of what will and won&apos;t work in your yard.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'sod-installation-new-construction',
+    title: 'Sod Installation for New Construction Homes in Jacksonville',
+    excerpt: 'Just built a new home? Here&apos;s what you need to know about sodding your new construction lot—timing, builder coordination, and common pitfalls to avoid.',
+    date: '2025-01-07',
+    category: 'Installation Tips',
+    wordCount: 1250,
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          You&apos;ve closed on your brand new home in Nocatee, World Golf Village, or one of Jacksonville&apos;s other thriving communities. The house is beautiful, but the yard is... dirt. Or worse, the builder threw down the cheapest sod and it&apos;s already dying. Here&apos;s what you need to know.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Builder Sod Problem</h2>
+        <p>
+          Most builders include &quot;sod&quot; as part of the base package. But here&apos;s what they don&apos;t tell you:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Lowest bid wins:</strong> Your builder hired the cheapest sod crew, and it shows.</li>
+          <li><strong>No ground prep:</strong> Construction debris is barely scraped off. Sod is laid over rubble.</li>
+          <li><strong>Wrong grass type:</strong> They use whatever&apos;s cheapest, regardless of your yard&apos;s sun/shade conditions.</li>
+          <li><strong>Poor installation:</strong> Gaps between seams, no rolling, pieces already drying out on the pallet.</li>
+          <li><strong>No aftercare:</strong> They lay it and leave. Watering is your problem from day one.</li>
+        </ul>
+        <p>
+          We get calls every month from homeowners whose builder sod failed within 6-12 months. It&apos;s not your fault—it was set up to fail.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Option 1: Negotiate Sod Out of the Contract</h2>
+        <p>
+          If you&apos;re still in the buying phase, ask your builder if you can get a credit to exclude sod from the contract. Many will agree. This lets you hire a professional sod installer (like us) who will:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li>Wait until construction debris is actually gone</li>
+          <li>Properly grade and prepare the soil</li>
+          <li>Install premium sod suited to your yard&apos;s conditions</li>
+          <li>Coordinate irrigation setup with your landscaper</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Option 2: Replace Builder Sod After Closing</h2>
+        <p>
+          If it&apos;s too late and the builder sod is already struggling, here&apos;s the timeline:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>6 months:</strong> Give the builder sod a fair chance. Water it properly and see if it establishes.</li>
+          <li><strong>12 months:</strong> If it&apos;s still patchy, thin, or dying, it&apos;s time to replace.</li>
+          <li><strong>The process:</strong> We strip the failed sod, remove construction debris hiding in the soil, properly smooth the ground, and install fresh, premium sod.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Timing: When to Sod a New Build</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Wait for final grading:</strong> Don&apos;t sod until final dirt work and drainage swales are complete.</li>
+          <li><strong>Irrigation first:</strong> Your sprinkler system should be installed and tested before sod arrives.</li>
+          <li><strong>Clear debris:</strong> Walk the lot. If there&apos;s wood, concrete chunks, or drywall scraps, it needs more prep.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">New Construction Sod Installation Checklist</h2>
+        <div className="bg-secondary-50 border border-secondary-200 rounded-lg p-6 my-6">
+          <ul className="space-y-2">
+            <li>✅ Irrigation system installed and tested</li>
+            <li>✅ Final grading complete</li>
+            <li>✅ Construction debris removed</li>
+            <li>✅ Topsoil added if needed (sandy lots benefit from organic amendment)</li>
+            <li>✅ Sod type selected based on sun/shade analysis</li>
+            <li>✅ Watering schedule planned (you&apos;ll be watering 2-3x/day initially)</li>
+          </ul>
+        </div>
+
+        <p>
+          Building in Jacksonville? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact Jax Sod</Link> before you close. We can coordinate with your builder to ensure your new lawn starts right.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'signs-lawn-needs-replacement',
+    title: '5 Signs Your Lawn Needs to Be Replaced (Not Just Repaired)',
+    excerpt: 'Is your lawn beyond saving? Learn when it makes more sense to start fresh with new sod instead of fighting a losing battle with repairs.',
+    date: '2025-01-08',
+    category: 'Lawn Problems',
+    wordCount: 1100,
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Every homeowner wants to believe their lawn can be saved. But sometimes the math doesn&apos;t work. After 37 years in this business, I&apos;ve seen homeowners spend more on failed repairs than a fresh installation would have cost. Here&apos;s how to know when it&apos;s time to stop patching and start over.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Sign #1: More Than 50% is Dead or Dying</h2>
+        <p>
+          Walk your yard. If more than half of the grass is bare, brown, or infested with weeds, you&apos;ve passed the tipping point. Spot repairs and overseeding won&apos;t work when healthy grass is the minority. You&apos;ll spend years chasing a uniform lawn and never get there.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Sign #2: The Wrong Grass Was Installed</h2>
+        <p>
+          Full-sun grass in a shaded yard (or vice versa) will never thrive, no matter how much you water and fertilize. If your Floratam St. Augustine is under oak trees, it will struggle forever. The fix isn&apos;t more care—it&apos;s a different grass type entirely.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Sign #3: Chronic Pest or Disease Problems</h2>
+        <p>
+          If you&apos;re treating for chinch bugs or fungus every year, your lawn may have underlying issues that won&apos;t go away:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li>Poor drainage holding water</li>
+          <li>Excessive thatch creating pest habitat</li>
+          <li>Weakened root systems that can&apos;t recover</li>
+          <li>Soil compaction preventing healthy growth</li>
+        </ul>
+        <p>
+          Starting fresh lets you fix the underlying soil issues and install disease-resistant varieties.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Sign #4: You&apos;ve Tried Everything</h2>
+        <p>
+          Fertilizer, fungicide, pest control, topdressing, aeration... you&apos;ve done it all, and the lawn still looks terrible. At some point, the sunk cost fallacy kicks in. All that money you&apos;ve spent on repairs? It&apos;s gone. The question now is: <strong>What&apos;s the most cost-effective path to a beautiful lawn going forward?</strong> Usually, it&apos;s replacement.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Sign #5: Major Renovation or Hardscape Work</h2>
+        <p>
+          If you&apos;re adding a pool, patio, driveway, or doing any major construction, your lawn will be damaged anyway. Heavy equipment, dirt piles, and foot traffic destroy grass. It&apos;s often smarter to plan for full sod replacement as part of the project rather than trying to repair the aftermath.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Replacement Advantage</h2>
+        <p>
+          When you replace your entire lawn, you get:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Clean slate:</strong> All old problems—pests, disease, weeds—are removed.</li>
+          <li><strong>Proper variety:</strong> We match grass to your yard&apos;s conditions.</li>
+          <li><strong>Uniform appearance:</strong> No patchy blend of old and new.</li>
+          <li><strong>Instant result:</strong> You go from eyesore to showcase in one day.</li>
+        </ul>
+
+        <p>
+          Think your lawn might need replacement? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Get a free assessment</Link>. We&apos;ll give you an honest opinion—even if it means telling you repair is the better option.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'chinch-bugs-florida-lawns',
+    title: 'Chinch Bugs in Florida: Identification, Treatment & Prevention',
+    excerpt: 'Chinch bugs destroy more St. Augustine lawns than any other pest in Florida. Learn how to identify them, stop an infestation, and prevent future attacks.',
+    date: '2025-01-09',
+    category: 'Lawn Problems',
+    wordCount: 1400,
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          If you have St. Augustine grass in Florida, chinch bugs are your number one enemy. These tiny insects have destroyed more lawns in Jacksonville than drought, disease, and neglect combined. Here&apos;s everything you need to know to protect your lawn.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">What Are Chinch Bugs?</h2>
+        <p>
+          Southern chinch bugs (<em>Blissus insularis</em>) are small—about the size of a grain of rice when adult. They live in the thatch layer of your lawn, where they feed by piercing grass blades and sucking out the fluids. While feeding, they inject a toxin that causes the grass to turn yellow, then brown, then die.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">How to Identify Chinch Bug Damage</h2>
+        <p>
+          Chinch bug damage looks a lot like drought stress, which is why so many homeowners misdiagnose it and make things worse by overwatering. Key signs:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Spreading yellow/brown patches:</strong> Damage starts small and grows outward, especially along sunny edges (driveways, sidewalks).</li>
+          <li><strong>Location:</strong> Chinch bugs prefer hot, sunny areas. If the dead patches are in full sun near concrete (which radiates heat), suspect chinch bugs.</li>
+          <li><strong>Grass pulls up easily:</strong> The grass may lift because the roots are dying.</li>
+          <li><strong>Watering doesn&apos;t help:</strong> The patches don&apos;t green up even with extra irrigation.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The &quot;Float Test&quot; for Chinch Bugs</h2>
+        <p>
+          Here&apos;s how to confirm chinch bugs are your problem:
+        </p>
+        <ol className="list-decimal pl-6 space-y-3 mb-6">
+          <li>Cut both ends off a metal coffee can (or use a large PVC pipe).</li>
+          <li>Push one end 2-3 inches into the soil at the edge of a damaged area—where yellow meets green.</li>
+          <li>Fill the can with water. Keep it filled for 5-10 minutes.</li>
+          <li>Watch for small black and white insects floating to the surface. Those are adult chinch bugs.</li>
+        </ol>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Treatment Options</h2>
+        <h3 className="heading-sm mt-6 mb-3">Chemical Insecticides</h3>
+        <p>
+          For active infestations, you need a lawn insecticide containing bifenthrin, imidacloprid, or similar active ingredients. Apply according to label directions. You may need 2-3 applications, 2-3 weeks apart, to break the reproduction cycle.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Professional Pest Control</h3>
+        <p>
+          For severe infestations, a professional lawn pest service is worth the cost. They have access to stronger products and know exactly how to apply them. This is not a DIY moment when your entire lawn is at stake.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Prevention Strategies</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Don&apos;t over-fertilize:</strong> Excessive nitrogen produces lush growth that chinch bugs love.</li>
+          <li><strong>Water properly:</strong> Deep, infrequent watering creates healthy grass that resists pests.</li>
+          <li><strong>Reduce thatch:</strong> Chinch bugs live in thatch. Keep it below 1/2 inch.</li>
+          <li><strong>Mow correctly:</strong> Don&apos;t scalp your lawn. Stressed grass is vulnerable grass.</li>
+          <li><strong>Consider resistant varieties:</strong> Some St. Augustine varieties (like Floratam and CitraBlue) have moderate chinch bug resistance. Zoysia is almost never bothered by chinch bugs.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">When Replacement is the Best Option</h2>
+        <p>
+          If chinch bugs have destroyed more than 50% of your lawn, the fastest path to a healthy yard is often replacement. We can:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li>Remove the destroyed sod and the chinch bug population with it</li>
+          <li>Treat the soil before new installation</li>
+          <li>Install a more resistant variety if appropriate</li>
+        </ul>
+        <p>
+          <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact Jax Sod</Link> for a free assessment if your lawn is under attack.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'burweed-stickerweed-florida',
+    title: 'Burweed (Stickerweed) in Florida Lawns: How to Get Rid of It',
+    excerpt: 'Those painful stickers ruining your barefoot summer? That&apos;s burweed. Learn how to eliminate it and prevent it from coming back next year.',
+    date: '2025-01-10',
+    category: 'Lawn Problems',
+    wordCount: 1100,
+    image: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          There&apos;s nothing quite like stepping on a burweed seed pod to ruin a beautiful Florida afternoon. These tiny torture devices hide in lawns across Jacksonville, attacking bare feet, pet paws, and anyone who dares to sit on the grass. Here&apos;s how to fight back.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">What Is Burweed (Lawn Burweed)?</h2>
+        <p>
+          Lawn burweed (<em>Soliva sessilis</em>), also called stickerweed or spurweed, is a winter annual weed. It germinates in fall, grows low to the ground all winter (often unnoticed), then produces its spiny seed pods in late spring. By the time those stickers hurt your feet in May, the weed has already completed its life cycle.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Why Treating It Now (Spring/Summer) Is Too Late</h2>
+        <p>
+          Here&apos;s the frustrating truth: if you&apos;re stepping on stickers, the plant is already mature and dying. Spraying herbicide now will kill the plant, but the seeds are already on the ground—ready to germinate next fall and repeat the cycle.
+        </p>
+        <p>
+          <strong>The key to burweed control is prevention, not reaction.</strong>
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Right Way: Pre-Emergent in Fall</h2>
+        <p>
+          The only effective way to prevent burweed is to stop the seeds from germinating. Apply a pre-emergent herbicide in <strong>October or early November</strong>, before the first cool nights.
+        </p>
+        <p>
+          Look for products containing:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Atrazine</strong> (safe for St. Augustine and Centipede)</li>
+          <li><strong>Isoxaben</strong></li>
+          <li><strong>Dithiopyr</strong></li>
+        </ul>
+        <p>
+          Apply according to label rates. Water it in lightly. Mark your calendar now—this is a Fall job.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Post-Emergent Options (If You Missed Fall)</h2>
+        <p>
+          If burweed is already growing (January-March), you can still treat it before the stickers form:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Atrazine:</strong> Effective on young burweed in St. Augustine lawns.</li>
+          <li><strong>2,4-D products:</strong> Such as Weed B Gon or Weed Free Zone.</li>
+          <li><strong>Timing matters:</strong> Treat in January or February when plants are young. By March, the stickers are forming and you&apos;re too late.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">What To Do Right Now (If It&apos;s Already Summer)</h2>
+        <ol className="list-decimal pl-6 space-y-3 mb-6">
+          <li><strong>Mow frequently:</strong> Collect clippings to remove some seed pods from the lawn.</li>
+          <li><strong>Set a reminder:</strong> Put &quot;Apply burweed pre-emergent&quot; in your calendar for October.</li>
+          <li><strong>Focus on lawn health:</strong> A thick, healthy lawn crowds out weeds. Fertilize properly and water correctly.</li>
+        </ol>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Can New Sod Help?</h2>
+        <p>
+          Yes and no. Fresh sod doesn&apos;t have burweed in it—but the seeds in your soil will find their way to the surface. New sod combined with a fall pre-emergent program gives you the best chance at a sticker-free lawn.
+        </p>
+        <p>
+          Tired of playing defense? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact us</Link> to discuss lawn renovation options.
+        </p>
+      </>
+    )
+  },
+  {
+    slug: 'sod-vs-seed-jacksonville',
+    title: 'Sod vs. Seed: Which is Right for Your Jacksonville Lawn?',
+    excerpt: 'Should you sod or seed your lawn? In Florida, the answer is almost always sod. Here&apos;s why—and the exceptions.',
+    date: '2025-01-11',
+    category: 'Installation Tips',
+    wordCount: 1150,
+    image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          Up north, seeding a lawn is common. In Florida, it&apos;s a recipe for disappointment. Here&apos;s the honest truth about sod vs. seed in Jacksonville—and when each makes sense.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Why Sod Wins in Florida</h2>
+
+        <h3 className="heading-sm mt-6 mb-3">1. St. Augustine Doesn&apos;t Come From Seed</h3>
+        <p>
+          The most popular grass in Florida—St. Augustine—is not commercially available as seed. It can only be established from sod or plugs. If you want St. Augustine (and most Florida homeowners do), sod is your only practical option.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">2. Instant Results</h3>
+        <p>
+          Sod gives you a lawn in one day. Seeding takes 2-3 months of careful nurturing—and that&apos;s if everything goes perfectly. In that time, you have exposed dirt, mud tracking into your house, and ugly views from your windows.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">3. Florida&apos;s Climate Fights Seeds</h3>
+        <p>
+          Florida&apos;s summer deluges wash seeds away. Our sandy soil dries out fast between rains. And every weed seed in the soil bank is competing with your grass seed. The deck is stacked against seeding.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">4. Less Weed Pressure</h3>
+        <p>
+          Sod arrives as a thick, established mat. Weeds have nowhere to go. A seeded lawn has bare soil between seedlings—an open invitation for crabgrass, spurge, and every other weed to move in.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">When Seeding Makes Sense</h2>
+        <p>
+          There are a few scenarios where seeding can work:
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Bermuda grass:</strong> Bermuda can be seeded and establishes faster than other grasses.</li>
+          <li><strong>Overseeding thin areas:</strong> Small bare spots in Bermuda can be filled with seed.</li>
+          <li><strong>Large acreage:</strong> For multi-acre properties, the cost of sod is prohibitive. Seeding or sprigging may be the only affordable option.</li>
+          <li><strong>Pastures, not lawns:</strong> If you don&apos;t care about looks—just ground cover—seeding with bahiagrass works.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Cost Comparison</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Sod:</strong> $1.50 - $2.50/sq ft installed</li>
+          <li><strong>Seeding (Bermuda):</strong> $0.10 - $0.30/sq ft for seed + labor</li>
+        </ul>
+        <p>
+          Yes, seeding is cheaper upfront. But factor in the months of watering, the weed control, the reseeding of failed areas, and the value of your time—and sod often works out to be the better investment.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Bottom Line</h2>
+        <p>
+          For 95% of Jacksonville homeowners, sod is the answer. It&apos;s faster, more reliable, and results in a better-looking lawn. The only exceptions are large commercial/agricultural properties where the math changes.
+        </p>
+        <p>
+          Ready to get started? <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">Contact Jax Sod</Link> for your free estimate.
+        </p>
+      </>
+    )
   }
 ]
+
