@@ -9,8 +9,9 @@ import { articles } from '@/data/articles'
 export default function ArticleSearch() {
     const searchParams = useSearchParams()
     const categoryParam = searchParams.get('category')
+    const queryParam = searchParams.get('q')
 
-    const [searchQuery, setSearchQuery] = useState('')
+    const [searchQuery, setSearchQuery] = useState(queryParam || '')
     const [selectedCategory, setSelectedCategory] = useState('All')
 
     // Update selected category when URL param changes

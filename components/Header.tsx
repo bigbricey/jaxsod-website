@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { FiPhone, FiMenu, FiX } from 'react-icons/fi'
+import GlobalSearch from './GlobalSearch'
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -47,29 +48,36 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6 lg:gap-8">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-secondary-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-secondary-700 hover:text-primary-600 font-medium transition-colors text-sm xl:text-base"
               >
                 {link.label}
               </Link>
             ))}
+
+            {/* Global Search */}
+            <GlobalSearch />
+
             <Link href="/contact" className="btn-primary">
               Get Free Quote
             </Link>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            className="lg:hidden text-2xl text-secondary-700"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileMenuOpen ? <FiX /> : <FiMenu />}
-          </button>
+          {/* Mobile: Search + Menu */}
+          <div className="lg:hidden flex items-center gap-4">
+            <GlobalSearch />
+            <button
+              className="text-2xl text-secondary-700"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <FiX /> : <FiMenu />}
+            </button>
+          </div>
         </div>
       </nav>
 
