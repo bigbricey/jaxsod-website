@@ -648,110 +648,7 @@ export const articles: Article[] = [
     ),
   },
 
-  {
-    slug: 'sod-cost-factors',
-    title: 'The Real Cost of Sod Installation: A Transparent Pricing Guide',
-    excerpt: 'How much does sod installation actually cost in Jacksonville? We peel back the layers of pricing, explaining everything from pallet costs to site access, so you can budget accurately without surprises.',
-    date: '2024-09-08',
-    category: 'Planning',
-    wordCount: 1800,
-    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop',
-    content: (
-      <>
-        <p className="lead text-xl text-secondary-700 mb-6">
-          "How much is it to sod my yard?" This is the first question every customer asks. It seems like a simple math problem: <em>Price per square foot × Square feet = Total.</em>
-        </p>
-        <p>
-          In reality, professional sod installation is more like a construction project than a retail purchase. The price of the grass itself is often less than half of the total project cost. The rest lies in the labor, logistics, preparation, and waste management.
-        </p>
-        <p>
-          At Jax Sod, we believe in transparency. We don't want you to experience "sticker shock." Instead, we want you to understand exactly what goes into the quote. This guide breaks down the invisible variables that drive the cost of a high-quality sod installation.
-        </p>
 
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">1. The Raw Material: Not All Grass is Equal</h2>
-        <p>
-          The most obvious cost factor is the type of grass you choose. Just like buying flooring (laminate vs. hardwood), the variety of sod dictates the base price.
-        </p>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Economy Tier (Bahia):</strong> The least expensive option. Great for large acreages but offers a pasture-like appearance.</li>
-          <li><strong>Standard Tier (St. Augustine Floratam):</strong> The mid-range standard. This is the baseline for most residential pricing.</li>
-          <li><strong>Premium Tier (Zoysia, St. Augustine Seville/Provista):</strong> These varieties have higher production costs at the farm (slower growth, more patented technology), which translates to a higher price per pallet—often 30% to 50% more than standard Floratam.</li>
-        </ul>
-
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">2. Site Preparation: The Hidden Labor</h2>
-        <p>
-          This is where quotes vary wildly between "Chuck in a Truck" and a professional company.
-        </p>
-        <p>
-          If a quote is suspiciously low, it's usually because they are skipping the prep work. Proper site prep involves:
-        </p>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Removal:</strong> We have to pay labor to cut the old grass. Then we have to pay dumping fees to dispose of it. If your yard is overgrown with 3-foot weeds, the removal cost doubles.</li>
-          <li><strong>Smoothing:</strong> If your yard is full of roots or ruts, we spend hours hand-raking and rolling. A "flat" yard is cheaper to prep than a lumpy, root-filled one.</li>
-          <li><strong>Access Issues:</strong> This is a big one.
-            <ul className="list-circle pl-6 mt-1 text-sm text-secondary-600">
-              <li><em>Easy Access:</em> We can drive a forklift or Bobcat directly into the backyard. Lowest cost.</li>
-              <li><em>Hard Access:</em> We have to park on the street and wheelbarrow 10 tons of sod and dirt through a 3-foot gate. This triples the labor time.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">3. Geometry and Waste</h2>
-        <p>
-          A perfectly square, open backyard is the most efficient to install. But most Jacksonville yards are complex.
-        </p>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Curves and Obstacles:</strong> Every tree, flower bed, walkway, and sprinkler head requires a custom cut. A yard with 20 trees takes twice as long to sod as an open field of the same square footage.</li>
-          <li><strong>Waste Factor:</strong> Sod comes in rectangles. If you have a curved flower bed, we cut off the corners of the sod to fit the curve. That cut-off piece is waste. Complex yards require ordering 10-15% more material to account for these cuts.</li>
-        </ul>
-
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">4. Logistics and Scale</h2>
-        <p>
-          There are fixed costs associated with every job, regardless of size.
-        </p>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Delivery Fees:</strong> The sod farm charges a delivery fee for the 18-wheeler, whether we order 1 pallet or 18 pallets. Small jobs (under 1,000 sq ft) have a much higher cost-per-foot because that delivery fee is amortized over a smaller area.</li>
-          <li><strong>Mobilization:</strong> Getting our crew, trucks, and equipment to your site costs money in fuel and time.</li>
-        </ul>
-        <div className="bg-primary-50 p-6 rounded-lg mb-6 border border-primary-200">
-          <h4 className="font-bold text-lg text-primary-900 mb-2">The Volume Discount</h4>
-          <p className="text-primary-800">
-            Because of these fixed costs, the price per square foot drops significantly as the project size increases. A 10,000 sq ft installation will always be cheaper <em>per foot</em> than a 500 sq ft patch job.
-          </p>
-        </div>
-
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">5. "You Get What You Pay For"</h2>
-        <p>
-          When comparing quotes, ask these questions to ensure you are comparing apples to apples:
-        </p>
-        <div className="space-y-4">
-          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
-            <h4 className="font-bold text-secondary-900">Are they licensed and insured?</h4>
-            <p className="text-sm text-secondary-600">If an uninsured worker gets hurt on your property, you could be liable. Professional companies carry Workers' Comp and General Liability.</p>
-          </div>
-          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
-            <h4 className="font-bold text-secondary-900">Where does the sod come from?</h4>
-            <p className="text-sm text-secondary-600">We source directly from certified farms, cut the same day. Cheaper quotes may use "reseller" sod that sat on a lot for two days.</p>
-          </div>
-          <div className="p-4 bg-white shadow-sm border border-secondary-200 rounded-lg">
-            <h4 className="font-bold text-secondary-900">Is removal included?</h4>
-            <p className="text-sm text-secondary-600">Some low quotes assume they will lay sod <em>over</em> your existing grass (a recipe for disaster). Always verify that old turf removal is included.</p>
-          </div>
-        </div>
-
-        <h2 className="heading-md mt-10 mb-6 text-primary-800">Budgeting Tips</h2>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Measure Twice:</strong> Get an accurate measurement of your lawn. Use an online map tool or a measuring tape. Guessing usually leads to under-budgeting.</li>
-          <li><strong>Group Projects:</strong> If your neighbor also needs sod, hiring us to do both yards at once can save on delivery and mobilization fees.</li>
-          <li><strong>Prep Yourself (Advanced):</strong> If you are handy, you can save money by removing the old grass and clearing the site yourself, hiring us only for the final grade and installation.</li>
-        </ul>
-
-        <p className="mt-8">
-          The cost of sod is the price of an instant, healthy landscape. While not cheap, it adds immediate value to your home—often recovering 100% or more of the cost in increased property value. Contact Jax Sod for a detailed, itemized quote today.
-        </p>
-      </>
-    ),
-  },
 
   {
     slug: 'commercial-vs-residential-sod',
@@ -1193,7 +1090,7 @@ export const articles: Article[] = [
 
   // --- NEW BATCH: Commercial Intent Articles ---
   {
-    slug: 'when-to-install-sod-florida',
+    slug: 'best-time-to-install-sod-florida',
     title: 'When is the Best Time to Install Sod in Florida?',
     excerpt: 'Timing matters. Learn which months give your new sod the best chance of success in Florida&apos;s unique climate, and when you should avoid installation.',
     date: '2025-01-03',
@@ -1810,8 +1707,8 @@ export const articles: Article[] = [
 
         <h2 className="heading-md mt-10 mb-6 text-primary-800">Cost Comparison</h2>
         <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong>Sod:</strong> $1.50 - $2.50/sq ft installed</li>
-          <li><strong>Seeding (Bermuda):</strong> $0.10 - $0.30/sq ft for seed + labor</li>
+          <li><strong>Sod:</strong> Higher initial investment for professional installation, but includes instant results and guaranteed establishment.</li>
+          <li><strong>Seeding:</strong> Lower upfront material cost, but requires significant water, labor, and chemical costs over 6-12 months to establish.</li>
         </ul>
         <p>
           Yes, seeding is cheaper upfront. But factor in the months of watering, the weed control, the reseeding of failed areas, and the value of your time—and sod often works out to be the better investment.

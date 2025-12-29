@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi'
 import { articles, Article } from '@/data/articles'
 import ArticleCategories from '@/components/ArticleCategories'
-import Calculator from '@/components/Calculator'
+
 
 const getArticleBySlug = (slug: string): Article | undefined => {
   return articles.find((article) => article.slug === slug)
@@ -125,10 +125,7 @@ export default function ArticlePage({ params }: Props) {
             {/* Categories Widget */}
             <ArticleCategories />
 
-            {/* Mini Calculator */}
-            <div className="sticky top-24">
-              <Calculator />
-            </div>
+
           </div>
         </div>
       </div>
