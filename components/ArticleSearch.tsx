@@ -4,9 +4,22 @@ import { useState, useMemo, useEffect } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { FiCalendar, FiArrowRight, FiSearch, FiX } from 'react-icons/fi'
-import { articles } from '@/data/articles'
 
-export default function ArticleSearch() {
+interface Article {
+    slug: string
+    title: string
+    excerpt: string
+    date: string
+    category: string
+    wordCount: number
+    image: string
+}
+
+interface ArticleSearchProps {
+    articles: Article[]
+}
+
+export default function ArticleSearch({ articles }: ArticleSearchProps) {
     const searchParams = useSearchParams()
     const categoryParam = searchParams.get('category')
     const queryParam = searchParams.get('q')

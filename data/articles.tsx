@@ -1723,6 +1723,136 @@ export const articles: Article[] = [
         </p>
       </>
     )
+  },
+
+  {
+    slug: 'mole-damage-lawn-jacksonville',
+    title: 'Moles Are Destroying Your Lawn: How to Identify, Prevent, and Repair the Damage',
+    excerpt: 'Those mysterious raised tunnels ruining your beautiful sod? That\'s mole damage. Learn how to identify mole activity, understand why they chose your yard, and what it takes to repair the destruction.',
+    date: '2024-12-29',
+    category: 'Lawn Problems',
+    wordCount: 1650,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop',
+    content: (
+      <>
+        <p className="lead text-xl text-secondary-700 mb-6">
+          You wake up one morning to find your pristine lawn crisscrossed with raised ridges, like someone ran a network of underground highways beneath your grass. Welcome to the world of <strong>mole damage</strong>—one of the most frustrating lawn problems facing Jacksonville homeowners.
+        </p>
+        <p>
+          Moles are small, subterranean mammals with paddle-like front paws designed for digging. They don&apos;t eat your grass or plant roots (that&apos;s a common myth), but the tunnels they dig in pursuit of their actual food—grubs, earthworms, and insects—can devastate a lawn in just days.
+        </p>
+        <p>
+          At Jax Sod, we see the aftermath of mole infestations regularly. Homeowners invest thousands in beautiful new sod, only to have it destroyed by a creature they&apos;ve never even seen. This guide will help you identify mole activity, understand why they&apos;re attracted to your property, and learn what it takes to repair the damage.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Identifying Mole Damage: Is It Really Moles?</h2>
+        <p>
+          Before you declare war on moles, make sure you&apos;re fighting the right enemy. Several critters dig in lawns, and each requires a different approach.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Classic Mole Signs</h3>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Surface Runways:</strong> Long, raised ridges of soil that snake across your lawn. The grass on top is often dead or dying because the roots have been separated from the soil.</li>
+          <li><strong>Volcano Mounds:</strong> Cone-shaped piles of dirt pushed up from deeper tunnels. These are the &quot;spoil piles&quot; from main tunnels that can run 12-18 inches underground.</li>
+          <li><strong>Soft, Collapsing Ground:</strong> If you walk across your lawn and your foot sinks into hidden tunnels, that&apos;s mole infrastructure.</li>
+          <li><strong>Dead Grass Strips:</strong> Lines of brown, dying grass where the tunnel runs. The sod has been lifted off the soil, severing the root-to-soil contact.</li>
+        </ul>
+
+        <h3 className="heading-sm mt-6 mb-3">Moles vs. Other Yard Pests</h3>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-secondary-50 p-4 rounded border-l-4 border-secondary-400">
+            <strong className="text-secondary-900">Moles:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Raised surface tunnels</li>
+              <li>Conical dirt mounds</li>
+              <li>Eat insects, NOT plants</li>
+              <li>Solitary; 1-2 per yard</li>
+            </ul>
+          </div>
+          <div className="bg-secondary-50 p-4 rounded border-l-4 border-secondary-400">
+            <strong className="text-secondary-900">Armadillos:</strong>
+            <ul className="list-disc pl-4 mt-2 text-sm text-secondary-700">
+              <li>Shallow, scattered holes</li>
+              <li>Dug from the surface down</li>
+              <li>No tunnel system</li>
+              <li>Common in Jacksonville</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Why Moles Chose Your Yard</h2>
+        <p>
+          Moles don&apos;t move into your lawn for the scenery. They follow the food.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">The Grub Connection</h3>
+        <p>
+          The number one attractant for moles is a healthy population of <strong>grubs</strong> (the larval stage of beetles like June bugs). Grubs live in the soil and feed on grass roots. Moles consider them a delicacy. If your lawn has a grub problem, you have inadvertently set up an all-you-can-eat buffet for moles.
+        </p>
+
+        <h3 className="heading-sm mt-6 mb-3">Moist, Loamy Soil</h3>
+        <p>
+          Moles prefer soil that is easy to dig and rich in invertebrates. Jacksonville&apos;s irrigated lawns, especially those with automatic sprinkler systems, create ideal mole habitat. The moisture brings earthworms and insects to the surface, and the soft soil makes tunneling effortless.
+        </p>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">The Damage Moles Cause</h2>
+        <p>
+          While moles don&apos;t eat grass, the collateral damage from their tunneling is severe.
+        </p>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Root Separation:</strong> When a mole tunnels 1-2 inches below the surface, it lifts the sod off the soil. The roots dry out and die, leaving brown stripes of dead grass.</li>
+          <li><strong>Desiccation:</strong> Surface tunnels act like chimneys, allowing air to dry out the root zone.</li>
+          <li><strong>Secondary Pest Entry:</strong> Voles, mice, and snakes often use mole tunnels as highways.</li>
+          <li><strong>Tripping Hazard:</strong> Those soft, spongy tunnels are ankle-twisters waiting to happen.</li>
+        </ul>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Mole Control: What Works</h2>
+        <h3 className="heading-sm mt-6 mb-3">What Doesn&apos;t Work</h3>
+        <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-500 mb-6">
+          <ul className="list-disc pl-6 space-y-2 text-red-800">
+            <li><strong>Chewing Gum:</strong> Moles eat live insects, not random objects.</li>
+            <li><strong>Ultrasonic Repellers:</strong> No scientific evidence they work.</li>
+            <li><strong>Flooding Tunnels:</strong> Moles simply move to different tunnels.</li>
+          </ul>
+        </div>
+
+        <h3 className="heading-sm mt-6 mb-3">What Can Work</h3>
+        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 mb-6">
+          <ul className="list-disc pl-6 space-y-2 text-green-800">
+            <li><strong>Trapping:</strong> Scissor-jaw or harpoon traps set in active runs are most effective.</li>
+            <li><strong>Professional Pest Control:</strong> Licensed operators have the expertise to eliminate moles efficiently.</li>
+            <li><strong>Grub Treatment:</strong> Applying grub killer reduces the food source, encouraging moles to leave.</li>
+          </ul>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Repairing Mole Damage to Your Lawn</h2>
+        <p>
+          Once the moles are controlled, you need to fix the damage.
+        </p>
+        <ol className="list-decimal pl-6 space-y-3 mb-6">
+          <li><strong>Flatten the Tunnels:</strong> Use your foot or a lawn roller to press the raised sod back down into contact with the soil.</li>
+          <li><strong>Water Heavily:</strong> Deep watering helps the disturbed soil settle and surviving roots re-establish.</li>
+          <li><strong>Assess After 1-2 Weeks:</strong> Some areas recover; others where roots dried out will remain dead.</li>
+          <li><strong>Patch or Re-Sod:</strong> Cut out dead sections and lay fresh sod. If damage exceeds 25-30% of the lawn, full replacement is more practical.</li>
+        </ol>
+
+        <div className="bg-primary-50 p-6 border-l-4 border-primary-500 my-8 rounded-r-lg">
+          <p className="font-bold text-lg text-primary-900 mb-2">When to Call Jax Sod</p>
+          <p className="text-primary-800">If mole damage has killed more than 25-30% of your lawn, patching becomes impractical. A full sod replacement gives you a fresh start—and with proper grub control, you can prevent the moles from returning.</p>
+        </div>
+
+        <h2 className="heading-md mt-10 mb-6 text-primary-800">Prevention: Protecting Your New Sod</h2>
+        <ul className="list-disc pl-6 space-y-3 mb-6">
+          <li><strong>Annual Grub Treatment:</strong> Apply preventive grub control in May or June each year.</li>
+          <li><strong>Monitor Tunnel Activity:</strong> Step on new tunnels immediately. If repaired overnight, you have an active mole.</li>
+          <li><strong>Reduce Overwatering:</strong> Excessive irrigation creates the moist, worm-rich environment moles love.</li>
+        </ul>
+
+        <p className="mt-8">
+          Moles are a frustrating part of Florida lawn ownership, but they don&apos;t have to win. If mole damage has left your lawn beyond repair, <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-semibold">contact Jax Sod</Link> for a free assessment.
+        </p>
+      </>
+    )
   }
 ]
 

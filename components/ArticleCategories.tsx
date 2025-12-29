@@ -2,17 +2,30 @@
 
 import Link from 'next/link'
 import { useMemo } from 'react'
-import { articles } from '@/data/articles'
 import { FiChevronRight, FiFolder } from 'react-icons/fi'
 
-export default function ArticleCategories() {
+interface Article {
+    slug: string
+    title: string
+    excerpt: string
+    date: string
+    category: string
+    wordCount: number
+    image: string
+}
+
+interface ArticleCategoriesProps {
+    articles: Article[]
+}
+
+export default function ArticleCategories({ articles }: ArticleCategoriesProps) {
     const categoryCounts = useMemo(() => {
         const counts: Record<string, number> = {}
         articles.forEach(article => {
             counts[article.category] = (counts[article.category] || 0) + 1
         })
         return counts
-    }, [])
+    }, [articles])
 
     // Sort categories by count (descending) then alphabetically
     const sortedCategories = Object.entries(categoryCounts).sort((a, b) => {

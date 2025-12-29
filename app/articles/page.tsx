@@ -4,6 +4,7 @@ import Link from 'next/link'
 import ArticleSearch from '@/components/ArticleSearch'
 import ArticleCategories from '@/components/ArticleCategories'
 import { Suspense } from 'react'
+import { getAllArticles } from '@/lib/articles'
 
 export const metadata: Metadata = {
   title: 'Sod Installation Articles & Tips | Jax Sod Jacksonville',
@@ -24,6 +25,8 @@ export const metadata: Metadata = {
 
 
 export default function ArticlesPage() {
+  const articles = getAllArticles()
+
   return (
     <>
       <Hero
@@ -38,14 +41,14 @@ export default function ArticlesPage() {
 
       {/* Interactive Article Search & Grid */}
       <Suspense fallback={<div className="container-custom py-12 text-center">Loading articles...</div>}>
-        <ArticleSearch />
+        <ArticleSearch articles={articles} />
       </Suspense>
 
       {/* Article Categories Widget */}
       <section className="section-padding bg-secondary-50">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <ArticleCategories />
+            <ArticleCategories articles={articles} />
           </div>
         </div>
       </section>

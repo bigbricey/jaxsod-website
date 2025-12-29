@@ -3,20 +3,20 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi'
-import { articles, Article } from '@/data/articles'
+import { getArticleBySlugWithHtml, getAllArticleSlugs, getAllArticles } from '@/lib/articles'
 import ArticleCategories from '@/components/ArticleCategories'
-
-
-const getArticleBySlug = (slug: string): Article | undefined => {
-  return articles.find((article) => article.slug === slug)
-}
 
 type Props = {
   params: { slug: string }
 }
 
+export async function generateStaticParams() {
+  const slugs = getAllArticleSlugs()
+  return slugs.map((slug) => ({ slug }))
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const article = getArticleBySlug(params.slug)
+  const article = await getArticleBySlugWithHtml(params.slug)
 
   if (!article) {
     return {}
@@ -35,12 +35,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function ArticlePage({ params }: Props) {
-  const article = getArticleBySlug(params.slug)
+export default async function ArticlePage({ params }: Props) {
+  const article = await getArticleBySlugWithHtml(params.slug)
 
   if (!article) {
     notFound()
   }
+
+  // Get all articles for sidebar
+  const allArticles = getAllArticles()
 
   return (
     <div className="bg-secondary-50 min-h-screen">
@@ -89,10 +92,11 @@ export default function ArticlePage({ params }: Props) {
                 {article.excerpt}
               </p>
 
-              {/* Article Content */}
-              <div className="prose max-w-none text-secondary-800 leading-relaxed space-y-6">
-                {article.content}
-              </div>
+              {/* Article Content - Rendered HTML */}
+              <article
+                className="prose prose-lg max-w-none prose-headings:text-primary-800 prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-6 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-secondary-700 prose-p:leading-relaxed prose-a:text-primary-600 prose-a:font-semibold hover:prose-a:text-primary-700 prose-strong:text-secondary-900 prose-ul:my-4 prose-li:my-1"
+                dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+              />
 
               {/* Author/CTA Box */}
               <div className="mt-12 p-8 bg-primary-50 rounded-lg border border-primary-200 text-center">
@@ -123,9 +127,7 @@ export default function ArticlePage({ params }: Props) {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Categories Widget */}
-            <ArticleCategories />
-
-
+            <ArticleCategories articles={allArticles} />
           </div>
         </div>
       </div>
