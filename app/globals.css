@@ -49,3 +49,85 @@
     @apply text-xl md:text-2xl font-bold leading-tight;
   }
 }
+
+/* Article Visual Formatting System */
+@layer components {
+  /* Enhanced prose typography */
+  .prose {
+    @apply leading-relaxed;
+    line-height: 1.75;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+
+  /* Styled blockquotes as callout boxes */
+  .prose blockquote {
+    @apply bg-green-50 border-l-4 border-green-600 p-5 my-8 rounded-r-lg;
+    @apply not-italic text-secondary-800;
+  }
+
+  .prose blockquote p {
+    @apply mb-0;
+  }
+
+  .prose blockquote strong {
+    @apply text-green-800;
+  }
+
+  /* Horizontal rules as elegant section breaks */
+  .prose hr {
+    @apply border-0 h-px my-12;
+    background: linear-gradient(90deg, transparent, #9ca3af, transparent);
+  }
+
+  /* Enhanced table styling */
+  .prose table {
+    @apply w-full my-8 text-sm;
+  }
+
+  .prose thead {
+    @apply bg-gray-100;
+  }
+
+  .prose th {
+    @apply font-semibold text-left p-3 border-b-2 border-gray-300 text-secondary-900;
+  }
+
+  .prose td {
+    @apply p-3 border-b border-gray-200 text-secondary-700;
+  }
+
+  .prose tbody tr:hover {
+    @apply bg-gray-50;
+  }
+
+  /* Enhanced list styling */
+  .prose ul {
+    @apply my-6 space-y-2;
+  }
+
+  .prose ul li {
+    @apply pl-2;
+  }
+
+  .prose ol {
+    @apply my-6 space-y-3;
+  }
+
+  /* Pull quote styling (italic blockquotes) */
+  .prose blockquote em {
+    @apply text-lg text-center block text-secondary-600;
+  }
+
+  /* Inline code styling */
+  .prose code {
+    @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm font-mono text-primary-700;
+  }
+
+  /* Strong text emphasis */
+  .prose strong {
+    @apply font-bold text-secondary-900;
+  }
+}
